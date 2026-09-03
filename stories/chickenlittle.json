@@ -1,0 +1,286 @@
+{
+"story_title": "Chicken Little",
+"scene1": {
+	"image": "res://graphics/chicken_little/cl1.png",
+	"text": [
+		"There is a small town where many different animals live.", 
+		"A rooster named Chicken Little is one of the animals, and he spends his days on a farm.", 
+        "Everyday he eats seeds and plays under a tall oak tree."
+	],
+	"next":"scene2"
+},
+"scene2": {
+	"image": "res://graphics/chicken_little/cl2.png",
+	"text": [
+        "One sunny morning, Chicken Little lies down under the oak tree when he hears a rustling sound in the leaves above him"
+	],
+	"next": "scene3"
+},
+"scene3": {
+	"image": "res://graphics/chicken_little/cl3.png",
+	"text": [
+        "He looks up to check for what was making the noise, when an acorn comes falling down from the branches and hits him on the head."
+	],
+	"next": "scene4"
+},
+"scene4": {
+	"image": "res://graphics/chicken_little/cl4.png",
+	"text": [
+		"Chicken Little doesn't see what hit him, and thinks the sky is falling.",
+		"His heart pounds, and he says out loud,",
+		"\"Oh no! If the sky is falling, I need to warn everyone before the stars and moon fall too!\"",
+        "He runs off down the path towards the rest of the town."
+	],
+	"prompt": "What should Chicken Little do first?",
+	"choices": [
+		{
+			"text": "Run through the forest yelling that the sky is falling.",
+			"next": "scene5"
+		},
+		{
+			"text": "Stop and look around to figure out what hit him.",
+			"next": "scene6"
+		},
+		{
+			"text": "Hide under a bush and refuse to come out.",
+			"next": "scene7"
+		}
+	]
+},
+"scene5": {
+	"image": "res://graphics/chicken_little/cl5.png",
+	"text": [
+		"Chicken Little spreads panic.",
+        "Everyone becomes scared, even though they don't know what really happened."
+
+	],
+	"prompt": "Let's have Chicken Little try something else.",
+	"choices": [
+		{
+			"text": "Stop and look around to figure out what hit him.",
+			"next": "scene6"
+		},
+		{
+			"text": "Hide under a bush and refuse to come out.",
+			"next": "scene7"
+		}
+	]
+},
+"scene7": {
+	"image": "res://graphics/chicken_little/cl7.png",
+	"text": [
+        "Chicken Little stays frightened and does not solve the problem."
+	],
+	"prompt": "Let's have Chicken Little try something else.",
+	"choices": [
+		{
+			"text": "Run through the forest yelling that the sky is falling.",
+			"next": "scene5"
+		},
+		{
+			"text": "Stop and look around to figure out what hit him.",
+			"next": "scene6"
+		}
+	]
+},
+"scene6": {
+	"image": "res://graphics/chicken_little/cl6.png",
+	"text": [
+        "When you have a problem, slowing down helps us make calm and thoughtful decisions."
+	],
+	"next": "scene8"
+},
+"scene8": {
+	"image": "res://graphics/chicken_little/cl8.png",
+	"text": [
+		"Chicken Little notices the acorn on the ground and sees more acorns in the tree above.",
+        "He has never seen an acorn fall like that, but now he knows what hit him."
+	],
+	"next": "scene9"
+},
+"scene9": {
+	"image": "res://graphics/chicken_little/cl9.png",
+	"text": [
+		"Chicken Little stares at the acorn for a while.",
+		"\"Hmm…the sky did not fall on me just now, but what if it falls next?\" he wonders.",
+        "He decides to find his friends and ask for their help to answer his question, just to be safe. "
+	],
+	"next": "scene10"
+},
+"scene10": {
+	"image": "res://graphics/chicken_little/cl10.png",
+	"text": [
+		"He walks to the pond and finds his friend Duckie swimming.",
+        "\"Duckie! I am scared something bad might be happening, and I would like your help,\" Chicken Little tells her."
+	],
+	"next": "scene11"
+},
+"scene11": {
+	"image": "res://graphics/chicken_little/cl11.png",
+	"text": [
+		"Duckie replies, \"I am sorry to hear you are feeling scared! What happened and how can I help you?\"",
+        "Chicken Little is happy Duckie is so caring, but he is still quite upset about the acorn."
+	],
+	"prompt": "How should Chicken Little explain what happened?",
+	"choices": [
+		{
+			"text": "Say, \"The sky is falling soon! We are in danger!\" just in case the sky truly is falling.",
+			"next": "scene12"
+		},
+		{
+			"text": "Say, \"An acorn fell on my head and that has never happened. I'm not sure what it means. Maybe we should check with others.\"",
+			"next": "scene13"
+		},
+		{
+			"text": "Say nothing and keep walking silently.",
+			"next": "scene14"
+		}
+	]
+},
+"scene12": {
+	"image": "res://graphics/chicken_little/cl12.png",
+	"text": [
+        "Duckie becomes very scared and starts to panic, and Chicken Little does not feel any better."
+	],
+	"prompt": "Let's have Chicken Little try something else.",
+	"choices": [
+		{
+			"text": "Say, \"An acorn fell on my head and that has never happened. I'm not sure what it means. Maybe we should check with others.\"",
+			"next": "scene13"
+		},
+		{
+			"text": "Say nothing and keep walking silently.",
+			"next": "scene14"
+		}
+	]
+},
+"scene13": {
+	"image": "res://graphics/chicken_little/cl13.png",
+	"text": [
+        "Clear and honest communication helps others understand and stay calm."
+	],
+	"next": "scene15"
+},
+"scene14": {
+	"image": "res://graphics/chicken_little/cl14.png",
+	"text": [
+        "Duckie feels confused and unsure what to do, and Chicken Little does not feel any better."
+	],
+	"prompt": "Let's have Chicken Little try something else.",
+	"choices": [
+		{
+			"text": "Say, \"The sky is falling soon! We are in danger!\" just in case the sky truly is falling.",
+			"next": "scene12"
+		},
+		{
+			"text": "Say, \"An acorn fell on my head and that has never happened. I'm not sure what it means. Maybe we should check with others.\"",
+			"next": "scene13"
+		}
+	]
+},
+"scene15": {
+	"image": "res://graphics/chicken_little/cl15.png",
+	"text": [
+		"Together Duckie and Chicken Little walk and meet their other animal friends.",
+        "The group grew larger and noisier. Everyone talked at the same time about what could be happening. "
+	],
+	"prompt": "How should Chicken Little and his friends figure out what happened?",
+	"choices": [
+		{
+			"text": "Chicken Little should close his eyes and pick one animal, and the group should believe the idea of whoever he picks ",
+			"next": "scene16"
+		},
+		{
+			"text": " Chicken Little should continue to let everyone speak, and listen to whoever is the loudest.",
+			"next": "scene17"
+		},
+		{
+			"text": "Chicken Little and his friends should take turns speaking, so everyone can hear all the ideas one at a time.",
+			"next": "scene18"
+		}
+	]
+},
+"scene16": {
+	"image": "res://graphics/chicken_little/cl16.png",
+	"text": [
+		"The group did not get to hear all of the ideas.",
+        "Picking the first option you hear may not always be the best one."
+
+	],
+	"prompt": "Let's have Chicken Little try something else.",
+	"choices": [
+		{
+			"text": "Chicken Little should continue to let everyone speak, and listen to whoever is the loudest.",
+			"next": "scene17"
+		},
+		{
+			"text": "Chicken Little and his friends should take turns speaking, so everyone can hear all the ideas one at a time.",
+			"next": "scene18"
+		}
+	]
+},
+"scene17": {
+	"image": "res://graphics/chicken_little/cl17.png",
+	"text": [
+        "The group could not hear some ideas because everyone was talking at the same time."
+	],
+	"prompt": "Let's have Chicken Little try something else.",
+	"choices": [
+		{
+			"text": "Chicken Little should close his eyes and pick one animal, and the group should believe the idea of whoever he picks ",
+			"next": "scene16"
+		},
+		{
+			"text": "Chicken Little and his friends should take turns speaking, so everyone can hear all the ideas one at a time.",
+			"next": "scene18"
+		}
+	]
+},
+"scene18": {
+	"image": "res://graphics/chicken_little/cl18.png",
+	"text": [
+        "Carefully thinking about what to do in big groups can be a great idea to make sure everyone gets to share what they are thinking."
+	],
+	"next": "scene19"
+},
+"scene19": {
+	"image": "res://graphics/chicken_little/cl19.png",
+	"text": [
+	   "Once they hear all the ideas, their friend the bear suggests the group go to the wise old farmer who lives nearby to ask what he thinks.",
+       "Everyone thinks this is a great idea, and so they walk down to the farmer's house."
+	],
+	"next": "scene20"
+},
+"scene20": {
+	"image": "res://graphics/chicken_little/cl20.png",
+	"text": [
+		"Outside the farmer's house, the wise man listens carefully and then shows everyone one of the trees on his farm.",
+        "It is the same kind of tree that Chicken Little was lying under."
+	],
+	"next": "scene21"
+},
+"scene21": {
+	"image": "res://graphics/chicken_little/cl21.png",
+	"text": [
+		"The farmer shakes the tree gently, and a bunch of acorns fall out.",
+		"\"Sometimes they fall, but that's not a bad thing! It is how the tree plants its seeds,\" the farmer says."
+	],
+	"next": "scene22"
+},
+"scene22": {
+	"image": "res://graphics/chicken_little/cl22.png",
+	"text": [
+		"\"Oh!\" Chicken Little says, laughing with relief. \"It was just an acorn after all!\"",
+		"The friends smile at each other.",
+        "They felt proud that they worked together, stayed calm, and made thoughtful choices throughout the day."
+	],
+	"next": "scene24"
+},
+"scene24": {
+	"text": [
+		"Making decisions by yourself or with other people can be hard and stressful sometimes.",
+        "What are two things you can do to make choosing a helpful option easier?"
+	],
+	"end": true
+}
+}

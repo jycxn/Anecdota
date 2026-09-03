@@ -1,0 +1,335 @@
+{
+  "story_title": "Peter Rabbit",
+  "scene1": {
+    "image": "res://graphics/peter_rabbit/peter1.png",
+    "text": [
+      "Once upon a time, there were three little rabbits. One of them was named Peter.",
+      "One morning, their mother gave them an important reminder."
+    ],
+    "next": "scene2"
+  },
+  "scene2": {
+    "image": "res://graphics/peter_rabbit/peter2.png",
+    "text": [
+      "\"Now listen carefully. You may go into the fields, but please stay away from the flower garden. It's not a safe place for little rabbits. If you go, you might get into trouble.\""
+    ],
+    "prompt": "What should Peter do when he hears his mother's warning?",
+    "choices": [
+      {
+        "text": "Ignore the warning. After all, the garden looks interesting, and everyone else is going to play.",
+        "next": "scene3"
+      },
+      {
+        "text": "Listen to his mother and find something else to do.",
+        "next": "scene5"
+      },
+      {
+        "text": "Think about what he wants to do, but still go to the garden to explore.",
+        "next": "scene4"
+      }
+    ]
+  },
+  "scene3": {
+    "image": "res://graphics/peter_rabbit/peter3.png",
+    "text": [
+      "It's important to listen to your parent's warning when it's meant to stop you from doing something dangerous, even if ignoring the warning looks more fun."
+    ],
+    "prompt": "Let's have Peter try something else.",
+    "choices": [
+      {
+        "text": "Listen to his mother and find something else to do.",
+        "next": "scene5"
+      },
+      {
+        "text": "Think about what he wants to do, but still go to the garden to explore.",
+        "next": "scene4"
+      }
+    ]
+  },
+  "scene4": {
+    "image": "res://graphics/peter_rabbit/peter4.png",
+    "text": [
+      "Thinking about your options is a smart choice, but it is important to listen to your parent's warning when it's meant to stop you from doing something dangerous, even if ignoring the warning looks more fun."
+    ],
+    "prompt": "Let's have Peter try something else.",
+    "choices": [
+      {
+        "text": "Ignore the warning. After all, the garden looks interesting, and everyone else is going to play.",
+        "next": "scene3"
+      },
+      {
+        "text": "Listen to his mother and find something else to do.",
+        "next": "scene5"
+      }
+    ]
+  },
+  "scene5": {
+    "image": "res://graphics/peter_rabbit/peter5.png",
+    "text": [
+      "Peter decided to explore the meadow instead.",
+      "Peter came across a patch of flowers and a butterfly nearby."
+    ],
+    "next": "scene6"
+  },
+  "scene6": {
+    "image": "res://graphics/peter_rabbit/peter6.png",
+    "text": [
+      "As he was admiring the flowers, he noticed some bunnies playing in the distance.",
+      "They were having a great time playing tag, and Peter felt a little left out."
+    ],
+    "prompt": "What should Peter do to handle his feelings of loneliness or wanting to join the other bunnies?",
+    "choices": [
+      {
+        "text": "Run over to the bunnies without thinking and interrupt their game.",
+        "next": "scene7"
+      },
+      {
+        "text": "Stay by himself and feel sad about missing out.",
+        "next": "scene8"
+      },
+      {
+        "text": "Think about how he could politely ask to join the game or find another activity.",
+        "next": "scene9"
+      }
+    ]
+  },
+  "scene7": {
+    "image": "res://graphics/peter_rabbit/peter7.png",
+    "text": [
+      "The other bunnies are confused about who Peter is, since they don't know him.",
+      "They don't want to play a game with a stranger who hasn't asked to join."
+    ],
+    "prompt": "Let's have Peter try something else.",
+    "choices": [
+      {
+        "text": "Stay by himself and feel sad about missing out.",
+        "next": "scene8"
+      },
+      {
+        "text": "Think about how he could politely ask to join the game or find another activity.",
+        "next": "scene9"
+      }
+    ]
+  },
+  "scene8": {
+    "image": "res://graphics/peter_rabbit/peter8.png",
+    "text": [
+      "You never know if someone wants to play with you if you never ask!"
+    ],
+    "prompt": "Let's have Peter try something else.",
+    "choices": [
+      {
+        "text": "Run over to the bunnies without thinking and interrupt their game.",
+        "next": "scene7"
+      },
+      {
+        "text": "Think about how he could politely ask to join the game or find another activity.",
+        "next": "scene9"
+      }
+    ]
+  },
+  "scene9": {
+    "image": "res://graphics/peter_rabbit/peter9.png",
+    "text": [
+      "Peter decided to take a deep breath.",
+      "He went over to the bunnies and said, \"Hi! I'd love to join your game if you'll let me play.\"",
+      "The bunnies smiled and invited him to join."
+    ],
+    "next": "scene10"
+  },
+  "scene10": {
+    "image": "res://graphics/peter_rabbit/peter10.png",
+    "text": [
+      "They played together for a while, and Peter felt much better."
+    ],
+    "prompt": "What did Peter learn from asking to join the game?",
+    "choices": [
+      {
+        "text": "He should always do what others want, even if it doesn't make him happy.",
+        "next": "scene11"
+      },
+      {
+        "text": "It's better to just watch and not interact with others.",
+        "next": "scene20"
+      },
+      {
+        "text": "Asking politely can help him connect with others and be included.",
+        "next": "scene12"
+      }
+    ]
+  },
+  "scene11": {
+    "image": "res://graphics/peter_rabbit/peter11.png",
+    "text": [
+      "Peter's happiness is just as important as everybody else's."
+    ],
+    "prompt": "Let's have Peter try something else.",
+    "choices": [
+      {
+        "text": "It's better to just watch and not interact with others.",
+        "next": "scene20"
+      },
+      {
+        "text": "Asking politely can help him connect with others and be included.",
+        "next": "scene12"
+      }
+    ]
+  },
+  "scene20": {
+    "image": "res://graphics/peter_rabbit/peter8.png",
+    "text": [
+      "If you want to have fun and be included, it's always worth asking!"
+    ],
+    "prompt": "Let's have Peter try something else.",
+    "choices": [
+      {
+        "text": "He should always do what others want, even if it doesn't make him happy.",
+        "next": "scene11"
+      },
+      {
+        "text": "Asking politely can help him connect with others and be included.",
+        "next": "scene12"
+      }
+    ]
+  },
+  "scene12": {
+    "image": "res://graphics/peter_rabbit/peter12.png",
+    "text": [
+      "After playing, Peter decided it was time to head back home.",
+      "On his way, he passed by the garden. He saw some carrots growing right near the gate.",
+      "Instead of listening to his mother's instructions, he went into the garden."
+    ],
+    "next": "scene13"
+  },
+  "scene13": {
+    "image": "res://graphics/peter_rabbit/peter13.png",
+    "text": [
+      "He ate a bunch of carrots and felt full."
+    ],
+    "prompt": "What should Peter do after feeling full and uncomfortable?",
+    "choices": [
+      {
+        "text": "Stop eating and take a rest or a walk to feel better.",
+        "next": "scene16"
+      },
+      {
+        "text": "Keep eating more because it tastes so good.",
+        "next": "scene14"
+      },
+      {
+        "text": "Rush through the garden to find something else to eat.",
+        "next": "scene15"
+      }
+    ]
+  },
+  "scene14": {
+    "image": "res://graphics/peter_rabbit/peter14.png",
+    "text": [
+      "Peter finishes the rest of the carrots, but his stomach begins to hurt afterward from eating too much."
+    ],
+    "prompt": "Let's have Peter try something else.",
+    "choices": [
+      {
+        "text": "Stop eating and take a rest or a walk to feel better.",
+        "next": "scene16"
+      },
+      {
+        "text": "Rush through the garden to find something else to eat.",
+        "next": "scene15"
+      }
+    ]
+  },
+  "scene15": {
+    "image": "res://graphics/peter_rabbit/peter15.png",
+    "text": [
+      "Peter rushes in to find more food, but gets lost in the garden.",
+      "He remembers his mother's warning that the garden isn't a safe place for bunnies."
+    ],
+    "prompt": "Let's have Peter try something else.",
+    "choices": [
+      {
+        "text": "Stop eating and take a rest or a walk to feel better.",
+        "next": "scene16"
+      },
+      {
+        "text": "Keep eating more because it tastes so good.",
+        "next": "scene14"
+      }
+    ]
+  },
+  "scene16": {
+    "image": "res://graphics/peter_rabbit/peter16.png",
+    "text": [
+      "Peter decided to walk home.",
+      "\"I'm home, Mother!\" Peter called.",
+      "\"How was your day?\" she asked."
+    ],
+    "prompt": "What should Peter do?",
+    "choices": [
+      {
+        "text": "Tell his mother what happened.",
+        "next": "scene19"
+      },
+      {
+        "text": "Hide his experience and pretend everything went fine.",
+        "next": "scene17"
+      },
+      {
+        "text": "Shrug since not much happened.",
+        "next": "scene18"
+      }
+    ]
+  },
+  "scene17": {
+    "image": "res://graphics/peter_rabbit/peter17.png",
+    "text": [
+      "Peter hides what happened, but he feels bad about lying to his mother.",
+      "It's the right thing to tell the truth when you did something against your parents' wishes."
+    ],
+    "prompt": "Let's have Peter try something else.",
+    "choices": [
+      {
+        "text": "Tell his mother what happened.",
+        "next": "scene19"
+      },
+      {
+        "text": "Shrug since not much happened.",
+        "next": "scene18"
+      }
+    ]
+  },
+  "scene18": {
+    "image": "res://graphics/peter_rabbit/peter18.png",
+    "text": [
+      "By shrugging and not saying much else, Peter hides what happened.",
+      "Afterward, he feels bad about lying to his mother.",
+      "It's the right thing to tell the truth when you did something against your parents' wishes."
+    ],
+    "prompt": "Let's have Peter try something else.",
+    "choices": [
+      {
+        "text": "Tell his mother what happened.",
+        "next": "scene19"
+      },
+      {
+        "text": "Hide his experience and pretend everything went fine.",
+        "next": "scene17"
+      }
+    ]
+  },
+  "scene19": {
+    "image": "res://graphics/peter_rabbit/peter19.png",
+    "text": [
+      "\"I'm sorry for not listening and going into the garden,\" Peter said.",
+      "Mrs. Rabbit smiled. \"I'm glad you're safe, Peter. You made a mistake, but it's good that you told me.\""
+    ],
+    "next": "scene21"
+  },
+  "scene21": {
+    "image": "res://graphics/end.png",
+    "text": [
+      "fillertext"
+    ],
+    "end": true
+  }
+}

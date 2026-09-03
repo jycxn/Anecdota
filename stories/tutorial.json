@@ -1,0 +1,94 @@
+{
+  "story_title": "How to Play",
+  "scene1": {
+    "image": "res://graphics/misc_materials/anecdota_bg.png",
+    "text": [
+      "Welcome to Anecdota!",
+      "Anecdota is an interactive learning tool designed for students with different learning needs.",
+      "Through stories and choices, you can practice understanding social situations, making decisions, and thinking about what to do next.",
+      "Select the Continue button to move forward."
+    ],
+    "next": "scene2"
+  },
+  "scene2": {
+    "image": "res://graphics/misc_materials/anecdota_bg.png",
+    "text": [
+      "The story appears in this text box.",
+      "The sentences will appear one at a time.",
+      "Press the Continue button to move forward when you are ready."
+    ],
+    "next": "scene3"
+  },
+  "scene3": {
+    "image": "res://graphics/misc_materials/anecdota_bg.png",
+    "text": [
+      "Sometimes, the story will ask you a question.",
+      "When this happens, choice buttons will appear.",
+      "Select the choice that you think is best."
+    ],
+    "prompt": "Which button should you select to continue the tutorial?",
+    "choices": [
+      {
+        "text": "Continue the tutorial",
+        "next": "scene4"
+      },
+      {
+        "text": "Stay on this scene",
+        "next": "scene5"
+      }
+    ]
+  },
+  "scene4": {
+    "image": "res://graphics/misc_materials/anecdota_bg.png",
+    "text": [
+      "Great choice!",
+      "Your choices can change what happens in a story.",
+      "Take your time and read every option before choosing."
+    ],
+    "next": "scene6"
+  },
+  "scene5": {
+    "image": "res://graphics/misc_materials/anecdota_bg.png",
+    "text": [
+      "That choice did not continue the tutorial, but that is okay!",
+      "You can try the question again."
+    ],
+    "prompt": "Which button should you select to continue the tutorial?",
+    "choices": [
+      {
+        "text": "Continue the tutorial",
+        "next": "scene4"
+      },
+      {
+        "text": "Stay on this scene again",
+        "next": "scene5"
+      }
+    ]
+  },
+  "scene6": {
+    "image": "res://graphics/tutorial/howtopause.png",
+    "text": [
+      "Select the Pause button at any time during a story to open the pause menu.",
+      "The story will wait until you choose what to do next."
+    ],
+    "next": "scene7"
+  },
+  "scene7": {
+    "image": "res://graphics/tutorial/howtopause.png",
+    "text": [
+      "The pause menu has three options.",
+      "Select Resume to return to the story where you left off.",
+      "Select Start Over to restart the story from the beginning.",
+      "Select Main Menu to leave the story and return to the main menu."
+    ],
+    "next": "scene8"
+  },
+  "scene8": {
+    "text": [
+      "There is no time limit, so you do not need to rush.",
+      "You are now ready to explore Anecdota!",
+      "Press the button to return to the main menu."
+    ],
+    "end": true
+  }
+}
