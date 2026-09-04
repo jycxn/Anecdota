@@ -1,0 +1,279 @@
+{
+  "story_title": "The Boy Who Cried Wolf",
+  "scene1": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw1.png",
+    "text": [
+      "Once upon a time, there was a shepherd boy. He was sitting on a hillside, keeping an eye on the village sheep."
+    ],
+    "next": "scene2"
+  },
+  "scene2": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw2.png",
+    "text": [
+      "He had been there for hours, and the task felt boring. He wanted something fun to do, but he wasn't sure how to pass the time."
+    ],
+    "prompt": "What should he do?",
+    "choices": [
+      {
+        "text": "Decide to bring a small puzzle or fidget toy next time to keep his hands busy while keeping his eyes on the sheep.",
+        "next": "scene6"
+      },
+      {
+        "text": "Pretend there is an emergency and call for help to see people's reactions.",
+        "next": "scene4"
+      },
+      {
+        "text": "Let his mind wander and daydream without watching the sheep at all.",
+        "next": "scene5"
+      }
+    ]
+  },
+  "scene4": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw4.png",
+    "text": [
+      "Pretending there is an emergency could make it harder for others to know when he truly needs help."
+    ],
+    "prompt": "Let's have the shepherd boy try something else.",
+    "choices": [
+      {
+        "text": "Let his mind wander and daydream without watching the sheep at all.",
+        "next": "scene5"
+      },
+      {
+        "text": "Decide to bring a small puzzle or fidget toy next time to keep his hands busy while keeping his eyes on the sheep.",
+        "next": "scene6"
+      }
+    ]
+  },
+  "scene5": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw5.png",
+    "text": [
+      "Daydreaming without watching the sheep would stop him from doing his important job."
+    ],
+    "prompt": "Let's have the shepherd boy try something else.",
+    "choices": [
+      {
+        "text": "Pretend there is an emergency and call for help to see people's reactions.",
+        "next": "scene4"
+      },
+      {
+        "text": "Decide to bring a small puzzle or fidget toy next time to keep his hands busy while keeping his eyes on the sheep.",
+        "next": "scene6"
+      }
+    ]
+  },
+  "scene6": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw6.png",
+    "text": [
+      "He tells himself that next time he will bring a toy with him, but after a while he gets bored and decides to shout out, \"Wolf! Wolf! The wolf is chasing the sheep!\" to get attention.",
+      "The villagers, who trusted the boy, immediately rushed up the hill to help."
+    ],
+    "next": "scene7"
+  },
+  "scene7": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw7.png",
+    "text": [
+      "But when they arrived, there was no wolf. The boy had tricked them. The villagers felt frustrated."
+    ],
+    "prompt": "What should the shepherd boy do now?",
+    "choices": [
+      {
+        "text": "Laugh it off and tell the villagers it wasn't a big deal.",
+        "next": "scene8"
+      },
+      {
+        "text": "Ignore the villagers and go back to watching the sheep.",
+        "next": "scene9"
+      },
+      {
+        "text": "Apologize and explain it was a joke, promising to be more careful next time.",
+        "next": "scene11"
+      }
+    ]
+  },
+  "scene8": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw8.png",
+    "text": [
+      "Laughing it off does not acknowledge why the villagers are frustrated."
+    ],
+    "prompt": "Let's have the shepherd boy try something else.",
+    "choices": [
+      {
+        "text": "Ignore the villagers and go back to watching the sheep.",
+        "next": "scene9"
+      },
+      {
+        "text": "Apologize and explain it was a joke, promising to be more careful next time.",
+        "next": "scene11"
+      }
+    ]
+  },
+  "scene9": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw9.png",
+    "text": [
+      "Ignoring the villagers does not help rebuild their trust."
+    ],
+    "prompt": "Let's have the shepherd boy try something else.",
+    "choices": [
+      {
+        "text": "Laugh it off and tell the villagers it wasn't a big deal.",
+        "next": "scene8"
+      },
+      {
+        "text": "Apologize and explain it was a joke, promising to be more careful next time.",
+        "next": "scene11"
+      }
+    ]
+  },
+  "scene11": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw11.png",
+    "text": [
+      "The boy, still feeling a bit bored, wants to have some fun again. The villagers all go back to their houses, and then the boy shouts again, \"Wolf! Wolf! The wolf is chasing the sheep!\""
+    ],
+    "next": "scene12"
+  },
+  "scene12": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw12.png",
+    "text": [
+      "The villagers, now upset, come up the hill but find there is no wolf. They warn him sternly that they won't come next time."
+    ],
+    "next": "scene13"
+  },
+  "scene13": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw13.png",
+    "text": [
+      "Later that day, the boy sees a real wolf near the sheep. The wolf is getting closer, and the boy gets scared. He immediately shouts, \"Wolf! Wolf! The wolf is chasing the sheep!\""
+    ],
+    "next": "scene14"
+  },
+  "scene14": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw14.png",
+    "text": [
+      "But this time, the villagers think he's tricking them again. No one comes to help. The boy feels desperate and starts to panic."
+    ],
+    "prompt": "What can help the shepherd boy stay calm and think?",
+    "choices": [
+      {
+        "text": "Trace a square with his finger in the air, breathing once on each side.",
+        "next": "scene15"
+      },
+      {
+        "text": "Start running in circles and scream louder.",
+        "next": "scene16"
+      },
+      {
+        "text": "Freeze completely and hope the wolf goes away.",
+        "next": "scene17"
+      }
+    ]
+  },
+  "scene15": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw15.png",
+    "text": [
+      "Now calm, the boy decides to figure out a way to solve the problem."
+    ],
+    "next": "scene18"
+  },
+  "scene16": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw16.png",
+    "text": [
+      "Running in circles and screaming louder will not help him calm down and think clearly."
+    ],
+    "prompt": "Let's have the shepherd boy try something else.",
+    "choices": [
+      {
+        "text": "Trace a square with his finger in the air, breathing once on each side.",
+        "next": "scene15"
+      },
+      {
+        "text": "Freeze completely and hope the wolf goes away.",
+        "next": "scene17"
+      }
+    ]
+  },
+  "scene17": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw17.png",
+    "text": [
+      "Freezing completely will not help him calm down or solve the problem."
+    ],
+    "prompt": "Let's have the shepherd boy try something else.",
+    "choices": [
+      {
+        "text": "Trace a square with his finger in the air, breathing once on each side.",
+        "next": "scene15"
+      },
+      {
+        "text": "Start running in circles and scream louder.",
+        "next": "scene16"
+      }
+    ]
+  },
+  "scene18": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw18.png",
+    "text": [
+      "He remembers that he can go to the village to ask for help instead of waiting for the villagers to come up the hill. He begins to plan out what to say and how to lead them to the sheep."
+    ],
+    "prompt": "What should the boy do next?",
+    "choices": [
+      {
+        "text": "Wait for the villagers to notice something's wrong.",
+        "next": "scene19"
+      },
+      {
+        "text": "Yell at the villagers for not helping him.",
+        "next": "scene20"
+      },
+      {
+        "text": "Go to the village and talk to the villagers, explaining the situation clearly.",
+        "next": "scene22"
+      }
+    ]
+  },
+  "scene19": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw19.png",
+    "text": [
+      "Waiting may not help the villagers understand that something is wrong."
+    ],
+    "prompt": "Let's have the shepherd boy try something else.",
+    "choices": [
+      {
+        "text": "Yell at the villagers for not helping him.",
+        "next": "scene20"
+      },
+      {
+        "text": "Go to the village and talk to the villagers, explaining the situation clearly.",
+        "next": "scene22"
+      }
+    ]
+  },
+  "scene20": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw20.png",
+    "text": [
+      "Yelling at the villagers will not help him explain the situation clearly."
+    ],
+    "prompt": "Let's have the shepherd boy try something else.",
+    "choices": [
+      {
+        "text": "Wait for the villagers to notice something's wrong.",
+        "next": "scene19"
+      },
+      {
+        "text": "Go to the village and talk to the villagers, explaining the situation clearly.",
+        "next": "scene22"
+      }
+    ]
+  },
+  "scene22": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw22.png",
+    "text": [
+      "At the village, the boy explains the situation to the villagers, and they rush up the hill together to chase off the wolf."
+    ],
+    "next": "scene23"
+  },
+  "scene23": {
+    "text": [
+      "As the sun begins to set, the boy is grateful for the villagers' help and realizes that being honest and clear with others is always the best choice."
+    ],
+    "end": true
+  }
+}

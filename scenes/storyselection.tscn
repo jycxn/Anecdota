@@ -4,26 +4,62 @@
 [ext_resource type="FontFile" uid="uid://bkubkrgcl3y76" path="res://quicksand/Quicksand-Bold.ttf" id="2_jxjjt"]
 [ext_resource type="Texture2D" uid="uid://ctyhbg8fvhpjo" path="res://graphics/chicken_little/clcover.png" id="2_ptldr"]
 [ext_resource type="Texture2D" uid="uid://4yp6khkb1shc" path="res://graphics/misc_materials/anecdota_bg.png" id="2_wxirf"]
-[ext_resource type="Texture2D" path="res://graphics/placeholder.png" id="4_jxjjt"]
+[ext_resource type="Texture2D" uid="uid://x6esvkf5lf88" path="res://graphics/elves_and_the_shoemaker/smcover.png" id="5_b8d31"]
+[ext_resource type="Texture2D" uid="uid://d1we3375ncrtb" path="res://graphics/goldilocks_and_the_three_bears/tlbcover.png" id="6_l50ki"]
 [ext_resource type="Texture2D" uid="uid://uuw877mvtelf" path="res://graphics/peter_rabbit/petercover.png" id="6_wxirf"]
+[ext_resource type="Texture2D" uid="uid://pi8kc2t1ghmw" path="res://graphics/three_little_pigs/lpcover.png" id="7_fknvg"]
+[ext_resource type="Texture2D" uid="uid://ctvrhr5ym4gdq" path="res://graphics/cinderella/cincover.png" id="8_yptce"]
 
-[sub_resource type="GDScript" id="GDScript_wxirf"]
-script/source = "extends BoxContainer
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wxirf"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b8d31"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+border_blend = true
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
 
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wxirf"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+shadow_size = 1
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l50ki"]
+bg_color = Color(0.8784314, 0.70980394, 0.56078434, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fknvg"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+border_blend = true
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
 
-
-func _on_prthumbnail_pressed() -> void:
-	pass # Replace with function body.
-"
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yptce"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_size = 5
 
 [node name="storyselection1" type="Control" unique_id=2098807117]
 layout_mode = 3
@@ -90,64 +126,73 @@ texture_hover = ExtResource("2_ptldr")
 ignore_texture_size = true
 stretch_mode = 0
 
-[node name="cllabel" type="Label" parent="r1box/clbox" unique_id=1732514152]
+[node name="clcaption" type="Button" parent="r1box/clbox" unique_id=1205938910]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
-theme_override_font_sizes/font_size = 24
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_wxirf")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_b8d31")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wxirf")
 text = "Chicken Little"
-horizontal_alignment = 1
 
-[node name="story2box" type="BoxContainer" parent="r1box" unique_id=1725606410]
+[node name="smbox" type="BoxContainer" parent="r1box" unique_id=1725606410]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/separation = 4
 vertical = true
 
-[node name="fixratio2" type="AspectRatioContainer" parent="r1box/story2box" unique_id=1677276432]
+[node name="fixratio2" type="AspectRatioContainer" parent="r1box/smbox" unique_id=1677276432]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 ratio = 1.7778
 
-[node name="placeholder2" type="TextureButton" parent="r1box/story2box/fixratio2" unique_id=1977886794]
+[node name="smthumnail" type="TextureButton" parent="r1box/smbox/fixratio2" unique_id=1977886794]
 layout_mode = 2
 size_flags_horizontal = 3
-texture_normal = ExtResource("4_jxjjt")
+texture_normal = ExtResource("5_b8d31")
 ignore_texture_size = true
 stretch_mode = 0
 
-[node name="story2label" type="Label" parent="r1box/story2box" unique_id=715499602]
+[node name="smcaption" type="Button" parent="r1box/smbox" unique_id=1198055081]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
-theme_override_font_sizes/font_size = 24
-text = "Story 2"
-horizontal_alignment = 1
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_wxirf")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_b8d31")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wxirf")
+text = "The Elves and the Shoemaker"
 
-[node name="story3box" type="BoxContainer" parent="r1box" unique_id=696850721]
+[node name="tlbbox" type="BoxContainer" parent="r1box" unique_id=696850721]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/separation = 4
 vertical = true
 
-[node name="fixratio3" type="AspectRatioContainer" parent="r1box/story3box" unique_id=1707286841]
+[node name="fixratio3" type="AspectRatioContainer" parent="r1box/tlbbox" unique_id=1707286841]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 ratio = 1.7778
 
-[node name="placeholder3" type="TextureButton" parent="r1box/story3box/fixratio3" unique_id=481578674]
+[node name="tlbthumbnail" type="TextureButton" parent="r1box/tlbbox/fixratio3" unique_id=481578674]
 layout_mode = 2
 size_flags_horizontal = 3
-texture_normal = ExtResource("4_jxjjt")
+texture_normal = ExtResource("6_l50ki")
 ignore_texture_size = true
 stretch_mode = 0
 
-[node name="story3label" type="Label" parent="r1box/story3box" unique_id=1084168961]
+[node name="tlbcaption" type="Button" parent="r1box/tlbbox" unique_id=995781866]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
-theme_override_font_sizes/font_size = 24
-text = "Story 3"
-horizontal_alignment = 1
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_wxirf")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_b8d31")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wxirf")
+text = "Goldilocks and The Three Bears"
 
 [node name="r2box" type="BoxContainer" parent="." unique_id=836943536]
 layout_mode = 0
@@ -156,60 +201,65 @@ offset_top = 353.0
 offset_right = 1086.0
 offset_bottom = 577.0
 theme_override_constants/separation = 45
-script = SubResource("GDScript_wxirf")
 
-[node name="story4box" type="BoxContainer" parent="r2box" unique_id=838625230]
+[node name="lpbox" type="BoxContainer" parent="r2box" unique_id=838625230]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/separation = 4
 vertical = true
 
-[node name="fixratio4" type="AspectRatioContainer" parent="r2box/story4box" unique_id=798521234]
+[node name="fixratio4" type="AspectRatioContainer" parent="r2box/lpbox" unique_id=798521234]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 ratio = 1.7778
 
-[node name="placeholder4" type="TextureButton" parent="r2box/story4box/fixratio4" unique_id=1083464403]
+[node name="lpthumbnail" type="TextureButton" parent="r2box/lpbox/fixratio4" unique_id=1083464403]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-texture_normal = ExtResource("4_jxjjt")
+texture_normal = ExtResource("7_fknvg")
 ignore_texture_size = true
 stretch_mode = 0
 
-[node name="story4label" type="Label" parent="r2box/story4box" unique_id=325928749]
+[node name="lpcaption" type="Button" parent="r2box/lpbox" unique_id=410391975]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
-theme_override_font_sizes/font_size = 24
-text = "Story 4"
-horizontal_alignment = 1
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_wxirf")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_b8d31")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wxirf")
+text = "Three Little Pigs"
 
-[node name="story5box" type="BoxContainer" parent="r2box" unique_id=2079830136]
+[node name="cinbox" type="BoxContainer" parent="r2box" unique_id=2079830136]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/separation = 4
 vertical = true
 
-[node name="fixratio5" type="AspectRatioContainer" parent="r2box/story5box" unique_id=555925315]
+[node name="fixratio5" type="AspectRatioContainer" parent="r2box/cinbox" unique_id=555925315]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 ratio = 1.7778
 
-[node name="placeholder5" type="TextureButton" parent="r2box/story5box/fixratio5" unique_id=272015068]
+[node name="cinthumbnail" type="TextureButton" parent="r2box/cinbox/fixratio5" unique_id=272015068]
 layout_mode = 2
 size_flags_horizontal = 3
-texture_normal = ExtResource("4_jxjjt")
+texture_normal = ExtResource("8_yptce")
 ignore_texture_size = true
 stretch_mode = 0
 
-[node name="story5label" type="Label" parent="r2box/story5box" unique_id=1486336843]
+[node name="cincaption" type="Button" parent="r2box/cinbox" unique_id=1745811014]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
-theme_override_font_sizes/font_size = 24
-text = "Story 5"
-horizontal_alignment = 1
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_wxirf")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_b8d31")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wxirf")
+text = "Cinderella"
 
 [node name="prbox" type="BoxContainer" parent="r2box" unique_id=1611857181]
 layout_mode = 2
@@ -230,12 +280,50 @@ texture_normal = ExtResource("6_wxirf")
 ignore_texture_size = true
 stretch_mode = 0
 
-[node name="prlabel" type="Label" parent="r2box/prbox" unique_id=918378234]
+[node name="prcaption" type="Button" parent="r2box/prbox" unique_id=1702864321]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
-theme_override_font_sizes/font_size = 24
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_wxirf")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_b8d31")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wxirf")
 text = "Peter Rabbit"
-horizontal_alignment = 1
+
+[node name="mainmenubutton" type="Button" parent="." unique_id=1514959264]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.62600005
+anchor_right = 0.5
+anchor_bottom = 0.62600005
+offset_left = -566.0
+offset_top = -396.64804
+offset_right = -418.0
+offset_bottom = -356.64804
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_pressed_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("StyleBoxFlat_l50ki")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_fknvg")
+theme_override_styles/hover = SubResource("StyleBoxFlat_yptce")
+text = "Main Menu"
+autowrap_mode = 3
 
 [connection signal="pressed" from="r1box/clbox/fixratio1/clthumbnail" to="." method="_on_chickenlittle_pressed"]
-[connection signal="pressed" from="r2box/prbox/fixratio6/prthumbnail" to="." method="_on_prthumbnail_pressed"]
+[connection signal="pressed" from="r1box/clbox/clcaption" to="." method="_on_chickenlittle_pressed"]
+[connection signal="pressed" from="r1box/smbox/fixratio2/smthumnail" to="." method="_on_shoemaker_pressed"]
+[connection signal="pressed" from="r1box/smbox/smcaption" to="." method="_on_shoemaker_pressed"]
+[connection signal="pressed" from="r1box/tlbbox/fixratio3/tlbthumbnail" to="." method="_on_goldilocks_pressed"]
+[connection signal="pressed" from="r1box/tlbbox/tlbcaption" to="." method="_on_goldilocks_pressed"]
+[connection signal="pressed" from="r2box/lpbox/fixratio4/lpthumbnail" to="." method="_on_threelittlepigs_pressed"]
+[connection signal="pressed" from="r2box/lpbox/lpcaption" to="." method="_on_threelittlepigs_pressed"]
+[connection signal="pressed" from="r2box/cinbox/fixratio5/cinthumbnail" to="." method="_on_cinderella_pressed"]
+[connection signal="pressed" from="r2box/cinbox/cincaption" to="." method="_on_cinderella_pressed"]
+[connection signal="pressed" from="r2box/prbox/fixratio6/prthumbnail" to="." method="_on_peterrabbit_pressed"]
+[connection signal="pressed" from="r2box/prbox/prcaption" to="." method="_on_peterrabbit_pressed"]
+[connection signal="pressed" from="mainmenubutton" to="." method="_on_mainmenubutton_pressed"]

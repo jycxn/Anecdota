@@ -1,0 +1,393 @@
+{
+  "story_title": "The Three Little Pigs",
+  "scene1": {
+    "image": "res://graphics/three_little_pigs/lp2.png",
+    "text": [
+      "There are three little pigs. The first little pig and the other two little pigs are friends."
+    ],
+    "next": "scene2"
+  },
+  "scene2": {
+    "image": "res://graphics/three_little_pigs/lp3.png",
+    "text": [
+      "The three little pigs are building their houses together. One of the first little pig's friends does not want to work hard and builds a house out of straw because it is quick and easy."
+    ],
+    "next": "scene3"
+  },
+  "scene3": {
+    "image": "res://graphics/three_little_pigs/lp4.png",
+    "text": [
+      "The first little pig's other friend works a little harder and builds a house out of sticks.",
+      "The first little pig knows that building a good home is important."
+    ],
+    "next": "scene5"
+  },
+  "scene5": {
+    "image": "res://graphics/three_little_pigs/lp5.png",
+    "text": [
+      "The first little pig needs to decide how to build a house."
+    ],
+    "prompt": "What should the first little pig do?",
+    "choices": [
+      {
+        "text": "Have the first little pig use the same materials as the other little pigs to build the house.",
+        "next": "scene6"
+      },
+      {
+        "text": "Have the first little pig research the best materials to build the house.",
+        "next": "scene7"
+      },
+      {
+        "text": "Have the first little pig decide to work on this later.",
+        "next": "scene8"
+      }
+    ]
+  },
+  "scene6": {
+    "image": "res://graphics/three_little_pigs/lp6.png",
+    "text": [
+      "Learning from friends can be good, but it is also important for the first little pig to see what works on their own."
+    ],
+    "prompt": "Let us have the first little pig try something else.",
+    "choices": [
+      {
+        "text": "Have the first little pig research the best materials to build the house.",
+        "next": "scene7"
+      },
+      {
+        "text": "Have the first little pig decide to work on this later.",
+        "next": "scene8"
+      }
+    ]
+  },
+  "scene7": {
+    "image": "res://graphics/three_little_pigs/lp11.png",
+    "text": [
+      "Learning from friends can be valuable, but it is also important for the first little pig to see what works on their own.",
+      "The first little pig learns that brick is a good material."
+    ],
+    "next": "scene11"
+  },
+  "scene8": {
+    "image": "res://graphics/three_little_pigs/lp10.png",
+    "text": [
+      "At night when it is cold, the little pig will still not have a house! Important things need to be done right away."
+    ],
+    "prompt": "Let us have the first little pig try something else.",
+    "choices": [
+      {
+        "text": "Have the first little pig use the same materials as the other little pigs to build the house.",
+        "next": "scene6"
+      },
+      {
+        "text": "Have the first little pig research the best materials to build the house.",
+        "next": "scene7"
+      }
+    ]
+  },
+  "scene11": {
+    "image": "res://graphics/three_little_pigs/lp12.png",
+    "text": [
+      "The first little pig builds a strong house out of bricks."
+    ],
+    "next": "scene12"
+  },
+  "scene12": {
+    "image": "res://graphics/three_little_pigs/lp13.png",
+    "text": [
+      "One day, one of the first little pig's friends comes running towards the brick house and knocks on the door.",
+      "\"Help! A wolf came by my straw house and blew it down. Let me in please!\" the friend says.",
+      "The first little pig likes this friend but feels tired and not very social."
+    ],
+    "next": "scene14"
+  },
+  "scene13": {
+    "image": "res://graphics/three_little_pigs/lp13.png",
+    "text": [
+      "\"Help! A wolf came by my straw house and blew it down. Let me in please!\" the friend says.",
+      "The first little pig likes this friend but feels tired and not very social."
+    ],
+    "next": "scene14"
+  },
+  "scene14": {
+    "image": "res://graphics/three_little_pigs/lp14.png",
+    "text": [
+      "The first little pig's friend needs help."
+    ],
+    "prompt": "What should the first little pig do?",
+    "choices": [
+      {
+        "text": "Have the first little pig tell the friend to go away.",
+        "next": "scene15"
+      },
+      {
+        "text": "Have the first little pig check that it is the friend and let the friend in because it is an emergency.",
+        "next": "scene17"
+      },
+      {
+        "text": "Have the first little pig stay quiet and pretend not to be home.",
+        "next": "scene16"
+      }
+    ]
+  },
+  "scene15": {
+    "image": "res://graphics/three_little_pigs/lp15.png",
+    "text": [
+      "Telling the friend to go away does not help the friend stay safe during an emergency."
+    ],
+    "prompt": "Let us have the first little pig try something else.",
+    "choices": [
+      {
+        "text": "Have the first little pig check that it is the friend and let the friend in because it is an emergency.",
+        "next": "scene17"
+      },
+      {
+        "text": "Have the first little pig stay quiet and pretend not to be home.",
+        "next": "scene16"
+      }
+    ]
+  },
+  "scene16": {
+    "image": "res://graphics/three_little_pigs/lp16.png",
+    "text": [
+      "Staying quiet does not help the friend stay safe during an emergency."
+    ],
+    "prompt": "Let us have the first little pig try something else.",
+    "choices": [
+      {
+        "text": "Have the first little pig tell the friend to go away.",
+        "next": "scene15"
+      },
+      {
+        "text": "Have the first little pig check that it is the friend and let the friend in because it is an emergency.",
+        "next": "scene17"
+      }
+    ]
+  },
+  "scene17": {
+    "image": "res://graphics/three_little_pigs/lp17.png",
+    "text": [
+      "The first little pig checks that it is the friend and lets the friend in because it is an emergency."
+    ],
+    "next": "scene18"
+  },
+  "scene18": {
+    "image": "res://graphics/three_little_pigs/lp18.png",
+    "text": [
+      "\"Thank you for letting me in! The wolf was very mad that I did not let him into my straw house. He huffed, and he puffed, and he blew it down! I ran away as fast as I could,\" the friend says."
+    ],
+    "next": "scene19"
+  },
+  "scene19": {
+    "image": "res://graphics/three_little_pigs/lp19.png",
+    "text": [
+      "Soon after, the other friend knocks at the door, and the first little pig lets the friend in. The three little pigs eat lunch together and start a new puzzle."
+    ],
+    "next": "scene20"
+  },
+  "scene20": {
+    "image": "res://graphics/three_little_pigs/lp20.png",
+    "text": [
+      "Then, the three little pigs hear another knock."
+    ],
+    "prompt": "What should the first little pig do?",
+    "choices": [
+      {
+        "text": "Have the first little pig open the door.",
+        "next": "scene21"
+      },
+      {
+        "text": "Have the first little pig go outside to check who it is.",
+        "next": "scene22"
+      },
+      {
+        "text": "Have the first little pig ask who it is.",
+        "next": "scene25"
+      }
+    ]
+  },
+  "scene21": {
+    "image": "res://graphics/three_little_pigs/lp21.png",
+    "text": [
+      "The first little pig opens the door without checking who is there."
+    ],
+    "next": "scene23"
+  },
+  "scene22": {
+    "image": "res://graphics/three_little_pigs/lp22.png",
+    "text": [
+      "The first little pig goes outside to check who is there."
+    ],
+    "next": "scene24"
+  },
+  "scene23": {
+    "image": "res://graphics/three_little_pigs/lp23.png",
+    "text": [
+      "Opening the door without checking who is there could be unsafe."
+    ],
+    "prompt": "Let us have the first little pig try something else.",
+    "choices": [
+      {
+        "text": "Have the first little pig go outside to check who it is.",
+        "next": "scene22"
+      },
+      {
+        "text": "Have the first little pig ask who it is.",
+        "next": "scene25"
+      }
+    ]
+  },
+  "scene24": {
+    "image": "res://graphics/three_little_pigs/lp24.png",
+    "text": [
+      "Going outside could put the first little pig too close to whoever is at the door."
+    ],
+    "prompt": "Let us have the first little pig try something else.",
+    "choices": [
+      {
+        "text": "Have the first little pig open the door.",
+        "next": "scene21"
+      },
+      {
+        "text": "Have the first little pig ask who it is.",
+        "next": "scene25"
+      }
+    ]
+  },
+  "scene25": {
+    "image": "res://graphics/three_little_pigs/lp25.png",
+    "text": [
+      "The first little pig asks who it is."
+    ],
+    "next": "scene26"
+  },
+  "scene26": {
+    "image": "res://graphics/three_little_pigs/lp26.png",
+    "text": [
+      "\"It is me, the wolf! Little pigs, little pigs, let me in!\" the wolf says."
+    ],
+    "next": "scene27"
+  },
+  "scene27": {
+    "image": "res://graphics/three_little_pigs/lp27.png",
+    "text": [
+      "The wolf huffs, and he puffs."
+    ],
+    "next": "scene28"
+  },
+  "scene28": {
+    "image": "res://graphics/three_little_pigs/lp28.png",
+    "text": [
+      "But he cannot blow the brick house down."
+    ],
+    "next": "scene29"
+  },
+  "scene29": {
+    "image": "res://graphics/three_little_pigs/lp29.png",
+    "text": [
+      "The wolf is very angry. He yells that he is going to try something else.",
+      "\"Okay, if the little pigs will not let me in through the door, I am going to go onto the roof and come down the chimney!\""
+    ],
+    "prompt": "What should the first little pig do?",
+    "choices": [
+      {
+        "text": "Have the first little pig let the wolf in because the first little pig feels threatened.",
+        "next": "scene30"
+      },
+      {
+        "text": "Have the first little pig build a warm fire in the fireplace just in case.",
+        "next": "scene32"
+      },
+      {
+        "text": "Have the first little pig go outside and fight the wolf.",
+        "next": "scene31"
+      }
+    ]
+  },
+  "scene30": {
+    "image": "res://graphics/three_little_pigs/lp30.png",
+    "text": [
+      "The first little pig considers letting the wolf in because the first little pig feels threatened."
+    ],
+    "next": "scene33"
+  },
+  "scene31": {
+    "image": "res://graphics/three_little_pigs/lp31.png",
+    "text": [
+      "The first little pig considers going outside to fight the wolf."
+    ],
+    "next": "scene34"
+  },
+  "scene32": {
+    "image": "res://graphics/three_little_pigs/lp32.png",
+    "text": [
+      "The first little pig builds a warm fire in the fireplace just in case."
+    ],
+    "next": "scene35"
+  },
+  "scene33": {
+    "image": "res://graphics/three_little_pigs/lp33.png",
+    "text": [
+      "Letting the wolf inside would not keep the first little pig or the other two little pigs safe."
+    ],
+    "prompt": "Let us have the first little pig try something else.",
+    "choices": [
+      {
+        "text": "Have the first little pig build a warm fire in the fireplace just in case.",
+        "next": "scene32"
+      },
+      {
+        "text": "Have the first little pig go outside and fight the wolf.",
+        "next": "scene31"
+      }
+    ]
+  },
+  "scene34": {
+    "image": "res://graphics/three_little_pigs/lp34.png",
+    "text": [
+      "Going outside to fight the wolf could put the first little pig and the other two little pigs in danger."
+    ],
+    "prompt": "Let us have the first little pig try something else.",
+    "choices": [
+      {
+        "text": "Have the first little pig let the wolf in because the first little pig feels threatened.",
+        "next": "scene30"
+      },
+      {
+        "text": "Have the first little pig build a warm fire in the fireplace just in case.",
+        "next": "scene32"
+      }
+    ]
+  },
+  "scene35": {
+    "image": "res://graphics/three_little_pigs/lp35.png",
+    "text": [
+      "When the wolf comes down the chimney, he sees the fireplace and realizes that the first little pig is prepared and has thought ahead."
+    ],
+    "next": "scene36"
+  },
+  "scene36": {
+    "image": "res://graphics/three_little_pigs/lp36.png",
+    "text": [
+      "Instead of getting hurt, the wolf realizes that he is not going to get into the house and climbs back up the chimney to leave."
+    ],
+    "next": "scene37"
+  },
+  "scene37": {
+    "image": "res://graphics/three_little_pigs/lp37.png",
+    "text": [
+      "The first little pig does not hurt the wolf. Instead, the first little pig protects everyone by staying safe and clever.",
+      "Sometimes, it is better to avoid fighting and find peaceful ways to solve problems.",
+      "The three little pigs learn that working hard and making good choices keeps them safe.",
+      "They live happily ever after in the strong brick house, and the wolf never bothers them again."
+    ],
+    "next": "scene38"
+  },
+  "scene38": {
+    "text": [
+      "Staying safe in unknown situations can be tricky.",
+      "Can you name an unknown situation from the story of the “Three Little Pigs”, or from another story and name something that helped it? "
+    ],
+    "end": true
+  }
+}

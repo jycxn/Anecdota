@@ -1,0 +1,306 @@
+{
+  "story_title": "Little Red Riding Hood",
+  "scene1": {
+    "image": "res://graphics/little_red_riding_hood/lrrh1.png",
+    "text": [
+      "Little Red Riding Hood is a little girl who lives with her mother in a small cottage at the edge of the forest. One morning she is making breakfast when her mother puts a basket on the table of cough syrup, warm soup, and sweet cookies."
+    ],
+    "next": "scene2"
+  },
+  "scene2": {
+    "image": "res://graphics/little_red_riding_hood/lrrh2.png",
+    "text": [
+      "\"Your grandmother is not feeling well,\" her mother says. \"Could you please help me bring her this basket?\""
+    ],
+    "next": "scene3"
+  },
+  "scene3": {
+    "image": "res://graphics/little_red_riding_hood/lrrh3.png",
+    "text": [
+      "Red wants her grandmother to feel better, so she agrees, and she is also very excited about seeing her."
+    ],
+    "prompt": "What should she do next?",
+    "choices": [
+      {
+        "text": "She should ask for directions on how to get to Grandmother's house.",
+        "next": "scene6"
+      },
+      {
+        "text": "She should rush out the door, since the faster she gets to Grandmother's, the faster Red can see her.",
+        "next": "scene4"
+      },
+      {
+        "text": "She should agree so she can go outside to eat the food in the basket instead.",
+        "next": "scene5"
+      }
+    ]
+  },
+  "scene4": {
+    "image": "res://graphics/little_red_riding_hood/lrrh4.png",
+    "text": [
+      "She does not hear the instructions because she rushed out, and then gets lost."
+    ],
+    "prompt": "Let's have Little Red Riding Hood try something else.",
+    "choices": [
+      {
+        "text": "She should ask for directions on how to get to Grandmother's house.",
+        "next": "scene6"
+      },
+      {
+        "text": "She should agree so she can go outside to eat the food in the basket instead.",
+        "next": "scene5"
+      }
+    ]
+  },
+  "scene5": {
+    "image": "res://graphics/little_red_riding_hood/lrrh5.png",
+    "text": [
+      "Her mother catches her eating the food in the basket. It is bad to be dishonest!"
+    ],
+    "prompt": "Let's have Little Red Riding Hood try something else.",
+    "choices": [
+      {
+        "text": "She should ask for directions on how to get to Grandmother's house.",
+        "next": "scene6"
+      },
+      {
+        "text": "She should rush out the door, since the faster she gets to Grandmother's, the faster Red can see her.",
+        "next": "scene4"
+      }
+    ]
+  },
+  "scene6": {
+    "image": "res://graphics/little_red_riding_hood/lrrh6.png",
+    "text": [
+      "Little Red knows that she needs to listen carefully to stay safe. Her mother smiles and gives her the instructions, telling her, \"You must remember two important rules. One: Stay on the white path to get to Grandmother's.\""
+    ],
+    "next": "scene7"
+  },
+  "scene7": {
+    "image": "res://graphics/little_red_riding_hood/lrrh7.png",
+    "text": [
+      "\"Two: Do not talk to strangers. Some people might not be safe, even if they seem friendly.\" Once she knows the rules, Red leaves the house for Grandmother's house."
+    ],
+    "next": "scene8"
+  },
+  "scene8": {
+    "image": "res://graphics/little_red_riding_hood/lrrh8.png",
+    "text": [
+      "As she walks around a bend, a tall figure steps out from behind a tree. She realizes it's a wolf. His eyes are sharp and his fur is messy, but he puts on a big smile and speaks kindly to Red. \"Hello, little girl,\" the wolf says. \"What a lovely basket. Where are you going today?\""
+    ],
+    "prompt": "What should she do?",
+    "choices": [
+      {
+        "text": "She should tell the wolf that she is going to her grandmother's house and ask if he is free, so he can come along.",
+        "next": "scene9"
+      },
+      {
+        "text": "She should remember her mother's rule about strangers and say, \"Sorry, I need to go,\" and walk away.",
+        "next": "scene11"
+      },
+      {
+        "text": "She should run away quickly and scream to attract attention, since all strangers are bad.",
+        "next": "scene10"
+      }
+    ]
+  },
+  "scene9": {
+    "image": "res://graphics/little_red_riding_hood/lrrh9.png",
+    "text": [
+      "Sharing where she is going with a stranger could put Little Red in danger. She should remember her mother's rule and keep that information private."
+    ],
+    "prompt": "Let's have Little Red Riding Hood try something else.",
+    "choices": [
+      {
+        "text": "She should remember her mother's rule about strangers and say, \"Sorry, I need to go,\" and walk away.",
+        "next": "scene11"
+      },
+      {
+        "text": "She should run away quickly and scream to attract attention, since all strangers are bad.",
+        "next": "scene10"
+      }
+    ]
+  },
+  "scene10": {
+    "image": "res://graphics/little_red_riding_hood/lrrh10.png",
+    "text": [
+      "Running and screaming when there is no immediate danger may make the situation less safe. Little Red should stay calm and follow her mother's rule."
+    ],
+    "prompt": "Let's have Little Red Riding Hood try something else.",
+    "choices": [
+      {
+        "text": "She should tell the wolf that she is going to her grandmother's house and ask if he is free, so he can come along.",
+        "next": "scene9"
+      },
+      {
+        "text": "She should remember her mother's rule about strangers and say, \"Sorry, I need to go,\" and walk away.",
+        "next": "scene11"
+      }
+    ]
+  },
+  "scene11": {
+    "image": "res://graphics/little_red_riding_hood/lrrh11.png",
+    "text": [
+      "Little Red uses a polite voice, follows her mother's rule, and keeps moving. She does not share where she's going, but also stays calm and avoids any danger."
+    ],
+    "next": "scene12"
+  },
+  "scene12": {
+    "image": "res://graphics/little_red_riding_hood/lrrh12.png",
+    "text": [
+      "As she walks, the path curves gently, and she sees a trail on the side. A sign on the ground says that it's a shortcut through the trees. The shortcut looks faster but also darker. Red feels curious but also a little nervous, so she pauses."
+    ],
+    "prompt": "What should she do?",
+    "choices": [
+      {
+        "text": "She should take the shortcut to save time.",
+        "next": "scene13"
+      },
+      {
+        "text": "She should start taking the shortcut, but turn around if she spots anything dangerous.",
+        "next": "scene14"
+      },
+      {
+        "text": "She should think carefully about both choices before deciding.",
+        "next": "scene15"
+      }
+    ]
+  },
+  "scene13": {
+    "image": "res://graphics/little_red_riding_hood/lrrh13.png",
+    "text": [
+      "It gets late and she gets lost!"
+    ],
+    "prompt": "Let's have Little Red Riding Hood try something else.",
+    "choices": [
+      {
+        "text": "She should start taking the shortcut, but turn around if she spots anything dangerous.",
+        "next": "scene14"
+      },
+      {
+        "text": "She should think carefully about both choices before deciding.",
+        "next": "scene15"
+      }
+    ]
+  },
+  "scene14": {
+    "image": "res://graphics/little_red_riding_hood/lrrh14.png",
+    "text": [
+      "She tries to turn around, but it is too late to find her way back safely."
+    ],
+    "prompt": "Let's have Little Red Riding Hood try something else.",
+    "choices": [
+      {
+        "text": "She should take the shortcut to save time.",
+        "next": "scene13"
+      },
+      {
+        "text": "She should think carefully about both choices before deciding.",
+        "next": "scene15"
+      }
+    ]
+  },
+  "scene15": {
+    "image": "res://graphics/little_red_riding_hood/lrrh15.png",
+    "text": [
+      "Little Red pauses to think and she makes a list in her mind. She knows the shortcut is faster, but she might get lost or face something dangerous. The path is longer, but she knows it is safe. After thinking it through, she chooses to stay on the path."
+    ],
+    "next": "scene16"
+  },
+  "scene16": {
+    "image": "res://graphics/little_red_riding_hood/lrrh16.png",
+    "text": [
+      "Red reaches Grandmother's house. The door is slightly open, which is strange since Grandmother knows to keep it locked because of strangers."
+    ],
+    "next": "scene17"
+  },
+  "scene17": {
+    "image": "res://graphics/little_red_riding_hood/lrrh17.png",
+    "text": [
+      "Red slowly steps inside and the room is dark and the air feels different. She walks into the bedroom to find someone lying in bed under the covers. It looks like Grandmother, but... something is not right."
+    ],
+    "next": "scene18"
+  },
+  "scene18": {
+    "image": "res://graphics/little_red_riding_hood/lrrh18.png",
+    "text": [
+      "She has ears growing from her hair, her eyes look all red, and she is a lot taller than she usually is. \"Come closer, dear, it's me, Grandmother,\" says the figure. \"Let me see you better.\""
+    ],
+    "prompt": "What should she do?",
+    "choices": [
+      {
+        "text": "Take a step back since she's sick, and ask Grandmother questions to make sure everything is alright.",
+        "next": "scene21"
+      },
+      {
+        "text": "Say nothing and go closer, assuming everything is fine.",
+        "next": "scene19"
+      },
+      {
+        "text": "Throw the basket at Grandmother, since that's clearly not her.",
+        "next": "scene20"
+      }
+    ]
+  },
+  "scene19": {
+    "image": "res://graphics/little_red_riding_hood/lrrh19.png",
+    "text": [
+      "Ignoring signs that something is wrong could put Little Red in danger. It is safer to step back and ask questions."
+    ],
+    "prompt": "Let's have Little Red Riding Hood try something else.",
+    "choices": [
+      {
+        "text": "Take a step back since she's sick, and ask Grandmother questions to make sure everything is alright.",
+        "next": "scene21"
+      },
+      {
+        "text": "Throw the basket at Grandmother, since that's clearly not her.",
+        "next": "scene20"
+      }
+    ]
+  },
+  "scene20": {
+    "image": "res://graphics/little_red_riding_hood/lrrh20.png",
+    "text": [
+      "Throwing the basket could hurt someone before Little Red knows what is wrong. It is safer to step back and ask questions."
+    ],
+    "prompt": "Let's have Little Red Riding Hood try something else.",
+    "choices": [
+      {
+        "text": "Take a step back since she's sick, and ask Grandmother questions to make sure everything is alright.",
+        "next": "scene21"
+      },
+      {
+        "text": "Say nothing and go closer, assuming everything is fine.",
+        "next": "scene19"
+      }
+    ]
+  },
+  "scene21": {
+    "image": "res://graphics/little_red_riding_hood/lrrh21.png",
+    "text": [
+      "\"Grandmother, are you feeling alright? Your eyes are all red!\" Red asks in concern, taking a step back and getting the medicine."
+    ],
+    "next": "scene22"
+  },
+  "scene22": {
+    "image": "res://graphics/little_red_riding_hood/lrrh22.png",
+    "text": [
+      "All of a sudden, Grandmother jumps out of bed, but it's not her, it's the wolf in disguise! Red is thankful she stepped back."
+    ],
+    "next": "scene23"
+  },
+  "scene23": {
+    "image": "res://graphics/little_red_riding_hood/lrrh23.png",
+    "text": [
+      "The wolf begins to growl and is about to run after Red, when all of a sudden, Red hears Grandmother's neighbour, a lumberjack, come in. He had heard all of the commotion, and came over to check on Grandmother."
+    ],
+    "next": "scene24"
+  },
+  "scene24": {
+    "text": [
+      "The lumberjack chases the wolf away, and Grandmother steps out of the closet where she was hiding. Red hugs her tightly and says, \"I followed the rules, and I asked questions when something felt wrong.\" Grandmother smiles. \"You are growing into a wise and brave girl.\""
+    ],
+    "end": true
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "story_title": "The Ugly Duckling",
+  "scene1": {
+    "image": "res://graphics/ugly_duckling/tud1.png",
+    "text": [
+      "In a small pond a mother duck waits for her eggs to hatch. One of her eggs is much larger than the others."
+    ],
+    "next": "scene2"
+  },
+  "scene2": {
+    "image": "res://graphics/ugly_duckling/tud2.png",
+    "text": [
+      "The eggs start to hatch, and yellow fluffy ducklings pop out until there is only one left."
+    ],
+    "next": "scene3"
+  },
+  "scene3": {
+    "image": "res://graphics/ugly_duckling/tud3.png",
+    "text": [
+      "The last duckling looks different. He has grey feathers, a long neck, and big feet."
+    ],
+    "next": "scene4"
+  },
+  "scene4": {
+    "image": "res://graphics/ugly_duckling/tud4.png",
+    "text": [
+      "The other ducklings begin to whisper, \"He does not look like us. Why is he so weird?\"",
+      "The grey duckling is upset at the whispering."
+    ],
+    "prompt": "What should the grey duckling do?",
+    "choices": [
+      {
+        "text": "Get angry and yell at them for being mean.",
+        "next": "scene5"
+      },
+      {
+        "text": "Walk away and find a quiet place to calm down.",
+        "next": "scene6"
+      },
+      {
+        "text": "Run away from the rest of the family forever.",
+        "next": "scene7"
+      }
+    ]
+  },
+  "scene5": {
+    "image": "res://graphics/ugly_duckling/tud5.png",
+    "text": [
+      "Yelling does not help the duckling feel better. When feeling big emotions, it is a good idea to calm down first."
+    ],
+    "prompt": "Let's have the grey duckling try something else.",
+    "choices": [
+      {
+        "text": "Walk away and find a quiet place to calm down.",
+        "next": "scene6"
+      },
+      {
+        "text": "Run away from the rest of the family forever.",
+        "next": "scene7"
+      }
+    ]
+  },
+  "scene6": {
+    "image": "res://graphics/ugly_duckling/tud6.png",
+    "text": [
+      "Walking away to calm down gives the duckling time to handle his big emotions safely."
+    ],
+    "next": "scene8"
+  },
+  "scene7": {
+    "image": "res://graphics/ugly_duckling/tud7.png",
+    "text": [
+      "Making a choice without a plan is unsafe. When feeling big emotions, it is a good idea to calm down first."
+    ],
+    "prompt": "Let's have the grey duckling try something else.",
+    "choices": [
+      {
+        "text": "Get angry and yell at them for being mean.",
+        "next": "scene5"
+      },
+      {
+        "text": "Walk away and find a quiet place to calm down.",
+        "next": "scene6"
+      }
+    ]
+  },
+  "scene8": {
+    "image": "res://graphics/ugly_duckling/tud8.png",
+    "text": [
+      "The duckling takes deep breaths. He walks over to a quiet patch. He is still sad, but feels better now that he is calm."
+    ],
+    "next": "scene9"
+  },
+  "scene9": {
+    "image": "res://graphics/ugly_duckling/tud9.png",
+    "text": [
+      "The duckling leaves the pond and goes on a long walk, hoping to find other friends. The duckling walks until he sees a large barn and different animals. There are chickens, a goat, and a cow. The duckling sees all the different animals and thinks, \"Maybe the animals will be my friends.\""
+    ],
+    "next": "scene10"
+  },
+  "scene10": {
+    "image": "res://graphics/ugly_duckling/tud10.png",
+    "text": [
+      "He walks up to the other animals, feeling nervous. He hopes they will be kind, but when the animals see him, their faces change."
+    ],
+    "next": "scene11"
+  },
+  "scene11": {
+    "image": "res://graphics/ugly_duckling/tud11.png",
+    "text": [
+      "The cow loudly says, \"Look at your neck! You are a very strange duck!\"",
+      "The animals keep being mean, and the duckling frowns. He walks off to the other side of the farm, away from the animals."
+    ],
+    "prompt": "What should he try and think after this?",
+    "choices": [
+      {
+        "text": "Never try to make friends again, since it is clear no one will want to be friends with him.",
+        "next": "scene12"
+      },
+      {
+        "text": "He should try and dye his feathers to match the ducklings so that the animals will want to be his friend.",
+        "next": "scene13"
+      },
+      {
+        "text": "Continue looking for kind friends.",
+        "next": "scene14"
+      }
+    ]
+  },
+  "scene12": {
+    "image": "res://graphics/ugly_duckling/tud12.png",
+    "text": [
+      "Trying again when things go wrong is a good idea."
+    ],
+    "prompt": "Let's have the grey duckling try something else.",
+    "choices": [
+      {
+        "text": "He should try and dye his feathers to match the ducklings so that the animals will want to be his friend.",
+        "next": "scene13"
+      },
+      {
+        "text": "Continue looking for kind friends.",
+        "next": "scene14"
+      }
+    ]
+  },
+  "scene13": {
+    "image": "res://graphics/ugly_duckling/tud13.png",
+    "text": [
+      "Everyone is different, and that is a good thing. The duckling should not change himself to make other animals happy."
+    ],
+    "prompt": "Let's have the grey duckling try something else.",
+    "choices": [
+      {
+        "text": "Never try to make friends again, since it is clear no one will want to be friends with him.",
+        "next": "scene12"
+      },
+      {
+        "text": "Continue looking for kind friends.",
+        "next": "scene14"
+      }
+    ]
+  },
+  "scene14": {
+    "image": "res://graphics/ugly_duckling/tud14.png",
+    "text": [
+      "The duckling decides to continue looking for kind friends."
+    ],
+    "next": "scene15"
+  },
+  "scene15": {
+    "image": "res://graphics/ugly_duckling/tud15.png",
+    "text": [
+      "He keeps looking for friends until it is winter."
+    ],
+    "next": "scene16"
+  },
+  "scene16": {
+    "image": "res://graphics/ugly_duckling/tud16.png",
+    "text": [
+      "The weather is colder, and the duckling's journey looking for kind friends is harder. It is hard to find other animals because many are hiding inside from the cold weather."
+    ],
+    "next": "scene17"
+  },
+  "scene17": {
+    "image": "res://graphics/ugly_duckling/tud17.png",
+    "text": [
+      "The duckling cannot stay warm and safe without friends and somewhere to sleep."
+    ],
+    "next": "scene18"
+  },
+  "scene18": {
+    "image": "res://graphics/ugly_duckling/tud18.png",
+    "text": [
+      "Later he spots a small house. He can see the smoke from the chimney. He knows smoke comes from fire, and knows that inside the cottage will be warm."
+    ],
+    "prompt": "What should he do?",
+    "choices": [
+      {
+        "text": "Knock politely and ask if anyone is home.",
+        "next": "scene19"
+      },
+      {
+        "text": "Rush to the door and peck at it loudly to get attention.",
+        "next": "scene20"
+      },
+      {
+        "text": "Try climbing up and going in through the chimney.",
+        "next": "scene21"
+      }
+    ]
+  },
+  "scene19": {
+    "image": "res://graphics/ugly_duckling/tud19.png",
+    "text": [
+      "The duckling decides to knock politely and ask if anyone is home."
+    ],
+    "next": "scene22"
+  },
+  "scene20": {
+    "image": "res://graphics/ugly_duckling/tud20.png",
+    "text": [
+      "Making a lot of noise might scare anyone inside the house. It is a good idea to be calm and make a plan."
+    ],
+    "prompt": "Let's have the grey duckling try something else.",
+    "choices": [
+      {
+        "text": "Knock politely and ask if anyone is home.",
+        "next": "scene19"
+      },
+      {
+        "text": "Try climbing up and going in through the chimney.",
+        "next": "scene21"
+      }
+    ]
+  },
+  "scene21": {
+    "image": "res://graphics/ugly_duckling/tud21.png",
+    "text": [
+      "It is unsafe to climb. It is a good idea for the duckling to see who is inside the house before he goes inside."
+    ],
+    "prompt": "Let's have the grey duckling try something else.",
+    "choices": [
+      {
+        "text": "Knock politely and ask if anyone is home.",
+        "next": "scene19"
+      },
+      {
+        "text": "Rush to the door and peck at it loudly to get attention.",
+        "next": "scene20"
+      }
+    ]
+  },
+  "scene22": {
+    "image": "res://graphics/ugly_duckling/tud22.png",
+    "text": [
+      "The duckling goes up to the porch and knocks. A farmer comes out and sees the duckling. \"Oh no! You must be freezing.\" She grabs a blanket and a warm bowl of food for the duckling."
+    ],
+    "next": "scene23"
+  },
+  "scene23": {
+    "image": "res://graphics/ugly_duckling/tud23.png",
+    "text": [
+      "The duckling feels better with the blanket and food. The farmer says, \"There is a pond in a cave where the water will not freeze. There are other birds there who you can meet. I will take you there once you have had some rest!\""
+    ],
+    "next": "scene24"
+  },
+  "scene24": {
+    "image": "res://graphics/ugly_duckling/tud24.png",
+    "text": [
+      "The duckling sleeps, and the next day he follows the farmer down to the cave. Inside, the duckling sees beautiful swans landing in the pond."
+    ],
+    "prompt": "What should he do?",
+    "choices": [
+      {
+        "text": "Avoid the swans because he's afraid they will be mean to him.",
+        "next": "scene25"
+      },
+      {
+        "text": "Jump straight into the pond and make a splash to show he is funny!",
+        "next": "scene26"
+      },
+      {
+        "text": "Calmly say hi and ask to join them.",
+        "next": "scene27"
+      }
+    ]
+  },
+  "scene25": {
+    "image": "res://graphics/ugly_duckling/tud25.png",
+    "text": [
+      "He will not know if they are mean if he does not talk to them. A good choice is to greet them calmly."
+    ],
+    "prompt": "Let's have the grey duckling try something else.",
+    "choices": [
+      {
+        "text": "Jump straight into the pond and make a splash to show he is funny!",
+        "next": "scene26"
+      },
+      {
+        "text": "Calmly say hi and ask to join them.",
+        "next": "scene27"
+      }
+    ]
+  },
+  "scene26": {
+    "image": "res://graphics/ugly_duckling/tud26.png",
+    "text": [
+      "Making a big splash might scare the other swans since they do not know him."
+    ],
+    "prompt": "Let's have the grey duckling try something else.",
+    "choices": [
+      {
+        "text": "Avoid the swans because he's afraid they will be mean to him.",
+        "next": "scene25"
+      },
+      {
+        "text": "Calmly say hi and ask to join them.",
+        "next": "scene27"
+      }
+    ]
+  },
+  "scene27": {
+    "image": "res://graphics/ugly_duckling/tud27.png",
+    "text": [
+      "The duckling decides to calmly say hi and ask to join the swans."
+    ],
+    "next": "scene28"
+  },
+  "scene28": {
+    "image": "res://graphics/ugly_duckling/tud28.png",
+    "text": [
+      "He kindly waves his feathers. \"Hi there... I have never seen birds like you. Is it alright if I join you in the pond?\""
+    ],
+    "next": "scene29"
+  },
+  "scene29": {
+    "image": "res://graphics/ugly_duckling/tud29.png",
+    "text": [
+      "The swans look at him and smile. \"Of course! You look just like we did when we were little!\" one said."
+    ],
+    "next": "scene30"
+  },
+  "scene30": {
+    "text": [
+      "The duckling is shocked to learn that he is not a duck at all. The swans tell him he is also a little swan. He learns now that by being true to himself and looking out for kind animals, he will find a place he belongs to be happy in."
+    ],
+    "end": true
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "story_title": "The Elves and the Shoemaker",
+  "scene1": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm1.png",
+	"text": [
+      "In a quiet town a shoemaker and his wife live together. They work hard every day, but they do not sell enough shoes. The store is old and has many problems. The windows are broken, and the sinks leak."
+	],
+	"next": "scene2"
+  },
+  "scene2": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm2.png",
+	"text": [
+      "One cold evening, the shoemaker looks at the last piece of leather on his workbench and sighs. \"This is all we have left,\" he said. \"Enough leather to make one last pair of shoes.\" He cuts the leather for the last pair of shoes, and puts it on his desk."
+	],
+	"next": "scene3"
+  },
+  "scene3": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm3.png",
+	"text": [
+      "Then he goes to bed, but he cannot fall asleep because he feels nervous. The shoemaker is scared about the future."
+	],
+	"prompt": "What should he do before going to bed?",
+	"choices": [
+	  {
+		"text": "Stay up all night and think about everything he has to do.",
+		"next": "scene4"
+	  },
+	  {
+		"text": "Wake up his wife and tell her they should start to fix something.",
+		"next": "scene5"
+	  },
+	  {
+		"text": "Make a to-do list for the morning and then go to bed",
+		"next": "scene6"
+	  }
+	]
+  },
+  "scene4": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm4.png",
+	"text": [
+      "Getting plenty of rest is important to handle his tasks. He should try to come up with a plan to sleep."
+	],
+	"prompt": "Let us have the shoemaker try something else.",
+	"choices": [
+	  {
+		"text": "Wake up his wife and tell her they should start to fix something.",
+		"next": "scene5"
+	  },
+	  {
+		"text": "Make a to-do list for the morning and then go to bed.",
+		"next": "scene6"
+	  }
+	]
+  },
+  "scene5": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm5.png",
+	"text": [
+      "If they work all night, they will be very tired in the morning. Getting plenty of rest is important."
+	],
+	"prompt": "Let us have the shoemaker try something else.",
+	"choices": [
+	  {
+		"text": "Stay up all night and think about everything he has to do.",
+		"next": "scene4"
+	  },
+	  {
+		"text": "Make a to-do list for the morning and get a good night's sleep.",
+		"next": "scene6"
+	  }
+	]
+  },
+  "scene6": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm6.png",
+	"text": [
+      "Making a to-do list helps the shoemaker make a plan and get the rest he needs."
+	],
+	"next": "scene7"
+  },
+  "scene7": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm7.png",
+	"text": [
+      "The shoemaker gets up quietly and makes a short to-do list. After he writes everything down, he sees that he can do the tasks. He feels less nervous."
+	],
+	"next": "scene8"
+  },
+  "scene8": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm8.png",
+	"text": [
+      "Then he takes a deep breath and goes to bed."
+	],
+	"next": "scene9"
+  },
+  "scene9": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm9.png",
+	"text": [
+      "When he wakes up the next morning, something surprising happens. When the shoemaker enters his workshop, he sees a pair of shoes already made. They are the most beautiful pair the shoemaker and his wife have ever seen."
+	],
+	"next": "scene10"
+  },
+  "scene10": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm10.png",
+	"text": [
+      "A customer comes in that day and pays lots of money for the shoes. The customer also says how beautiful they are."
+	],
+	"prompt": "What should they do next?",
+	"choices": [
+	  {
+		"text": "Go spend all the money on expensive foods and clothes.",
+		"next": "scene11"
+	  },
+	  {
+		"text": "Go to bed and think that more beautiful shoes will magically show up again.",
+		"next": "scene12"
+	  },
+	  {
+		"text": "Buy some more leather and make new shoes now that they have rested.",
+		"next": "scene13"
+	  }
+	]
+  },
+  "scene11": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm11.png",
+	"text": [
+      "Their store still has many problems. Buying expensive things will leave them no money to help fix the problems."
+	],
+	"prompt": "Let us have the shoemaker and his wife try something else.",
+	"choices": [
+	  {
+		"text": "Go to bed and think that more beautiful shoes will magically show up again.",
+		"next": "scene12"
+	  },
+	  {
+		"text": "Buy some more leather and get to making his own shoes now that he has rested.",
+		"next": "scene13"
+	  }
+	]
+  },
+  "scene12": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm12.png",
+	"text": [
+      "It is not a good idea to think more shoes will show up without knowing where they come from. They should try to think of ideas that will help them fix their problems."
+	],
+	"prompt": "Let us have the shoemaker and his wife try something else.",
+	"choices": [
+	  {
+		"text": "Go spend all the money on expensive foods and clothes.",
+		"next": "scene11"
+	  },
+	  {
+		"text": "Buy some more leather and get to making his own shoes now that he has rested.",
+		"next": "scene13"
+	  }
+	]
+  },
+  "scene13": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm13.png",
+	"text": [
+      "Buying more leather lets the shoemaker use the money to keep working on the store's problems."
+	],
+	"next": "scene14"
+  },
+  "scene14": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm14.png",
+	"text": [
+      "The shoemaker and his wife buy more leather with the money. He makes shoes just as beautiful as the ones from the morning."
+	],
+	"next": "scene15"
+  },
+  "scene15": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm15.png",
+	"text": [
+      "They go to bed that night, and when they wake up, there are double the amount of shoes he made the night before! People pay a lot of money for the beautiful shoes, and they have no more to sell."
+	],
+	"next": "scene16"
+  },
+  "scene16": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm16.png",
+	"text": [
+      "The shoemaker and his wife are curious."
+	],
+	"prompt": "How should they learn what is happening at night?",
+	"choices": [
+	  {
+		"text": "Rush outside and accuse their neighbors of playing a prank.",
+		"next": "scene17"
+	  },
+	  {
+		"text": "Quietly watch the workshop that night to see what is going on.",
+		"next": "scene18"
+	  },
+	  {
+		"text": "Spend the money from the day to build a big trap in the workshop.",
+		"next": "scene19"
+	  }
+	]
+  },
+  "scene17": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm17.png",
+	"text": [
+      "It is a good idea to find out what is going on, instead of accusing someone."
+	],
+	"prompt": "Let us have the shoemaker and his wife try something else.",
+	"choices": [
+	  {
+		"text": "Quietly watch the workshop that night to see what is going on.",
+		"next": "scene18"
+	  },
+	  {
+		"text": "Spend the money from the day to build a big trap in the workshop.",
+		"next": "scene19"
+	  }
+	]
+  },
+  "scene18": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm18.png",
+	"text": [
+      "Quietly watching the workshop will help them learn what is happening without making an accusation."
+	],
+	"next": "scene20"
+  },
+  "scene19": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm19.png",
+	"text": [
+      "It is a good idea to not spend a lot of money on a trap when you do not know if it will work."
+	],
+	"prompt": "Let us have the shoemaker and his wife try something else.",
+	"choices": [
+	  {
+		"text": "Rush outside and accuse their neighbors of playing a prank.",
+		"next": "scene17"
+	  },
+	  {
+		"text": "Quietly watch the workshop that night to see what is going on.",
+		"next": "scene18"
+	  }
+	]
+  },
+  "scene20": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm20.png",
+	"text": [
+      "The shoemaker and his wife hide behind a shelf and watch. Two little elves wearing ripped and old clothes climb in through the window and begin making new shoes. The shoemaker and his wife feel shocked, but they also feel grateful."
+	],
+	"next": "scene21"
+  },
+  "scene21": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm21.png",
+	"text": [
+      "They want to say thank you."
+	],
+	"prompt": "What is the best way?",
+	"choices": [
+	  {
+		"text": "Leave a sign that says, \"Thanks!\" and hope the elves read it.",
+		"next": "scene22"
+	  },
+	  {
+		"text": "Make warm clothes and shoes for the elves.",
+		"next": "scene23"
+	  },
+	  {
+		"text": "Do not do anything, since if they thank the elves, the elves might stop making them shoes.",
+		"next": "scene24"
+	  }
+	]
+  },
+  "scene22": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm22.png",
+	"text": [
+      "The shoemaker and his wife do not know if the elves will be able to read the sign. It is a good idea for them to help the elves, since the elves helped them."
+	],
+	"prompt": "Let us have the shoemaker and his wife try something else.",
+	"choices": [
+	  {
+		"text": "Make warm clothes and shoes for the elves.",
+		"next": "scene23"
+	  },
+	  {
+		"text": "Do not do anything, since if they thank the elves, the elves might stop making them shoes.",
+		"next": "scene24"
+	  }
+	]
+  },
+  "scene23": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm23.png",
+	"text": [
+      "Making warm clothes and shoes will show appreciation in a way that helps the elves."
+	],
+	"next": "scene25"
+  },
+  "scene24": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm24.png",
+	"text": [
+      "It is good to say thank you to anyone who helps you."
+	],
+	"prompt": "Let us have the shoemaker and his wife try something else.",
+	"choices": [
+	  {
+		"text": "Leave a sign that says, \"Thanks!\" and hope the elves read it.",
+		"next": "scene22"
+	  },
+	  {
+		"text": "Make warm clothes and shoes for the elves.",
+		"next": "scene23"
+	  }
+	]
+  },
+  "scene25": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm25.png",
+	"text": [
+      "The shoemaker's wife makes small coats, scarves, and mittens. The shoemaker makes 2 pairs of elf-sized shoes and writes a note to thank them. He tells the elves they do not need to help anymore and can go on their own adventures."
+	],
+	"next": "scene26"
+  },
+  "scene26": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm26.png",
+	"text": [
+      "That night, they put the gifts out and hide. When the elves come, they see the gifts. Slowly, they put on the clothes and they smile. They dance, spin in circles, and laugh with joy. They shout tiny \"thank you\"s."
+	],
+	"next": "scene27"
+  },
+  "scene27": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm27.png",
+	"text": [
+      "The shoemaker never sees the elves again, but always remembers the help they gave him."
+	],
+	"next": "scene28"
+  },
+  "scene28": {
+	"image": "res://graphics/elves_and_the_shoemaker/sm28.png",
+	"text": [
+      "From then on, the shoemaker's business grows strong not only because of his skill, but because of his thankfulness and kindness. And every time he makes a new pair of shoes, he remembers how the smallest helpers can make the biggest difference."
+	],
+	"next": "scene29"
+  },
+  "scene29": {
+	"text":[
+		"Now that we know small helpers can make a big difference, what are 1 or 2 small things you can do every day to help someone?"
+	],
+	"end": true
+  }
+}

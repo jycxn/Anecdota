@@ -1,0 +1,290 @@
+{
+  "story_title": "Goldilocks and the Three Bears",
+  "scene1": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb1.png",
+    "text": [
+      "There are three bears who live together in a house in the woods.",
+      "They are the Great Big Bear, the Middle-sized Bear, and the Little Wee Bear."
+    ],
+    "next": "scene2"
+  },
+  "scene2": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb2.png",
+    "text": [
+      "They each have a bowl for their porridge: one big bowl, one medium bowl, and one small bowl."
+    ],
+    "next": "scene3"
+  },
+  "scene3": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb3.png",
+    "text": [
+      "They also have a chair to sit in and a bed to sleep in.",
+      "Each chair and bed is just the right size for each bear."
+    ],
+    "next": "scene4"
+  },
+  "scene4": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb4.png",
+    "text": [
+      "One day, the bears make porridge for breakfast. The porridge is very hot."
+    ],
+    "prompt": "What should the bears do?",
+    "choices": [
+      {
+        "text": "The bears should eat it anyway because they are very hungry.",
+        "next": "scene6"
+      },
+      {
+        "text": "The bears throw away the porridge because they cannot eat it anymore.",
+        "next": "scene7"
+      },
+      {
+        "text": "The bears should wait for the porridge to cool down.",
+        "next": "scene8"
+      }
+    ]
+  },
+  "scene6": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb6.png",
+    "text": [
+      "The porridge is way too hot and the bears burn their tongues."
+    ],
+    "prompt": "Let's have the bears try something else.",
+    "choices": [
+      {
+        "text": "The bears throw away the porridge because they cannot eat it anymore.",
+        "next": "scene7"
+      },
+      {
+        "text": "The bears should wait for the porridge to cool down.",
+        "next": "scene8"
+      }
+    ]
+  },
+  "scene7": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb7.png",
+    "text": [
+      "After throwing away the food, the bears are left without anything to eat."
+    ],
+    "prompt": "Let's have the bears try something else.",
+    "choices": [
+      {
+        "text": "The bears should eat it anyway because they are very hungry.",
+        "next": "scene6"
+      },
+      {
+        "text": "The bears should wait for the porridge to cool down.",
+        "next": "scene8"
+      }
+    ]
+  },
+  "scene8": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb8.png",
+    "text": [
+      "The bears wait for the porridge to cool down, which is a good habit to follow - waiting for things to cool down when they're too hot!"
+    ],
+    "next": "scene9"
+  },
+  "scene9": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb9.png",
+    "text": [
+      "The bears decide to go outside to enjoy the fresh air while the porridge cools."
+    ],
+    "next": "scene10"
+  },
+  "scene10": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb10.png",
+    "text": [
+      "While they are out, a little girl named Goldilocks walks by.",
+      "She sees the bears' house and is curious.",
+      "She decides to take a look inside and doesn't wait for permission to enter the house."
+    ],
+    "next": "scene11"
+  },
+  "scene11": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb11.png",
+    "text": [
+      "She goes in and sees the porridge on the table."
+    ],
+    "next": "scene12"
+  },
+  "scene12": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb12.png",
+    "text": [
+      "Goldilocks feels full after eating the porridge, but now she needs to decide what to do next.",
+      "She is tired from walking to the bears' house."
+    ],
+    "prompt": "What should she do?",
+    "choices": [
+      {
+        "text": "She should sit down to rest for a bit.",
+        "next": "scene14"
+      },
+      {
+        "text": "She should eat more porridge.",
+        "next": "scene13"
+      },
+      {
+        "text": "She should ignore that she is tired and go for a walk.",
+        "next": "scene24"
+      }
+    ]
+  },
+  "scene13": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb13.png",
+    "text": [
+      "Goldilocks eats another bowl quickly, but realizes after she ate way too much! Her stomach starts to hurt."
+    ],
+    "prompt": "Let's have Goldilocks try something else.",
+    "choices": [
+      {
+        "text": "She should sit down to rest for a bit.",
+        "next": "scene14"
+      },
+      {
+        "text": "She should ignore that she is tired and go for a walk.",
+        "next": "scene24"
+      }
+    ]
+  },
+  "scene14": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb14.png",
+    "text": [
+      "Resting after eating a big meal is very important, so you don't hurt your stomach.",
+      "Goldilocks first tries the Great Big Bear's chair, but it is too hard."
+    ],
+    "next": "scene15"
+  },
+  "scene15": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb15.png",
+    "text": [
+      "Then she tries the Middle-sized Bear's chair, but it is too soft."
+    ],
+    "next": "scene16"
+  },
+  "scene16": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb16.png",
+    "text": [
+      "Finally, she tries the Little Wee Bear's chair, and it is just right."
+    ],
+    "next": "scene17"
+  },
+  "scene17": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb17.png",
+    "text": [
+      "But when she sits down, the chair breaks! Oh no!"
+    ],
+    "next": "scene18"
+  },
+  "scene18": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb18.png",
+    "text": [
+      "When the Three Bears come home, they see that their porridge was eaten, their chairs are out of place, the Little Wee Bear's chair is broken, and that there is a girl in their house.",
+      "They are very upset."
+    ],
+    "prompt": "What should Goldilocks do?",
+    "choices": [
+      {
+        "text": "Goldilocks should run away.",
+        "next": "scene19"
+      },
+      {
+        "text": "Goldilocks should say that they should have gotten a better chair.",
+        "next": "scene20"
+      },
+      {
+        "text": "Goldilocks should apologize for breaking into their house and breaking their chair.",
+        "next": "scene21"
+      }
+    ]
+  },
+  "scene19": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb19.png",
+    "text": [
+      "She runs off and the bears become very sad that their food was eaten, and one of their chairs was broken!"
+    ],
+    "prompt": "Let's have Goldilocks try something else.",
+    "choices": [
+      {
+        "text": "Goldilocks should say that they should have gotten a better chair.",
+        "next": "scene20"
+      },
+      {
+        "text": "Goldilocks should apologize for breaking into their house and breaking their chair.",
+        "next": "scene21"
+      }
+    ]
+  },
+  "scene20": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb20.png",
+    "text": [
+      "The bears become very sad that she would say that, when she was the one who broke the chair!"
+    ],
+    "prompt": "Let's have Goldilocks try something else.",
+    "choices": [
+      {
+        "text": "Goldilocks should run away.",
+        "next": "scene19"
+      },
+      {
+        "text": "Goldilocks should apologize for breaking into their house and breaking their chair.",
+        "next": "scene21"
+      }
+    ]
+  },
+  "scene21": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb21.png",
+    "text": [
+      "Realizing she had made a mistake, she says, \"I'm really sorry for coming into your house and eating your porridge and breaking your chair. I should have asked.\"",
+      "The bears look at Goldilocks and see that she is sorry."
+    ],
+    "next": "scene22"
+  },
+  "scene22": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb22.png",
+    "text": [
+      "The Great Big Bear, the Middle-sized Bear, and the Little Wee Bear all smile and say, \"It's okay. You made a mistake, but you said sorry. We all make mistakes sometimes.\""
+    ],
+    "next": "scene23"
+  },
+  "scene23": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb23.png",
+    "text": [
+      "Goldilocks feels much better after apologizing.",
+      "The bears invite her to stay for a special breakfast. This time, they all shared their porridge together - each one eating from the bowl that was just right for them.",
+      "From that day on, Goldilocks remembers to ask before using other people's things, and she learns the importance of saying sorry when something goes wrong."
+    ],
+    "next": "scene26"
+  },
+  "scene24": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb24.png",
+    "text": [
+      "Goldilocks ignores that she is tired and goes for a walk."
+    ],
+    "next": "scene25"
+  },
+  "scene25": {
+    "image": "res://graphics/goldilocks_and_the_three_bears/tlb25.png",
+    "text": [
+      "Walking not only makes Goldilocks more tired, but makes her stomach hurt since she didn't rest after eating."
+    ],
+    "prompt": "Let's have Goldilocks try something else.",
+    "choices": [
+      {
+        "text": "She should sit down to rest for a bit.",
+        "next": "scene14"
+      },
+      {
+        "text": "She should eat more porridge.",
+        "next": "scene13"
+      }
+    ]
+  },
+  "scene26": {
+    "text": [
+      "Why is saying you are sorry sometimes hard to do? Why is forgiving someone sometimes hard to do?",
+      "Can you think of a time you had to say sorry, or forgive someone, and how did that make your relationship better?"
+    ],
+    "end": true
+  }
+}

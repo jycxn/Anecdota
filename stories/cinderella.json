@@ -1,0 +1,360 @@
+    {
+      "story_title": "Cinderella",
+      "scene1": {
+        "image": "res://graphics/cinderella/cin1.png",
+        "text": [
+          "There lives a kind girl named Cinderella who lives with her stepmother and two stepsisters."
+        ],
+        "next": "scene2"
+      },
+      "scene2": {
+        "image": "res://graphics/cinderella/cin2.png",
+        "text": [
+          "Her family is not kind to her, and every day they make her do all the chores.",
+          "They also do not thank her for her hard work.",
+          "But even though they are not fair, Cinderella tries to stay hopeful."
+        ],
+        "next": "scene3"
+      },
+      "scene3": {
+        "image": "res://graphics/cinderella/cin3.png",
+        "text": [
+          "One morning, Cinderella wakes up to a huge mess!",
+          "Her stepsisters throw their laundry all over the floor and leave the door open, so a lot of dirt and garbage blows in from outside the house.",
+          "She feels frustrated looking at the scene, and then she sees her stepsisters walk into the room."
+        ],
+        "prompt": "What should Cinderella do?",
+        "choices": [
+          {
+            "text": "Call them names and say she is not their servant.",
+            "next": "scene4"
+          },
+          {
+            "text": "Clean it all up without saying anything.",
+            "next": "scene5"
+          },
+          {
+            "text": "Calmly ask them to pick up after themselves and tell them how it makes her feel.",
+            "next": "scene6"
+          }
+        ]
+      },
+      "scene4": {
+        "image": "res://graphics/cinderella/cin4.png",
+        "text": [
+          "Being mean to them even if they were mean first, can make everyone more upset, and Cinderella does not explain how she feels."
+        ],
+        "prompt": "Let us have Cinderella try something else.",
+        "choices": [
+          {
+            "text": "Clean it all up without saying anything.",
+            "next": "scene5"
+          },
+          {
+            "text": "Calmly ask them to pick up after themselves and explain how it makes her feel.",
+            "next": "scene6"
+          }
+        ]
+      },
+      "scene5": {
+        "image": "res://graphics/cinderella/cin5.png",
+        "text": [
+          "Cleaning without saying anything does not help Cinderella tell them how the mess makes her feel."
+        ],
+        "prompt": "Let us have Cinderella try something else.",
+        "choices": [
+          {
+            "text": "Call them names and say she is not their servant.",
+            "next": "scene4"
+          },
+          {
+            "text": "Calmly ask them to pick up after themselves and explain how it makes her feel.",
+            "next": "scene6"
+          }
+        ]
+      },
+      "scene6": {
+        "image": "res://graphics/cinderella/cin6.png",
+        "text": [
+          "Saying how you feel is important, even when it is hard.",
+          "Her stepsisters still laugh at her for asking them to clean up their own mess, but Cinderella still feels better knowing she is able to express how she feels."
+        ],
+        "next": "scene7"
+      },
+      "scene7": {
+        "image": "res://graphics/cinderella/cin7.png",
+        "text": [
+          "One day, Cinderella is collecting the mail when she sees a bright gold invitation inside the mailbox!",
+          "There is a grand ball at the palace where everyone is invited."
+        ],
+        "next": "scene8"
+      },
+      "scene8": {
+        "image": "res://graphics/cinderella/cin8.png",
+        "text": [
+          "Cinderella excitedly rushes to show her stepmother, but her stepmother says only her stepsisters can go. Cinderella feels disappointed."
+        ],
+        "prompt": "What should she do?",
+        "choices": [
+          {
+            "text": "Sneak out to go to the ball without asking her stepmother again.",
+            "next": "scene9"
+          },
+          {
+            "text": "Say nothing and give up hope.",
+            "next": "scene10"
+          },
+          {
+            "text": "Ask again if she can go once she finishes her chores.",
+            "next": "scene11"
+          }
+        ]
+      },
+      "scene9": {
+        "image": "res://graphics/cinderella/cin9.png",
+        "text": [
+          "Cinderella does not know where she is going and gets turned away at the palace for not wearing fancy clothes.",
+          "Sneaking out without a plan or permission is not a safe choice."
+        ],
+        "prompt": "Let us have Cinderella try something else.",
+        "choices": [
+          {
+            "text": "Say nothing and give up hope.",
+            "next": "scene10"
+          },
+          {
+            "text": "Ask again if she can go once she finishes her chores.",
+            "next": "scene11"
+          }
+        ]
+      },
+      "scene10": {
+        "image": "res://graphics/cinderella/cin10.png",
+        "text": [
+          "Giving up without speaking means Cinderella does not have a chance to ask for what she wants."
+        ],
+        "prompt": "Let us have Cinderella try something else.",
+        "choices": [
+          {
+            "text": "Sneak out to go to the ball without permission.",
+            "next": "scene9"
+          },
+          {
+            "text": "Ask again if she can go once she finishes her chores.",
+            "next": "scene11"
+          }
+        ]
+      },
+      "scene11": {
+        "image": "res://graphics/cinderella/cin11.png",
+        "text": [
+          "Speaking up for yourself is important, and being polite and honest helps others hear you better.",
+          "Her stepmother thinks about it for a moment and then nods her head, saying Cinderella can go if all of the chores are done.",
+          "Then, she points to some writing on the invitation."
+        ],
+        "next": "scene12"
+      },
+      "scene12": {
+        "image": "res://graphics/cinderella/cin12.png",
+        "text": [
+          "\"It says on the invitation you have to be wearing fancy clothes to attend, and you have none!\" Her stepmother laughs and laughs.",
+          "\"Are you going to go to the ball in your torn up dress?\"",
+          "Cinderella says she will find a way to get a dress without their help."
+        ],
+        "next": "scene13"
+      },
+      "scene13": {
+        "image": "res://graphics/cinderella/cin13.png",
+        "text": [
+          "The night of the ball arrives, and Cinderella is upset that she does not have a dress for the ball."
+        ],
+        "next": "scene14"
+      },
+      "scene14": {
+        "image": "res://graphics/cinderella/cin14.png",
+        "text": [
+          "But that night, as she is finishing her chores, a Fairy Godmother appears.",
+          "Cinderella knows her from a book she reads as a child."
+        ],
+        "next": "scene15"
+      },
+      "scene15": {
+        "image": "res://graphics/cinderella/cin15.png",
+        "text": [
+          "The Fairy says, \"Cinderella! I watch over you, and you are such a kind and generous girl. I can help give you a dress that is as beautiful as you are kind!\"",
+          "Cinderella can not believe it, and she is so thankful to the Fairy Godmother."
+        ],
+        "next": "scene16"
+      },
+      "scene16": {
+        "image": "res://graphics/cinderella/cin16.png",
+        "text": [
+          "With a twirl of her wand, the Fairy transforms Cinderella's old dress into a beautiful ball gown and gives her glass slippers to wear as well."
+        ],
+        "next": "scene17"
+      },
+      "scene17": {
+        "image": "res://graphics/cinderella/cin17.png",
+        "text": [
+          "The Fairy Godmother says goodbye, but tells Cinderella to be home before midnight.",
+          "When both the big and little hands of a clock face up, the magic wears off, and her dress and shoes disappear!",
+          "Cinderella promises to be home before midnight and leaves the house."
+        ],
+        "next": "scene18"
+      },
+      "scene18": {
+        "image": "res://graphics/cinderella/cin18.png",
+        "text": [
+          "Cinderella arrives at the palace, and everyone is shocked at how beautiful her dress is, even the prince of the kingdom, who asks to dance with her."
+        ],
+        "next": "scene19"
+      },
+      "scene19": {
+        "image": "res://graphics/cinderella/cin19.png",
+        "text": [
+          "She has so much fun that she forgets about the magic until it is almost too late. Suddenly, the clock begins to strike twelve!"
+        ],
+        "prompt": "What should she do?",
+        "choices": [
+          {
+            "text": "Stay until the magic wears off and hope no one will notice.",
+            "next": "scene20"
+          },
+          {
+            "text": "Thank the prince, say goodbye, and leave before the magic ends to keep her promise.",
+            "next": "scene22"
+          },
+          {
+            "text": "Hide outside the palace and then come back so no one sees her dress changing.",
+            "next": "scene21"
+          }
+        ]
+      },
+      "scene20": {
+        "image": "res://graphics/cinderella/cin20.png",
+        "text": [
+          "Staying breaks Cinderella's promise and might have the magic run out."
+        ],
+        "prompt": "Let us have Cinderella try something else.",
+        "choices": [
+          {
+            "text": "Thank the prince, say goodbye, and leave before the magic ends to keep her promise.",
+            "next": "scene22"
+          },
+          {
+            "text": "Hide outside the palace and then come back so no one sees her dress changing.",
+            "next": "scene21"
+          }
+        ]
+      },
+      "scene21": {
+        "image": "res://graphics/cinderella/cin21.png",
+        "text": [
+          "Hiding outside does not help Cinderella keep her promise to be home before midnight."
+        ],
+        "prompt": "Let us have Cinderella try something else.",
+        "choices": [
+          {
+            "text": "Stay until the magic wears off and hope no one will notice.",
+            "next": "scene20"
+          },
+          {
+            "text": "Thank the prince, say goodbye, and leave before the magic ends to keep her promise.",
+            "next": "scene22"
+          }
+        ]
+      },
+      "scene22": {
+        "image": "res://graphics/cinderella/cin22.png",
+        "text": [
+          "Cinderella, in her rush to leave, accidentally leaves behind a glass slipper and keeps running.",
+          "The prince tries to call out and ask her name, but she does not hear him."
+        ],
+        "next": "scene23"
+      },
+      "scene23": {
+        "image": "res://graphics/cinderella/cin23.png",
+        "text": [
+          "Even though Cinderella leaves the ball early, she hears in town the next day that the prince is searching for the girl who wears the glass slipper because of her kindness."
+        ],
+        "next": "scene24"
+      },
+      "scene24": {
+        "image": "res://graphics/cinderella/cin24.png",
+        "text": [
+          "He goes to every house and asks people to try the glass slipper on, but no one's foot is able to fit it."
+        ],
+        "next": "scene25"
+      },
+      "scene25": {
+        "image": "res://graphics/cinderella/cin25.png",
+        "text": [
+          "When he comes to Cinderella's house, her two stepsisters rush to try to fit into the shoe, but it is too small for them.",
+          "Cinderella knows it fits her, but her stepmother tries to stop her from trying it on."
+        ],
+        "prompt": "What should Cinderella do?",
+        "choices": [
+          {
+            "text": "Call her stepmother unfair and stomp away.",
+            "next": "scene26"
+          },
+          {
+            "text": "Wait quietly and hope someone else will speak up.",
+            "next": "scene27"
+          },
+          {
+            "text": "Say firmly and kindly that she has the right to try on the slipper too.",
+            "next": "scene28"
+          }
+        ]
+      },
+      "scene26": {
+        "image": "res://graphics/cinderella/cin26.png",
+        "text": [
+          "Calling her stepmother unfair and walking away does not help Cinderella calmly stand up for herself."
+        ],
+        "prompt": "Let us have Cinderella try something else.",
+        "choices": [
+          {
+            "text": "Wait quietly and hope someone else will speak up.",
+            "next": "scene27"
+          },
+          {
+            "text": "Say firmly and kindly that she has the right to try on the slipper too.",
+            "next": "scene28"
+          }
+        ]
+      },
+      "scene27": {
+        "image": "res://graphics/cinderella/cin27.png",
+        "text": [
+          "Waiting for someone else to speak up may mean Cinderella never gets the chance to try on the slipper."
+        ],
+        "prompt": "Let us have Cinderella try something else.",
+        "choices": [
+          {
+            "text": "Call her stepmother unfair and stomp away.",
+            "next": "scene26"
+          },
+          {
+            "text": "Say firmly and kindly that she has the right to try on the slipper too.",
+            "next": "scene28"
+          }
+        ]
+      },
+      "scene28": {
+        "image": "res://graphics/cinderella/cin28.png",
+        "text": [
+          "The slipper fits perfectly! The prince smiles and says, \"I know it is you now!\"",
+          "Cinderella is invited to the palace afterwards, not because of magic, but because she is brave, kind, and true to herself.",
+          "She continues to live wisely and kindly."
+        ],
+        "next": "scene29"
+      },
+      "scene29": {
+        "text":[
+          "Cinderella was always kind even to people who were not, what is one reason it is still good to be kind even if it is hard?"
+        ],
+        "end": true
+      }
+    }

@@ -26,7 +26,7 @@
 "scene4": {
 	"image": "res://graphics/chicken_little/cl4.png",
 	"text": [
-		"Chicken Little doesn't see what hit him, and thinks the sky is falling.",
+		"Chicken Little does not see what hit him, and thinks the sky is falling.",
 		"His heart pounds, and he says out loud,",
 		"\"Oh no! If the sky is falling, I need to warn everyone before the stars and moon fall too!\"",
         "He runs off down the path towards the rest of the town."
@@ -51,10 +51,10 @@
 	"image": "res://graphics/chicken_little/cl5.png",
 	"text": [
 		"Chicken Little spreads panic.",
-        "Everyone becomes scared, even though they don't know what really happened."
+        "Everyone becomes scared, even though they do not know what really happened."
 
 	],
-	"prompt": "Let's have Chicken Little try something else.",
+	"prompt": "Let us have Chicken Little try something else.",
 	"choices": [
 		{
 			"text": "Stop and look around to figure out what hit him.",
@@ -71,7 +71,7 @@
 	"text": [
         "Chicken Little stays frightened and does not solve the problem."
 	],
-	"prompt": "Let's have Chicken Little try something else.",
+	"prompt": "Let us have Chicken Little try something else.",
 	"choices": [
 		{
 			"text": "Run through the forest yelling that the sky is falling.",
@@ -128,7 +128,7 @@
 			"next": "scene12"
 		},
 		{
-			"text": "Say, \"An acorn fell on my head and that has never happened. I'm not sure what it means. Maybe we should check with others.\"",
+			"text": "Say, \"An acorn fell on my head and that has never happened. I am not sure what it means. Maybe we should check with others.\"",
 			"next": "scene13"
 		},
 		{
@@ -142,10 +142,10 @@
 	"text": [
         "Duckie becomes very scared and starts to panic, and Chicken Little does not feel any better."
 	],
-	"prompt": "Let's have Chicken Little try something else.",
+	"prompt": "Let us have Chicken Little try something else.",
 	"choices": [
 		{
-			"text": "Say, \"An acorn fell on my head and that has never happened. I'm not sure what it means. Maybe we should check with others.\"",
+			"text": "Say, \"An acorn fell on my head and that has never happened. I am not sure what it means. Maybe we should check with others.\"",
 			"next": "scene13"
 		},
 		{
@@ -166,14 +166,14 @@
 	"text": [
         "Duckie feels confused and unsure what to do, and Chicken Little does not feel any better."
 	],
-	"prompt": "Let's have Chicken Little try something else.",
+	"prompt": "Let us have Chicken Little try something else.",
 	"choices": [
 		{
 			"text": "Say, \"The sky is falling soon! We are in danger!\" just in case the sky truly is falling.",
 			"next": "scene12"
 		},
 		{
-			"text": "Say, \"An acorn fell on my head and that has never happened. I'm not sure what it means. Maybe we should check with others.\"",
+			"text": "Say, \"An acorn fell on my head and that has never happened. I am not sure what it means. Maybe we should check with others.\"",
 			"next": "scene13"
 		}
 	]
@@ -207,7 +207,7 @@
         "Picking the first option you hear may not always be the best one."
 
 	],
-	"prompt": "Let's have Chicken Little try something else.",
+	"prompt": "Let us have Chicken Little try something else.",
 	"choices": [
 		{
 			"text": "Chicken Little should continue to let everyone speak, and listen to whoever is the loudest.",
@@ -224,7 +224,7 @@
 	"text": [
         "The group could not hear some ideas because everyone was talking at the same time."
 	],
-	"prompt": "Let's have Chicken Little try something else.",
+	"prompt": "Let us have Chicken Little try something else.",
 	"choices": [
 		{
 			"text": "Chicken Little should close his eyes and pick one animal, and the group should believe the idea of whoever he picks ",
@@ -263,7 +263,7 @@
 	"image": "res://graphics/chicken_little/cl21.png",
 	"text": [
 		"The farmer shakes the tree gently, and a bunch of acorns fall out.",
-		"\"Sometimes they fall, but that's not a bad thing! It is how the tree plants its seeds,\" the farmer says."
+		"\"Sometimes they fall, but that is not a bad thing! It is how the tree plants its seeds,\" the farmer says."
 	],
 	"next": "scene22"
 },

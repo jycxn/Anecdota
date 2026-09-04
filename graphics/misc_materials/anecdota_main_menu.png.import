@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ci8a6ab2km24f"
-path="res://.godot/imported/anecdota_main_menu.png-6844dc4b9a07d4245b94fe99d7355bfc.ctex"
+uid="uid://bku3i8r4uiumu"
+path="res://.godot/imported/anecdota_main_menu.PNG-c71a362a9931d2e0f1258d0bf6671a66.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://graphics/misc_materials/anecdota_main_menu.png"
-dest_files=["res://.godot/imported/anecdota_main_menu.png-6844dc4b9a07d4245b94fe99d7355bfc.ctex"]
+source_file="res://graphics/misc_materials/anecdota_main_menu.PNG"
+dest_files=["res://.godot/imported/anecdota_main_menu.PNG-c71a362a9931d2e0f1258d0bf6671a66.ctex"]
 
 [params]
 

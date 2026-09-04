@@ -18,3 +18,7 @@ func _on_story_selector_pressed() -> void:
 func _on_tutorial_pressed() -> void:
 	storymanager.current_story_path = "res://stories/tutorial.json"
 	get_tree().change_scene_to_file("res://scenes/storyengine.tscn")
+
+
+func _on_gryphonlink_pressed() -> void:
+	OS.shell_open("https://www.thegryphonsinclusivitynetwork.ca")
