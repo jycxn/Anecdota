@@ -39,7 +39,7 @@ func _on_tomthumb_pressed() -> void:
 		)
 		
 func _on_tortoisehare_pressed() -> void:
-	storymanager.current_story_path = "res://stories/tortoisehare.json"
+	storymanager.current_story_path = "res://stories/tortoiseandhare.json"
 	
 	get_tree().change_scene_to_file(
 		"res://scenes/storyengine.tscn"
