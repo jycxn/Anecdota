@@ -12,7 +12,7 @@ func _process(delta: float) -> void:
 
 
 func _on_story_selector_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/storyselection.tscn")
+	get_tree().change_scene_to_file("res://scenes/storyselection1.tscn")
 
 
 func _on_tutorial_pressed() -> void:

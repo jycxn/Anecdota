@@ -3,14 +3,16 @@
   "scene1": {
     "image": "res://graphics/little_red_riding_hood/lrrh1.png",
     "text": [
-      "Little Red Riding Hood is a little girl who lives with her mother in a small cottage at the edge of the forest. One morning she is making breakfast when her mother puts a basket on the table of cough syrup, warm soup, and sweet cookies."
+      "Little Red Riding Hood is a little girl who lives with her mother in a small cottage at the edge of the forest.",
+      "One morning, she is making breakfast when her mother puts a basket of cough syrup, warm soup, and sweet cookies on the table."
     ],
     "next": "scene2"
   },
   "scene2": {
     "image": "res://graphics/little_red_riding_hood/lrrh2.png",
     "text": [
-      "\"Your grandmother is not feeling well,\" her mother says. \"Could you please help me bring her this basket?\""
+      "\"Your grandmother is not feeling well,\" her mother says.",
+      "\"Could you please help me bring her this basket?\""
     ],
     "next": "scene3"
   },
@@ -26,7 +28,7 @@
         "next": "scene6"
       },
       {
-        "text": "She should rush out the door, since the faster she gets to Grandmother's, the faster Red can see her.",
+        "text": "She should rush out the door since the faster she gets to Grandmother's, the faster Red can see her.",
         "next": "scene4"
       },
       {
@@ -38,7 +40,7 @@
   "scene4": {
     "image": "res://graphics/little_red_riding_hood/lrrh4.png",
     "text": [
-      "She does not hear the instructions because she rushed out, and then gets lost."
+      "She does not hear the instructions because she rushes out and then gets lost."
     ],
     "prompt": "Let's have Little Red Riding Hood try something else.",
     "choices": [
@@ -55,7 +57,8 @@
   "scene5": {
     "image": "res://graphics/little_red_riding_hood/lrrh5.png",
     "text": [
-      "Her mother catches her eating the food in the basket. It is bad to be dishonest!"
+      "Her mother catches her eating the food in the basket.",
+      "It is bad to be dishonest!"
     ],
     "prompt": "Let's have Little Red Riding Hood try something else.",
     "choices": [
@@ -64,7 +67,7 @@
         "next": "scene6"
       },
       {
-        "text": "She should rush out the door, since the faster she gets to Grandmother's, the faster Red can see her.",
+        "text": "She should rush out the door since the faster she gets to Grandmother's, the faster Red can see her.",
         "next": "scene4"
       }
     ]
@@ -72,21 +75,28 @@
   "scene6": {
     "image": "res://graphics/little_red_riding_hood/lrrh6.png",
     "text": [
-      "Little Red knows that she needs to listen carefully to stay safe. Her mother smiles and gives her the instructions, telling her, \"You must remember two important rules. One: Stay on the white path to get to Grandmother's.\""
+      "Little Red knows that she needs to listen carefully to stay safe.",
+      "Her mother smiles and gives her the instructions, telling her, \"You must remember two important rules.",
+      "One: Stay on the white path to get to Grandmother's.\""
     ],
     "next": "scene7"
   },
   "scene7": {
     "image": "res://graphics/little_red_riding_hood/lrrh7.png",
     "text": [
-      "\"Two: Do not talk to strangers. Some people might not be safe, even if they seem friendly.\" Once she knows the rules, Red leaves the house for Grandmother's house."
+      "\"Two: Do not talk to strangers. Some people might not be safe, even if they seem friendly.\"",
+      "Once she knows the rules, Red leaves the house for Grandmother's house."
     ],
     "next": "scene8"
   },
   "scene8": {
     "image": "res://graphics/little_red_riding_hood/lrrh8.png",
     "text": [
-      "As she walks around a bend, a tall figure steps out from behind a tree. She realizes it's a wolf. His eyes are sharp and his fur is messy, but he puts on a big smile and speaks kindly to Red. \"Hello, little girl,\" the wolf says. \"What a lovely basket. Where are you going today?\""
+      "As she walks around a bend, a tall figure steps out from behind a tree.",
+      "She realizes it's a wolf.",
+      "His eyes are sharp and his fur is messy, but he puts on a big smile and speaks kindly to Red.",
+      "\"Hello, little girl,\" the wolf says.",
+      "\"What a lovely basket. Where are you going today?\""
     ],
     "prompt": "What should she do?",
     "choices": [
@@ -107,7 +117,8 @@
   "scene9": {
     "image": "res://graphics/little_red_riding_hood/lrrh9.png",
     "text": [
-      "Sharing where she is going with a stranger could put Little Red in danger. She should remember her mother's rule and keep that information private."
+      "Sharing where she is going with a stranger could put Little Red in danger.",
+      "She should remember her mother's rule and keep that information private."
     ],
     "prompt": "Let's have Little Red Riding Hood try something else.",
     "choices": [
@@ -124,7 +135,8 @@
   "scene10": {
     "image": "res://graphics/little_red_riding_hood/lrrh10.png",
     "text": [
-      "Running and screaming when there is no immediate danger may make the situation less safe. Little Red should stay calm and follow her mother's rule."
+      "Running and screaming when there is no immediate danger may make the situation less safe.",
+      "Little Red should stay calm and follow her mother's rule."
     ],
     "prompt": "Let's have Little Red Riding Hood try something else.",
     "choices": [
@@ -141,14 +153,18 @@
   "scene11": {
     "image": "res://graphics/little_red_riding_hood/lrrh11.png",
     "text": [
-      "Little Red uses a polite voice, follows her mother's rule, and keeps moving. She does not share where she's going, but also stays calm and avoids any danger."
+      "Little Red uses a polite voice, follows her mother's rule, and keeps moving.",
+      "She does not share where she's going, but also stays calm and avoids any danger."
     ],
     "next": "scene12"
   },
   "scene12": {
     "image": "res://graphics/little_red_riding_hood/lrrh12.png",
     "text": [
-      "As she walks, the path curves gently, and she sees a trail on the side. A sign on the ground says that it's a shortcut through the trees. The shortcut looks faster but also darker. Red feels curious but also a little nervous, so she pauses."
+      "As she walks, the path curves gently and she sees a trail on the side.",
+      "A sign on the ground says that it's a shortcut through the trees.",
+      "The shortcut looks faster but also darker.",
+      "Red feels curious but also a little nervous, so she pauses."
     ],
     "prompt": "What should she do?",
     "choices": [
@@ -203,28 +219,37 @@
   "scene15": {
     "image": "res://graphics/little_red_riding_hood/lrrh15.png",
     "text": [
-      "Little Red pauses to think and she makes a list in her mind. She knows the shortcut is faster, but she might get lost or face something dangerous. The path is longer, but she knows it is safe. After thinking it through, she chooses to stay on the path."
+      "Little Red pauses to think, and she makes a list in her mind.",
+      "She knows the shortcut is faster, but she might get lost or face something dangerous.",
+      "The path is longer, but she knows it is safe.",
+      "After thinking it through, she chooses to stay on the path."
     ],
     "next": "scene16"
   },
   "scene16": {
     "image": "res://graphics/little_red_riding_hood/lrrh16.png",
     "text": [
-      "Red reaches Grandmother's house. The door is slightly open, which is strange since Grandmother knows to keep it locked because of strangers."
+      "Red reaches Grandmother's house.",
+      "The door is slightly open, which is strange since Grandmother knows to keep it locked because of strangers."
     ],
     "next": "scene17"
   },
   "scene17": {
     "image": "res://graphics/little_red_riding_hood/lrrh17.png",
     "text": [
-      "Red slowly steps inside and the room is dark and the air feels different. She walks into the bedroom to find someone lying in bed under the covers. It looks like Grandmother, but... something is not right."
+      "Red slowly steps inside.",
+      "The room is dark, and the air feels different.",
+      "She walks into the bedroom to find someone lying in bed under the covers.",
+      "It looks like Grandmother, but... something is not right."
     ],
     "next": "scene18"
   },
   "scene18": {
     "image": "res://graphics/little_red_riding_hood/lrrh18.png",
     "text": [
-      "She has ears growing from her hair, her eyes look all red, and she is a lot taller than she usually is. \"Come closer, dear, it's me, Grandmother,\" says the figure. \"Let me see you better.\""
+      "She has ears growing from her hair, her eyes look all red, and she is a lot taller than she usually is.",
+      "\"Come closer, dear, it's me, Grandmother,\" says the figure.",
+      "\"Let me see you better.\""
     ],
     "prompt": "What should she do?",
     "choices": [
@@ -245,7 +270,8 @@
   "scene19": {
     "image": "res://graphics/little_red_riding_hood/lrrh19.png",
     "text": [
-      "Ignoring signs that something is wrong could put Little Red in danger. It is safer to step back and ask questions."
+      "Ignoring signs that something is wrong could put Little Red in danger.",
+      "It is safer to step back and ask questions."
     ],
     "prompt": "Let's have Little Red Riding Hood try something else.",
     "choices": [
@@ -262,7 +288,8 @@
   "scene20": {
     "image": "res://graphics/little_red_riding_hood/lrrh20.png",
     "text": [
-      "Throwing the basket could hurt someone before Little Red knows what is wrong. It is safer to step back and ask questions."
+      "Throwing the basket could hurt someone before Little Red knows what is wrong.",
+      "It is safer to step back and ask questions."
     ],
     "prompt": "Let's have Little Red Riding Hood try something else.",
     "choices": [
@@ -279,27 +306,43 @@
   "scene21": {
     "image": "res://graphics/little_red_riding_hood/lrrh21.png",
     "text": [
-      "\"Grandmother, are you feeling alright? Your eyes are all red!\" Red asks in concern, taking a step back and getting the medicine."
+      "\"Grandmother, are you feeling alright? Your eyes are all red!\"",
+      "Red asks in concern, taking a step back and getting the medicine."
     ],
     "next": "scene22"
   },
   "scene22": {
     "image": "res://graphics/little_red_riding_hood/lrrh22.png",
     "text": [
-      "All of a sudden, Grandmother jumps out of bed, but it's not her, it's the wolf in disguise! Red is thankful she stepped back."
+      "All of a sudden, Grandmother jumps out of bed, but it's not her; it's the wolf in disguise!",
+      "Red is thankful she stepped back."
     ],
     "next": "scene23"
   },
   "scene23": {
     "image": "res://graphics/little_red_riding_hood/lrrh23.png",
     "text": [
-      "The wolf begins to growl and is about to run after Red, when all of a sudden, Red hears Grandmother's neighbour, a lumberjack, come in. He had heard all of the commotion, and came over to check on Grandmother."
+      "The wolf begins to growl and is about to run after Red",
+      "when, all of a sudden, Red hears Grandmother's neighbour, a lumberjack, come in.",
+      "He had heard all of the commotion and came over to check on Grandmother."
     ],
     "next": "scene24"
   },
   "scene24": {
+    "image": "res://graphics/little_red_riding_hood/lrrh24.png",
     "text": [
-      "The lumberjack chases the wolf away, and Grandmother steps out of the closet where she was hiding. Red hugs her tightly and says, \"I followed the rules, and I asked questions when something felt wrong.\" Grandmother smiles. \"You are growing into a wise and brave girl.\""
+      "The lumberjack chases the wolf away, and Grandmother steps out of the closet where she was hiding.",
+      "Red hugs her tightly and says, \"I followed the rules, and I asked questions when something felt wrong.\"",
+      "Grandmother smiles.",
+      "\"You are growing into a wise and brave girl.\""
+    ],
+    "next": "scene25"
+  },
+  "scene25": {
+    "text": [
+      "How something or someone may look and how they act can be different.",
+      "Some plants look harmless but are poisonous, a road can look safe to cross but have cars coming around super fast.",
+      "Can you name something in your life that is different from how it looks?"
     ],
     "end": true
   }

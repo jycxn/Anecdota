@@ -662,6 +662,7 @@ text = "Pause"
 autowrap_mode = 3
 
 [node name="fadeoverlay" type="ColorRect" parent="." unique_id=1444581776]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5

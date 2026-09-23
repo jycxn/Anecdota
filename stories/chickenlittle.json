@@ -5,29 +5,29 @@
 	"text": [
 		"There is a small town where many different animals live.", 
 		"A rooster named Chicken Little is one of the animals, and he spends his days on a farm.", 
-        "Everyday he eats seeds and plays under a tall oak tree."
+        "Every day, he eats seeds and plays under a tall oak tree."
 	],
 	"next":"scene2"
 },
 "scene2": {
 	"image": "res://graphics/chicken_little/cl2.png",
 	"text": [
-        "One sunny morning, Chicken Little lies down under the oak tree when he hears a rustling sound in the leaves above him"
+        "One sunny morning, Chicken Little lies down under the oak tree when he hears a rustling sound in the leaves above him."
 	],
 	"next": "scene3"
 },
 "scene3": {
 	"image": "res://graphics/chicken_little/cl3.png",
 	"text": [
-        "He looks up to check for what was making the noise, when an acorn comes falling down from the branches and hits him on the head."
+        "He looks up to check what is making the noise when an acorn falls from the branches and hits him on the head."
 	],
 	"next": "scene4"
 },
 "scene4": {
 	"image": "res://graphics/chicken_little/cl4.png",
 	"text": [
-		"Chicken Little does not see what hit him, and thinks the sky is falling.",
-		"His heart pounds, and he says out loud,",
+		"Chicken Little does not see what hit him and thinks the sky is falling.",
+		"His heart pounds, and he says out loud:",
 		"\"Oh no! If the sky is falling, I need to warn everyone before the stars and moon fall too!\"",
         "He runs off down the path towards the rest of the town."
 	],
@@ -86,7 +86,7 @@
 "scene6": {
 	"image": "res://graphics/chicken_little/cl6.png",
 	"text": [
-        "When you have a problem, slowing down helps us make calm and thoughtful decisions."
+        "When you have a problem, slowing down helps you make calm and thoughtful decisions."
 	],
 	"next": "scene8"
 },
@@ -102,8 +102,8 @@
 	"image": "res://graphics/chicken_little/cl9.png",
 	"text": [
 		"Chicken Little stares at the acorn for a while.",
-		"\"Hmm…the sky did not fall on me just now, but what if it falls next?\" he wonders.",
-        "He decides to find his friends and ask for their help to answer his question, just to be safe. "
+		"\"Hmm… the sky did not fall on me just now, but what if it falls next?\" he wonders.",
+        "He decides to find his friends and ask for their help to answer his question, just to be safe."
 	],
 	"next": "scene10"
 },
@@ -181,17 +181,17 @@
 "scene15": {
 	"image": "res://graphics/chicken_little/cl15.png",
 	"text": [
-		"Together Duckie and Chicken Little walk and meet their other animal friends.",
-        "The group grew larger and noisier. Everyone talked at the same time about what could be happening. "
+		"Together, Duckie and Chicken Little walk and meet their other animal friends.",
+        "The group grows larger and noisier. Everyone talks at the same time about what could be happening. "
 	],
 	"prompt": "How should Chicken Little and his friends figure out what happened?",
 	"choices": [
 		{
-			"text": "Chicken Little should close his eyes and pick one animal, and the group should believe the idea of whoever he picks ",
+			"text": "Chicken Little should close his eyes and pick one animal, and the group should believe the idea of whoever he picks.",
 			"next": "scene16"
 		},
 		{
-			"text": " Chicken Little should continue to let everyone speak, and listen to whoever is the loudest.",
+			"text": " Chicken Little should continue to let everyone speak and listen to whoever is the loudest.",
 			"next": "scene17"
 		},
 		{
@@ -210,7 +210,7 @@
 	"prompt": "Let us have Chicken Little try something else.",
 	"choices": [
 		{
-			"text": "Chicken Little should continue to let everyone speak, and listen to whoever is the loudest.",
+			"text": "Chicken Little should continue to let everyone speak and listen to whoever is the loudest.",
 			"next": "scene17"
 		},
 		{
@@ -227,7 +227,7 @@
 	"prompt": "Let us have Chicken Little try something else.",
 	"choices": [
 		{
-			"text": "Chicken Little should close his eyes and pick one animal, and the group should believe the idea of whoever he picks ",
+			"text": "Chicken Little should close his eyes and pick one animal, and the group should believe the idea of whoever he picks.",
 			"next": "scene16"
 		},
 		{
@@ -272,7 +272,7 @@
 	"text": [
 		"\"Oh!\" Chicken Little says, laughing with relief. \"It was just an acorn after all!\"",
 		"The friends smile at each other.",
-        "They felt proud that they worked together, stayed calm, and made thoughtful choices throughout the day."
+        "They feel proud that they worked together, stayed calm, and made thoughtful choices throughout the day."
 	],
 	"next": "scene24"
 },

@@ -1,0 +1,368 @@
+{
+	"story_title": "Tom Thumb",
+
+	"scene1": {
+		"image": "res://graphics/tom_thumb/tt1.png",
+		"text": [
+            "One day, a man and a woman wish for a child. They want a child even if they turn out so small that they are no bigger than a thumb."
+		],
+		"next": "scene2"
+	},
+
+	"scene2": {
+		"image": "res://graphics/tom_thumb/tt2.png",
+		"text": [
+            "Their wish comes true and they have a baby boy who is tiny, just the size of a thumb. They name him Tom Thumb."
+		],
+		"next": "scene3"
+	},
+
+	"scene3": {
+		"image": "res://graphics/tom_thumb/tt3.png",
+		"text": [
+            "Tom stayed tiny, but he is smart and fast."
+		],
+		"next": "scene4"
+	},
+
+	"scene4": {
+		"image": "res://graphics/tom_thumb/tt4.png",
+		"text": [
+			"One day, Tom decides to set a goal.",
+            "When setting goals, it is important to ensure that they are specific, measurable, achievable, relevant, and time-bound."
+
+		],
+		"prompt": "What goal should Tom set?",
+		"choices": [
+			{
+				"text": "Tom's goal should be to fly.",
+				"next": "scene5"
+			},
+			{
+				"text": "Tom's goal should be to improve in all aspects of his life within the next two years.",
+				"next": "scene6"
+			},
+			{
+				"text": "Tom's goal should be to find a way to help his father bring the cart from the woods this week.",
+				"next": "scene7"
+			}
+		]
+	},
+
+	"scene5": {
+		"image": "res://graphics/tom_thumb/tt5.png",
+		"text": [
+            "Flying would be very cool! Unfortunately that is not an achievable goal so Tom would spend a lot of time trying to do something he cannot do."
+		],
+		"prompt": "Let's have Tom try something else.",
+		"choices": [
+			{
+				"text": "Tom's goal should be to improve in all aspects of his life within the next two years.",
+				"next": "scene6"
+			},
+			{
+				"text": "Tom's goal should be to find a way to help his father bring the cart from the woods this week.",
+				"next": "scene7"
+			}
+		]
+	},
+
+	"scene6": {
+		"image": "res://graphics/tom_thumb/tt6.png",
+		"text": [
+            "This goal is not specific so it makes Tom overwhlemed! He does not know what to work on."
+		],
+		"prompt": "Let's have Tom try something else.",
+		"choices": [
+			{
+				"text": "Tom's goal should be to fly.",
+				"next": "scene5"
+			},
+			{
+				"text": "Tom's goal should be to find a way to help his father bring the cart from the woods this week.",
+				"next": "scene7"
+			}
+		]
+	},
+
+	"scene7": {
+		"image": "res://graphics/tom_thumb/tt7.png",
+		"text": [
+            "Yes, this is a specific, measurable, achievable, relevant, and time-bound goal!"
+		],
+		"next": "scene8"
+	},
+
+	"scene8": {
+		"image": "res://graphics/tom_thumb/tt8.png",
+		"text": [
+            "Tom comes up with a plan to sit in the horse's ear and tell the horse where to go. His father laughs but lets him try."
+		],
+		"prompt": "How should Tom feel?",
+		"choices": [
+			{
+				"text": "Tom should not try because his father laughed at the idea.",
+				"next": "scene9"
+			},
+			{
+				"text": "Tom should believe in himself and follow his plan.",
+				"next": "scene10"
+			},
+			{
+				"text": "Tom should get angry because he does not like people not believing in him.",
+				"next": "scene11"
+			}
+		]
+	},
+
+	"scene9": {
+		"image": "res://graphics/tom_thumb/tt9.png",
+		"text": [
+            "Just because others may not understand or believe in your idea does not mean that it is not worth trying."
+		],
+		"prompt": "Let's have Tom try something else.",
+		"choices": [
+			{
+				"text": "Tom should believe in himself and follow his plan.",
+				"next": "scene10"
+			},
+			{
+				"text": "Tom should get angry because he does not like people not believing in him.",
+				"next": "scene11"
+			}
+		]
+	},
+
+	"scene10": {
+		"image": "res://graphics/tom_thumb/tt10.png",
+		"text": [
+            "Tom knows that his idea could work and follows it!"
+		],
+		"next": "scene12"
+	},
+
+	"scene11": {
+		"image": "res://graphics/tom_thumb/tt11.png",
+		"text": [
+            "There will always be people who do not believe in you or your ideas, but what is important is if you do."
+		],
+		"prompt": "Let's have Tom try something else.",
+		"choices": [
+			{
+				"text": "Tom should not try because his father laughed at the idea.",
+				"next": "scene9"
+			},
+			{
+				"text": "Tom should believe in himself and follow his plan.",
+				"next": "scene10"
+			}
+		]
+	},
+
+	"scene12": {
+		"image": "res://graphics/tom_thumb/tt12.png",
+		"text": [
+			"Tom guides the horse to the woods and his father is amazed.",
+             "He showed good problem-solving skills."
+		],
+		"next": "scene13"
+	},
+
+	"scene13": {
+		"image": "res://graphics/tom_thumb/tt13.png",
+		"text": [
+			"The next day, two strangers see Tom Thumb and think they can make money by showing him in town.",
+            "They offer to buy him from his father."
+		],
+		"next": "scene14"
+	},
+
+	"scene14": {
+		"image": "res://graphics/tom_thumb/tt14.png",
+		"text": [
+            "Tom overhears this and decides to go with the strangers. He promises his father that he will come back soon."
+		],
+		"next": "scene15"
+	},
+
+	"scene15": {
+		"image": "res://graphics/tom_thumb/tt15.png",
+		"text": [
+			"He quickly sees that this was a bad decision! You should not go with strangers.",
+            "He runs away from them, sneaking into a mouse hole to escape."
+		],
+		"next": "scene16"
+	},
+
+	"scene16": {
+		"image": "res://graphics/tom_thumb/tt16.png",
+		"text": [
+            "As the men look for him, he uses his voice to trick them and make them believe he is still in the mouse hole."
+		],
+		"next": "scene17"
+	},
+
+	"scene17": {
+		"image": "res://graphics/tom_thumb/tt17.png",
+		"text": [
+            "He then finds an empty snail shell and uses it to sleep in."
+		],
+		"next": "scene18"
+	},
+
+	"scene18": {
+		"image": "res://graphics/tom_thumb/tt18.png",
+		"text": [
+            "The next day, Tom finds himself in even more trouble. He got swallowed by a cow and is inside its stomach."
+		],
+		"prompt": "He hears the farmer nearby. What should Tom do?",
+		"choices": [
+			{
+				"text": "Tom should figure it out on his own becuase he does not want to bother the farmer.",
+				"next": "scene19"
+			},
+			{
+				"text": "Tom should give up because there is nothing that he can do.",
+				"next": "scene20"
+			},
+			{
+				"text": "Tom should ask for help from the farmer since he needs it.",
+				"next": "scene21"
+			}
+		]
+	},
+
+	"scene19": {
+		"image": "res://graphics/tom_thumb/tt19.png",
+		"text": [
+            "When you need help like Tom does, you should ask."
+		],
+		"prompt": "Let's have Tom try something else.",
+		"choices": [
+			{
+				"text": "Tom should give up because there is nothing that he can do.",
+				"next": "scene20"
+			},
+			{
+				"text": "Tom should ask for help from the farmer since he needs it.",
+				"next": "scene21"
+			}
+		]
+	},
+
+	"scene20": {
+		"image": "res://graphics/tom_thumb/tt20.png",
+		"text": [
+            "Now, Tom is stuck!"
+		],
+		"prompt": "Let's have Tom try something else.",
+		"choices": [
+			{
+				"text": "Tom should figure it out on his own becuase he does not want to bother the farmer.",
+				"next": "scene19"
+			},
+			{
+				"text": "Tom should ask for help from the farmer since he needs it.",
+				"next": "scene21"
+			}
+		]
+	},
+
+	"scene21": {
+		"image": "res://graphics/tom_thumb/tt21.png",
+		"text": [
+            "Tom calls out for help."
+		],
+		"next": "scene22"
+	},
+
+	"scene22": {
+		"image": "res://graphics/tom_thumb/tt22.png",
+		"text": [
+            "The farmer is so surprised he accidentally spills the milk, but helps Tom."
+		],
+		"next": "scene23"
+	},
+
+	"scene23": {
+		"image": "res://graphics/tom_thumb/tt23.png",
+		"text": [
+            "Tom returns home and his parents are very happy."
+		],
+		"prompt": "What should Tom have learned?",
+		"choices": [
+			{
+				"text": "Tom should not go with strangers since he now knows that it can be not safe.",
+				"next": "scene24"
+			},
+			{
+				"text": "Tom should go with strangers again because it worked out this time.",
+				"next": "scene25"
+			},
+			{
+				"text": "Tom should stay in the house and not leave as things happen when he is outside of the house.",
+				"next": "scene26"
+			}
+		]
+	},
+
+	"scene24": {
+		"image": "res://graphics/tom_thumb/tt24.png",
+		"text": [
+            ""
+		],
+		"next": "scene27"
+	},
+
+	"scene25": {
+		"image": "res://graphics/tom_thumb/tt25.png",
+		"text": [
+            "Tom was ok this time, but things could go wrong next time. It is better to not take the risk."
+		],
+		"prompt": "Let's pick a different lesson for Tom to learn.",
+		"choices": [
+			{
+				"text": "Tom should not go with strangers since he now knows that it can be not safe.",
+				"next": "scene24"
+			},
+			{
+				"text": "Tom should stay in the house and not leave as things happen when he is outside of the house.",
+				"next": "scene26"
+			}
+		]
+	},
+
+	"scene26": {
+		"image": "res://graphics/tom_thumb/tt26.png",
+		"text": [
+            "Do not let one bad experience keep you from doing something again."
+		],
+		"prompt": "Let's pick a different lesson for Tom to learn.",
+		"choices": [
+			{
+				"text": "Tom should not go with strangers since he now knows that it can be not safe.",
+				"next": "scene24"
+			},
+			{
+				"text": "Tom should go with strangers again because it worked out this time.",
+				"next": "scene25"
+			}
+		]
+	},
+
+	"scene27": {
+		"image": "res://graphics/tom_thumb/tt27.png",
+		"text": [
+			"Tom is happy he is ok.",
+            "He now understands the importance of being safe, asking for help, and using problem-solving skills."
+		],
+		"next": "scene28"
+	},
+	"scene28": {
+		"text": [
+			"It can be hard to try something if others do not believe in you at the start, like Tom's father.",
+            "What is something you can say to yourself to keep trying when it is hard?"
+		],
+		"end": true
+	}
+}

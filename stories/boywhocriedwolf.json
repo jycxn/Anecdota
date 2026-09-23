@@ -3,14 +3,16 @@
   "scene1": {
     "image": "res://graphics/boy_who_cried_wolf/bwcw1.png",
     "text": [
-      "Once upon a time, there was a shepherd boy. He was sitting on a hillside, keeping an eye on the village sheep."
+      "Once upon a time, there was a shepherd boy.",
+      "He was sitting on a hillside, keeping an eye on the village sheep."
     ],
     "next": "scene2"
   },
   "scene2": {
     "image": "res://graphics/boy_who_cried_wolf/bwcw2.png",
     "text": [
-      "He had been there for hours, and the task felt boring. He wanted something fun to do, but he wasn't sure how to pass the time."
+      "He had been there for hours, and the task felt boring.",
+      "He wanted something fun to do, but he wasn't sure how to pass the time."
     ],
     "prompt": "What should he do?",
     "choices": [
@@ -65,7 +67,8 @@
   "scene6": {
     "image": "res://graphics/boy_who_cried_wolf/bwcw6.png",
     "text": [
-      "He tells himself that next time he will bring a toy with him, but after a while he gets bored and decides to shout out, \"Wolf! Wolf! The wolf is chasing the sheep!\" to get attention.",
+      "He tells himself that next time he will bring a toy with him,",
+      "but after a while, he gets bored and decides to shout out, \"Wolf! Wolf! The wolf is chasing the sheep!\" to get attention.",
       "The villagers, who trusted the boy, immediately rushed up the hill to help."
     ],
     "next": "scene7"
@@ -73,7 +76,9 @@
   "scene7": {
     "image": "res://graphics/boy_who_cried_wolf/bwcw7.png",
     "text": [
-      "But when they arrived, there was no wolf. The boy had tricked them. The villagers felt frustrated."
+      "But when they arrived, there was no wolf.",
+      "The boy had tricked them.",
+      "The villagers felt frustrated."
     ],
     "prompt": "What should the shepherd boy do now?",
     "choices": [
@@ -128,28 +133,34 @@
   "scene11": {
     "image": "res://graphics/boy_who_cried_wolf/bwcw11.png",
     "text": [
-      "The boy, still feeling a bit bored, wants to have some fun again. The villagers all go back to their houses, and then the boy shouts again, \"Wolf! Wolf! The wolf is chasing the sheep!\""
+      "The boy, still feeling a bit bored, wants to have some fun again.",
+      "The villagers all go back to their houses, and then the boy shouts again, \"Wolf! Wolf! The wolf is chasing the sheep!\""
     ],
     "next": "scene12"
   },
   "scene12": {
     "image": "res://graphics/boy_who_cried_wolf/bwcw12.png",
     "text": [
-      "The villagers, now upset, come up the hill but find there is no wolf. They warn him sternly that they won't come next time."
+      "The villagers, now upset, come up the hill but find there is no wolf.",
+      "They warn him sternly that they won't come next time."
     ],
     "next": "scene13"
   },
   "scene13": {
     "image": "res://graphics/boy_who_cried_wolf/bwcw13.png",
     "text": [
-      "Later that day, the boy sees a real wolf near the sheep. The wolf is getting closer, and the boy gets scared. He immediately shouts, \"Wolf! Wolf! The wolf is chasing the sheep!\""
+      "Later that day, the boy sees a real wolf near the sheep.",
+      "The wolf is getting closer, and the boy gets scared.",
+      "He immediately shouts, \"Wolf! Wolf! The wolf is chasing the sheep!\""
     ],
     "next": "scene14"
   },
   "scene14": {
     "image": "res://graphics/boy_who_cried_wolf/bwcw14.png",
     "text": [
-      "But this time, the villagers think he's tricking them again. No one comes to help. The boy feels desperate and starts to panic."
+      "But this time, the villagers think he's tricking them again.",
+      "No one comes to help.",
+      "The boy feels desperate and starts to panic."
     ],
     "prompt": "What can help the shepherd boy stay calm and think?",
     "choices": [
@@ -211,7 +222,8 @@
   "scene18": {
     "image": "res://graphics/boy_who_cried_wolf/bwcw18.png",
     "text": [
-      "He remembers that he can go to the village to ask for help instead of waiting for the villagers to come up the hill. He begins to plan out what to say and how to lead them to the sheep."
+      "He remembers that he can go to the village to ask for help instead of waiting for the villagers to come up the hill.",
+      "He begins to plan out what to say and how to lead them to the sheep."
     ],
     "prompt": "What should the boy do next?",
     "choices": [
@@ -271,8 +283,27 @@
     "next": "scene23"
   },
   "scene23": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw23.png",
     "text": [
-      "As the sun begins to set, the boy is grateful for the villagers' help and realizes that being honest and clear with others is always the best choice."
+      "As the sun begins to set, the boy is grateful for the villagers' help",
+      "and realizes that being honest and clear with others is always the best choice."
+    ],
+    "next": "scene24"
+  },
+  "scene24": {
+    "image": "res://graphics/boy_who_cried_wolf/bwcw24.png",
+    "text": [
+      "The boy learned that honesty is important, and that it is always better to tell the truth.",
+      "He also learned that he should not play tricks on others, as it can lead to serious consequences."
+    ],
+    "next": "scene25"
+  },
+  "scene25": {
+    "text": [
+      "People lie for many reasons.",
+      "They can lie because they are scared, ",
+      "they can lie to cause trouble.",
+      "What is one other reason someone might lie, and what could they do instead of lying?"
     ],
     "end": true
   }

@@ -100,7 +100,7 @@ func show_current_line():
 	displayed_text += scene["text"][current_line] + "\n\n"
 
 	dialogue_label.text = displayed_text
-	
+
 func _on_continuebutton_pressed() -> void:
 	var scene: Dictionary = story_data[current_scene]
 	
@@ -121,6 +121,18 @@ func _on_continuebutton_pressed() -> void:
 	
 	transition_to_scene(str(scene["next"]))
 	
+func create_button_style(color: Color, radius: int = 12) -> StyleBoxFlat:
+	var style = StyleBoxFlat.new()
+
+	style.bg_color = color
+
+	style.corner_radius_top_left = radius
+	style.corner_radius_top_right = radius
+	style.corner_radius_bottom_left = radius
+	style.corner_radius_bottom_right = radius
+
+	return style
+	
 func create_choice_buttons(choices: Array):
 	## Creates the buttons for the choices with the text displayed within them.
 	for choice in choices:
@@ -132,14 +144,20 @@ func create_choice_buttons(choices: Array):
 
 		button.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 
-		var style = StyleBoxFlat.new()
-		style.bg_color = Color("ffffffd2")
-		button.add_theme_stylebox_override("normal", style)
-		
-		style.corner_radius_top_left = 12
-		style.corner_radius_top_right = 12
-		style.corner_radius_bottom_left = 12
-		style.corner_radius_bottom_right = 12
+		button.add_theme_stylebox_override(
+			"normal",
+			create_button_style(Color("ffffffd2"))
+		)
+
+		button.add_theme_stylebox_override(
+			"hover",
+			create_button_style(Color("3e3e43ff"))
+		)
+
+		button.add_theme_stylebox_override(
+			"pressed",
+			create_button_style(Color("6a6a71ff"))
+		)
 
 		choices_container.add_child(button)
 

@@ -3,14 +3,17 @@
   "scene1": {
     "image": "res://graphics/three_little_pigs/lp2.png",
     "text": [
-      "There are three little pigs. The first little pig and the other two little pigs are friends."
+      "There are three little pigs.",
+      "The first little pig and the other two little pigs are friends."
     ],
     "next": "scene2"
   },
   "scene2": {
     "image": "res://graphics/three_little_pigs/lp3.png",
     "text": [
-      "The three little pigs are building their houses together. One of the first little pig's friends does not want to work hard and builds a house out of straw because it is quick and easy."
+      "The three little pigs are building their houses together.",
+      "One of the first little pig's friends does not want to work hard",
+      "and builds a house out of straw because it is quick and easy."
     ],
     "next": "scene3"
   },
@@ -71,7 +74,8 @@
   "scene8": {
     "image": "res://graphics/three_little_pigs/lp10.png",
     "text": [
-      "At night when it is cold, the little pig will still not have a house! Important things need to be done right away."
+      "At night when it is cold, the little pig will still not have a house!",
+      "Important things need to be done right away."
     ],
     "prompt": "Let us have the first little pig try something else.",
     "choices": [
@@ -96,7 +100,7 @@
     "image": "res://graphics/three_little_pigs/lp13.png",
     "text": [
       "One day, one of the first little pig's friends comes running towards the brick house and knocks on the door.",
-      "\"Help! A wolf came by my straw house and blew it down. Let me in please!\" the friend says.",
+      "\"Help! A wolf came by my straw house and blew it down. Let me in, please!\" the friend says.",
       "The first little pig likes this friend but feels tired and not very social."
     ],
     "next": "scene14"
@@ -104,7 +108,7 @@
   "scene13": {
     "image": "res://graphics/three_little_pigs/lp13.png",
     "text": [
-      "\"Help! A wolf came by my straw house and blew it down. Let me in please!\" the friend says.",
+      "\"Help! A wolf came by my straw house and blew it down. Let me in, please!\" the friend says.",
       "The first little pig likes this friend but feels tired and not very social."
     ],
     "next": "scene14"
@@ -174,14 +178,18 @@
   "scene18": {
     "image": "res://graphics/three_little_pigs/lp18.png",
     "text": [
-      "\"Thank you for letting me in! The wolf was very mad that I did not let him into my straw house. He huffed, and he puffed, and he blew it down! I ran away as fast as I could,\" the friend says."
+      "\"Thank you for letting me in!",
+      "The wolf was very mad that I did not let him into my straw house.",
+      "He huffed, and he puffed, and he blew it down!",
+      "I ran away as fast as I could,\" the friend says."
     ],
     "next": "scene19"
   },
   "scene19": {
     "image": "res://graphics/three_little_pigs/lp19.png",
     "text": [
-      "Soon after, the other friend knocks at the door, and the first little pig lets the friend in. The three little pigs eat lunch together and start a new puzzle."
+      "Soon after, the other friend knocks at the door, and the first little pig lets the friend in.",
+      "The three little pigs eat lunch together and start a new puzzle."
     ],
     "next": "scene20"
   },
@@ -271,7 +279,7 @@
   "scene27": {
     "image": "res://graphics/three_little_pigs/lp27.png",
     "text": [
-      "The wolf huffs, and he puffs."
+      "The wolf huffs and he puffs."
     ],
     "next": "scene28"
   },
@@ -285,7 +293,8 @@
   "scene29": {
     "image": "res://graphics/three_little_pigs/lp29.png",
     "text": [
-      "The wolf is very angry. He yells that he is going to try something else.",
+      "The wolf is very angry.",
+      "He yells that he is going to try something else.",
       "\"Okay, if the little pigs will not let me in through the door, I am going to go onto the roof and come down the chimney!\""
     ],
     "prompt": "What should the first little pig do?",
@@ -362,21 +371,24 @@
   "scene35": {
     "image": "res://graphics/three_little_pigs/lp35.png",
     "text": [
-      "When the wolf comes down the chimney, he sees the fireplace and realizes that the first little pig is prepared and has thought ahead."
+      "When the wolf comes down the chimney, he sees the fireplace",
+      "and realizes that the first little pig is prepared and has thought ahead."
     ],
     "next": "scene36"
   },
   "scene36": {
     "image": "res://graphics/three_little_pigs/lp36.png",
     "text": [
-      "Instead of getting hurt, the wolf realizes that he is not going to get into the house and climbs back up the chimney to leave."
+      "Instead of getting hurt, the wolf realizes that he is not going to get into the house",
+      "and climbs back up the chimney to leave."
     ],
     "next": "scene37"
   },
   "scene37": {
     "image": "res://graphics/three_little_pigs/lp37.png",
     "text": [
-      "The first little pig does not hurt the wolf. Instead, the first little pig protects everyone by staying safe and clever.",
+      "The first little pig does not hurt the wolf.",
+      "Instead, the first little pig protects everyone by staying safe and clever.",
       "Sometimes, it is better to avoid fighting and find peaceful ways to solve problems.",
       "The three little pigs learn that working hard and making good choices keeps them safe.",
       "They live happily ever after in the strong brick house, and the wolf never bothers them again."
@@ -386,7 +398,8 @@
   "scene38": {
     "text": [
       "Staying safe in unknown situations can be tricky.",
-      "Can you name an unknown situation from the story of the “Three Little Pigs”, or from another story and name something that helped it? "
+      "Can you name an unknown situation from the story of the “Three Little Pigs” or from another story",
+      "and name something that helped with it?"
     ],
     "end": true
   }

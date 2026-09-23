@@ -1,0 +1,477 @@
+{
+"story_title": "The Tortoise & the Hare",
+
+"scene1": {
+        "image": "res://graphics/tortoise_and_hare/tah1.png",
+        "text": [
+            "Once upon a time, in a big forest, there was a very fast and proud hare.",
+            "The hare was so quick that she could hop from one side of the forest to the other in no time at all. "
+        ],
+        "next": "scene2"
+},
+
+"scene2": {
+        "image": "res://graphics/tortoise_and_hare/tah2.png",
+        "text": [
+            "One day, a tortoise was slowly making his way through the forest and saw the hare hopping along the path."
+        ],
+        "next": "scene3"
+},
+
+"scene3": {
+        "image": "res://graphics/tortoise_and_hare/tah3.png",
+        "text": [
+            "He noticed that the hare had long legs and no shell, which made her different from him."
+        ],
+        "prompt": "How should he act towards the Hare?",
+        "choices": [
+            {
+                "text": "He should complain because the differences make it harder for him to travel across the big forest.",
+                "next": "scene4"
+            },
+            {
+                "text": "He should recognize the differences, but be ok with it since our differences make us unique.",
+                "next": "scene6"
+            },
+            {
+                "text": "He should ask to do something else that he is better than the hare at to make himself feel better.",
+                "next": "scene5"
+            }
+        ]
+},
+
+"scene4": {
+        "image": "res://graphics/tortoise_and_hare/tah4.png",
+        "text": [
+            "This makes the hare sad, since she didn't choose to be born the way she was."
+        ],
+        "prompt": "Let's try to do something else.",
+        "choices": [
+            {
+                "text": "He should ask to do something else that he is better than the hare at to make himself feel better.",
+                "next": "scene5"
+            },
+            {
+                "text": "He should recognize the differences, but be ok with it since our differences make us unique.",
+                "next": "scene6"
+            }
+        ]
+},
+
+"scene5": {
+        "image": "res://graphics/tortoise_and_hare/tah5.png",
+        "text": [
+            "The tortoise suggests seeing who can drop the biggest rock on their back without getting hurt.",
+            " Since he has a shell, he knows he will be okay! The hare says no, knowing she'll get hurt.",
+            "The tortoise still feels bad, since he doesn't feel like he's good enough to compete with the hare."
+        ],
+        "prompt": "Let's try to do something else.",
+        "choices": [
+            {
+                "text": "He should complain because the differences make it harder for him to travel across the big forest.",
+                "next": "scene4"
+            },
+            {
+                "text": "He should recognize the differences, but be ok with it since our differences make us unique.",
+                "next": "scene6"
+            }
+        ]
+},
+
+"scene6": {
+        "image": "res://graphics/tortoise_and_hare/tah6.png",
+        "text": [
+            "The tortoise had shorter legs and a heavy shell, which may make it harder for him to travel quickly like the hare, but they keep him balanced and stable, and his shell protects him!"
+        ],
+        "next": "scene7"
+},
+
+"scene7": {
+    "image": "res://graphics/tortoise_and_hare/tah7.png",
+    "text": [
+        "Seeing the tortoise walk slowly, the hare laughed and said, \"With your short legs and heavy shell, you're the slowest animal I've ever seen!\"",
+        "\"How long does it take you to walk ten steps, one hour?\""
+    ],
+    "prompt": "How should the Tortoise act?",
+    "choices": [
+        {
+            "text": "The tortoise should not get upset and keep walking.",
+            "next": "scene11"
+        },
+        {
+            "text": "The tortoise should get upset and get discouraged.",
+            "next": "scene8"
+        },
+        {
+            "text": "The tortoise should insult the hare back to make it fair",
+            "next": "scene9"
+        }
+    ]
+},
+
+"scene8": {
+    "image": "res://graphics/tortoise_and_hare/tah8.png",
+    "text": [
+        "He feels bad the entire day, believing the hare's words."
+    ],
+    "prompt": "Let's try to do something else.",
+    "choices": [
+        {
+            "text": "The tortoise should not get upset and keep walking.",
+            "next": "scene11"
+        },
+        {
+            "text": "The tortoise should insult the hare back to make it fair",
+            "next": "scene9"
+        }
+    ]
+},
+
+"scene9": {
+    "image": "res://graphics/tortoise_and_hare/tah9.png",
+    "text": [
+        "The Tortoise insults the Hare."
+    ],
+    "next": "scene10"
+},
+
+"scene10": {
+    "image": "res://graphics/tortoise_and_hare/tah10.png",
+    "text": [
+        "This makes the hare upset as well, and now both of them are sad."
+    ],
+    "prompt": "Let's try to do something else.",
+    "choices": [
+        {
+            "text": "",
+            "next": "scene11"
+        },
+        {
+            "text": "The tortoise should get upset and get discouraged.",
+            "next": "scene8"
+        }
+    ]
+},
+
+"scene11": {
+    "image": "res://graphics/tortoise_and_hare/tah11.png",
+    "text": [
+        "The tortoise just kept walking, one step at a time.",
+        "It can be difficult to stay calm and the tortoise showed self-control by not letting the hare's words stop him from doing what he was doing.",
+        "He remembered that you control your own actions and feelings."
+    ],
+    "next": "scene12"
+},
+
+"scene12": {
+        "image": "res://graphics/tortoise_and_hare/tah12.png",
+        "text": [
+            " The hare kept making fun of her, but the tortoise said, \"I may be slow, but I'm steady. And I think I could even beat you in a race!\""
+        ],
+        "next": "scene13"
+},
+
+"scene13": {
+        "image": "res://graphics/tortoise_and_hare/tah13.png",
+        "text": [
+            "Hearing this, the hare laughed so much that her stomach hurt.",
+            "After a while, the hare stopped laughing and said, \"Okay, I'll race you!\""
+        ],
+        "next": "scene14"
+},
+
+"scene14": {
+        "image": "res://graphics/tortoise_and_hare/tah14.png",
+        "text": [
+            "They asked the fox to be the judge,"
+        ],
+        "next": "scene15"
+},
+
+"scene15": {
+        "image": "res://graphics/tortoise_and_hare/tah15.png",
+        "text": [
+            "and soon they were at the starting line, ready to race. "
+        ],
+        "next": "scene16"
+},
+
+"scene16": {
+        "image": "res://graphics/tortoise_and_hare/tah16.png",
+        "text": [
+            "The fox said, \"Whoever reaches the big pond first wins the race. Ready? Set. Go!\""
+        ],
+        "next": "scene17"
+},
+
+"scene17": {
+        "image": "res://graphics/tortoise_and_hare/tah17.png",
+        "text": [
+            "The hare, being so fast, jumped off quickly and raced ahead."
+        ],
+        "next": "scene18"
+},
+
+"scene18": {
+        "image": "res://graphics/tortoise_and_hare/tah18.png",
+        "text": [
+            "She then saw carrots, which were her favourite.",
+            "She was already halfway to the pond so she took a look behind her,"
+        ],
+        "next": "scene19"
+},
+
+"scene19": {
+    "image": "res://graphics/tortoise_and_hare/tah19.png",
+    "text": [
+        "she saw that the tortoise had barely moved."
+    ],
+    "prompt": "What should she do next?",
+    "choices": [
+        {
+            "text": "She should try to stay focused on her goal to finish the race.",
+            "next": "scene23"
+        },
+        {
+            "text": "She should ignore her goal and eat the carrots.",
+            "next": "scene20"
+        },
+        {
+            "text": "She should go back to the start line and laugh at the tortoise.",
+            "next": "scene22"
+        }
+    ]
+},
+
+"scene20": {
+    "image": "res://graphics/tortoise_and_hare/tah20.png",
+    "text": [
+        "She ignores her goal and eat the carrots."
+    ],
+    "next": "scene21"
+},
+
+"scene21": {
+    "image": "res://graphics/tortoise_and_hare/tah21.png",
+    "text": [
+        "She eats them all and hurts her tummy, and can't finish the race, so there's no winner."
+    ],
+    "prompt": "Let's try to do something else.",
+    "choices": [
+        {
+            "text": "She should try to stay focused on her goal to finish the race.",
+            "next": "scene23"
+        },
+        {
+            "text": "",
+            "next": "scene22"
+        }
+    ]
+},
+
+"scene22": {
+    "image": "res://graphics/tortoise_and_hare/tah22.png",
+    "text": [
+        "The fox sees this, and calls off the race after seeing the hare being mean."
+    ],
+    "prompt": "Let's try to do something else.",
+    "choices": [
+        {
+            "text": "She should try to stay focused on her goal to finish the race.",
+            "next": "scene23"
+        },
+        {
+            "text": "She should ignore her goal and eat the carrots.",
+            "next": "scene20"
+        }
+    ]
+},
+
+
+
+
+"scene23": {
+    "image": "res://graphics/tortoise_and_hare/tah23.png",
+    "text": [
+        "The hare tries her best to keep going, but she accidentally stops paying attention to her goal and gets distracted."
+    ],
+    "next": "scene24"
+},
+
+"scene24": {
+        "image": "res://graphics/tortoise_and_hare/tah24.png",
+        "text": [
+            "She hopped back to the carrots and accidentally fell asleep."
+        ],
+        "next": "scene25"
+},
+
+"scene25": {
+        "image": "res://graphics/tortoise_and_hare/tah25.png",
+        "text": [
+            "Meanwhile, the tortoise didn't stop. He kept walking slowly but steadily toward the finish pond."
+        ],
+        "next": "scene26"
+},
+
+"scene26": {
+        "image": "res://graphics/tortoise_and_hare/tah26.png",
+        "text": [
+            "Just as the hare woke up from her nap, she saw the tortoise crossing the finish line."
+        ],
+        "next": "scene27"
+},
+
+"scene27": {
+        "image": "res://graphics/tortoise_and_hare/tah27.png",
+        "text": [
+            "The fox announced, \"The tortoise wins!\" All the animals cheered."
+        ],
+        "prompt": "What should she do next?",
+        "choices": [
+            {
+                "text": "The hare should accuse the tortoise of cheating.",
+                "next": "scene28"
+            },
+            {
+                "text": "The hare should get upset because this means that he is not as good as the tortoise.",
+                "next": "scene29"
+            },
+            {
+                "text": "The hare should be a good sport and congratulate the tortoise on his win.",
+                "next": "scene30"
+            }
+        ]
+},
+
+"scene28": {
+        "image": "res://graphics/tortoise_and_hare/tah28.png",
+        "text": [
+            "The tortoise and the rest of the animals know the tortoise won fairly, and after seeing the hare get angry, they avoid her."
+        ],
+        "prompt": "Let's try to have the hare do something else.",
+        "choices": [
+            {
+                "text": "The hare should get upset because this means that he is not as good as the tortoise.",
+                "next": "scene29"
+            },
+            {
+                "text": "The hare should be a good sport and congratulate the tortoise on his win.",
+                "next": "scene30"
+            }
+        ]
+},
+
+"scene29": {
+        "image": "res://graphics/tortoise_and_hare/tah29.png",
+        "text": [
+            "The hare gets upset at her performance in the race."
+        ],
+        "prompt": "Let's try to have the hare do something else.",
+        "choices": [
+            {
+                "text": "The hare should accuse the tortoise of cheating.",
+                "next": "scene28"
+            },
+            {
+                "text": "The hare should be a good sport and congratulate the tortoise on his win.",
+                "next": "scene30"
+            }
+        ]
+},
+
+"scene30": {
+        "image": "res://graphics/tortoise_and_hare/tah30.png",
+        "text": [
+            "\"You really earned this! You never stopped, even when I thought you couldn't win. Congratulations!\", she said."
+        ],
+        "next": "scene31"
+},
+
+"scene31": {
+        "image": "res://graphics/tortoise_and_hare/tah31.png",
+        "text": [
+            "The tortoise smiled and said, \"It's okay, hare. You're fast, but sometimes being steady and patient is just as important. We are all good at different things!\""
+        ],
+        "next": "scene32"
+},
+
+"scene32": {
+        "image": "res://graphics/tortoise_and_hare/tah32.png",
+        "text": [
+            "The hare got the opportunity to race another animal the next week."
+        ],
+        "prompt": "What should she do next?",
+        "choices": [
+            {
+                "text": "The hare should say yes, and act the same way she did when she started her last race",
+                "next": "scene34"
+            },
+            {
+                "text": "The hare should not race because she is scared to lose again.",
+                "next": "scene33"
+            },
+            {
+                "text": "The hare should take the opportunity and apply what she learnt.",
+                "next": "scene35"
+            }
+        ]
+},
+
+"scene33": {
+        "image": "res://graphics/tortoise_and_hare/tah33.png",
+        "text": [
+            "She feels bad, and doesn't get another chance to prove she can do it"
+        ],
+        "prompt": "Let's try to do something else.",
+        "choices": [
+            {
+                "text": "The hare should say yes, and act the same way she did when she started her last race",
+                "next": "scene34"
+            },
+            {
+                "text": "The hare should take the opportunity and apply what she learnt.",
+                "next": "scene35"
+            }
+        ]
+},
+
+"scene34": {
+        "image": "res://graphics/tortoise_and_hare/tah34.png",
+        "text": [
+            "The outcome of the race was the same. The hare lost because she didn't stay focused on her goal."
+        ],
+        "prompt": "Let's try to do something else.",
+        "choices": [
+            {
+                "text": "The hare should take the opportunity and apply what she learnt.",
+                "next": "scene35"
+            },
+            {
+                "text": "The hare should not race because she is scared to lose again.",
+                "next": "scene33"
+            }
+        ]
+},
+
+"scene35": {
+        "image": "res://graphics/tortoise_and_hare/tah35.png",
+        "text": [
+            "This time, the hare focuses throughout the entire race, and it's much more fun!",
+            "From this experience, the hare learns the importance of staying focused and humble.",
+            "By showing good sportsmanship and acknowledging the tortoise's effort and success, the race was a positive experience for everyone, no matter the outcome."
+        ],
+        "next": "scene36"
+},
+"scene36": {
+        "text": [
+            "What does 'good sportsmanship' mean to you?",
+            "What is one way you can show good sportsmanship if you win something?",
+            "What is one way you can show good sportsmanship if you lose something?"
+        ],
+        "end": true
+    }
+}
+
+
+

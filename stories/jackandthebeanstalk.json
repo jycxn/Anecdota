@@ -1,0 +1,307 @@
+{
+  "story_title": "Jack and the Beanstalk",
+  "scene1": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack1.png",
+    "text": [
+      "Once upon a time, there lived a woman and her son, Jack.",
+      "Times were hard, and their only valuable possession was a cow."
+    ],
+    "next": "scene2"
+  },
+  "scene2": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack2.png",
+    "text": [
+      "One day, Jack's mother asked him to sell the cow at the market to get money for food."
+    ],
+    "next": "scene3"
+  },
+  "scene3": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack3.png",
+    "text": [
+      "As Jack walks toward town, a mysterious stranger wearing a big coat stops him and offers him five magic beans for the cow."
+    ],
+    "next": "scene4"
+  },
+  "scene4": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack4.png",
+    "text": [
+      "The man says that the beans will give Jack's family lots of riches.",
+      "Jack feels excited but also a little suspicious."
+    ],
+    "prompt": "What is the best strategy?",
+    "choices": [
+      {
+        "text": "Jack should ask himself whether the beans will really bring him anything useful.",
+        "next": "scene5"
+      },
+      {
+        "text": "Jack should trade the cow right away, thinking that the man might be telling the truth.",
+        "next": "scene19"
+      },
+      {
+        "text": "Walk away without asking anything because decisions are scary.",
+        "next": "scene18"
+      }
+    ]
+  },
+  "scene5": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack5.png",
+    "text": [
+      "Jack thought about his options, but unfortunately, Jack traded the cow for the beans right away",
+      "because he felt that it was a once-in-a-lifetime opportunity."
+    ],
+    "next": "scene6"
+  },
+  "scene6": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack6.png",
+    "text": [
+      "Jack goes home, and his mother is very angry that he got beans instead of money, and she throws the beans out the window."
+    ],
+    "next": "scene7"
+  },
+  "scene7": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack7.png",
+    "text": [
+      "The next morning, when Jack awakes, he sees that a huge beanstalk had grown outside of his window."
+    ],
+    "next": "scene8"
+  },
+  "scene8": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack8.png",
+    "text": [
+      "Jack rushes outside to go look at it.",
+      "He wants to know what is at the very top."
+    ],
+    "prompt": "What should Jack tell himself?",
+    "choices": [
+      {
+        "text": "How fast can I get to the top without anyone noticing?",
+        "next": "scene9"
+      },
+      {
+        "text": "My friends will think this is so cool if I get to the top!",
+        "next": "scene9.5"
+      },
+      {
+        "text": "What is my goal in climbing this? What could go wrong, and what could go right?",
+        "next": "scene10"
+      }
+    ]
+  },
+  "scene9": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack9.png",
+    "text": [
+      "Jack falls!",
+      "It is important to be careful when trying something new."
+    ],
+    "prompt": "Let's have Jack try something else.",
+    "choices": [
+      {
+        "text": "My friends will think this is so cool if I get to the top!",
+        "next": "scene9.5"
+      },
+      {
+        "text": "What is my goal in climbing this? What could go wrong, and what could go right?",
+        "next": "scene10"
+      }
+    ]
+  },
+  "scene9.5": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack9.png",
+    "text": [
+      "Thinking only about what friends might think does not help Jack consider whether climbing is safe."
+    ],
+    "prompt": "Let's have Jack try something else.",
+    "choices": [
+      {
+        "text": "How fast can I get to the top without anyone noticing?",
+        "next": "scene9"
+      },
+      {
+        "text": "What is my goal in climbing this? What could go wrong, and what could go right?",
+        "next": "scene10"
+      }
+    ]
+  },
+  "scene10": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack10.png",
+    "text": [
+      "Jack gets his mom, and together they decide to climb the beanstalk.",
+      "At the top is a huge castle."
+    ],
+    "next": "scene11"
+  },
+  "scene11": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack11.png",
+    "text": [
+      "His mom knocks on the door, and a kind-looking giantess opens the door."
+    ],
+    "next": "scene12"
+  },
+  "scene12": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack12.png",
+    "text": [
+      "She tells him that her husband, the Giant, is not always friendly."
+    ],
+    "prompt": "How should Jack act inside the castle?",
+    "choices": [
+      {
+        "text": "Act super confident so no one thinks he is nervous.",
+        "next": "scene13"
+      },
+      {
+        "text": "Rush past her—she's probably just trying to scare him.",
+        "next": "scene13.25"
+      },
+      {
+        "text": "Listen carefully to the giantess's advice, and ask if there are safe ways he can look around.",
+        "next": "scene13.5"
+      }
+    ]
+  },
+  "scene13": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack13.png",
+    "text": [
+      "He goes in without guidance and gets lost!"
+    ],
+    "prompt": "Let's have Jack try something else.",
+    "choices": [
+      {
+        "text": "Rush past her—she's probably just trying to scare him.",
+        "next": "scene13.25"
+      },
+      {
+        "text": "Listen carefully to the giantess's advice, and ask if there are safe ways he can look around.",
+        "next": "scene13.5"
+      }
+    ]
+  },
+  "scene13.25": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack13.png",
+    "text": [
+      "He rushes past her and gets lost!"
+    ],
+    "prompt": "Let's have Jack try something else.",
+    "choices": [
+      {
+        "text": "Act super confident so no one thinks he is nervous.",
+        "next": "scene13"
+      },
+      {
+        "text": "Listen carefully to the giantess's advice, and ask if there are safe ways he can look around.",
+        "next": "scene13.5"
+      }
+    ]
+  },
+  "scene13.5": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack13.5.png",
+    "text": [
+      "Jack listens carefully to the giantess's advice and asks if there are safe ways he can look around."
+    ],
+    "next": "scene14"
+  },
+  "scene14": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack14.png",
+    "text": [
+      "Inside the castle, Jack notices many treasures, including a hen that laid golden eggs."
+    ],
+    "prompt": "Jack wonders: should he take the treasure?",
+    "choices": [
+      {
+        "text": "Yes, because the giants have a lot of treasure and do not need it.",
+        "next": "scene15"
+      },
+      {
+        "text": "No. Just because someone has a lot of treasures does not mean it is okay to steal from them.",
+        "next": "scene16"
+      },
+      {
+        "text": "Yes, because his family really needs the treasures.",
+        "next": "scene15.5"
+      }
+    ]
+  },
+  "scene15": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack15.png",
+    "text": [
+      "He takes them, and the giantess finds out."
+    ],
+    "prompt": "Let's have Jack try something else.",
+    "choices": [
+      {
+        "text": "Yes, because his family really needs the treasures.",
+        "next": "scene15.5"
+      },
+      {
+        "text": "No. Just because someone has a lot of treasures does not mean it is okay to steal from them.",
+        "next": "scene16"
+      }
+    ]
+  },
+  "scene15.5": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack15.png",
+    "text": [
+      "He takes them, and the giantess finds out.",
+      "Even if you need something, it's bad to take things without asking permission first."
+    ],
+    "prompt": "Let's have Jack try something else.",
+    "choices": [
+      {
+        "text": "Yes, because the giants have a lot of treasure and do not need it.",
+        "next": "scene15"
+      },
+      {
+        "text": "No. Just because someone has a lot of treasures does not mean it is okay to steal from them.",
+        "next": "scene16"
+      }
+    ]
+  },
+  "scene16": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack16.png",
+    "text": [
+      "After exploring, Jack and his mother tell the giantess, \"Thank you.\"",
+      "They tell her they do not have much, and she offers to give them a few golden eggs as a gift."
+    ],
+    "next": "scene17"
+  },
+  "scene17": {
+    "text": [
+      "Jack and his mother go down the beanstalk safely."
+    ],
+    "end": true
+  },
+  "scene18": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack18.png",
+    "text": [
+      "Walking away only because decisions feel scary does not help Jack carefully compare his options."
+    ],
+    "prompt": "Let's have Jack try something else.",
+    "choices": [
+      {
+        "text": "Jack should ask himself whether the beans will really bring him anything useful.",
+        "next": "scene5"
+      },
+      {
+        "text": "Jack should trade the cow right away, thinking that the man might be telling the truth.",
+        "next": "scene19"
+      }
+    ]
+  },
+  "scene19": {
+    "image": "res://graphics/jack_and_the_beanstalk/jack19.png",
+    "text": [
+      "Trading right away does not give Jack time to think carefully about whether the stranger's claim is true."
+    ],
+    "prompt": "Let's have Jack try something else.",
+    "choices": [
+      {
+        "text": "Jack should ask himself whether the beans will really bring him anything useful.",
+        "next": "scene5"
+      },
+      {
+        "text": "Walk away without asking anything because decisions are scary.",
+        "next": "scene18"
+      }
+    ]
+  }
+}

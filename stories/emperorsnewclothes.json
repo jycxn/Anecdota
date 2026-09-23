@@ -1,0 +1,323 @@
+{
+  "story_title": "The Emperor's New Clothes",
+  "scene1": {
+    "image": "res://graphics/emperors_new_clothes/enc1.png",
+    "text": [
+      "A long time ago, there was an Emperor who loved new clothes more than anything.",
+      "He spent all his money buying clothes and didn't care about his kingdom.",
+      "He had a new outfit for every hour of the day!"
+    ],
+    "next": "scene2"
+  },
+  "scene2": {
+    "image": "res://graphics/emperors_new_clothes/enc2.png",
+    "text": [
+      "The Emperor was so focused on clothes that he didn't take time for his responsibilities, like ruling his kingdom.",
+      "It's important to balance fun things with things we need to do, like schoolwork or helping others."
+    ],
+    "next": "scene3"
+  },
+  "scene3": {
+    "image": "res://graphics/emperors_new_clothes/enc3.png",
+    "text": [
+      "One day, two people came to town and said they made special clothes.",
+      "If someone was smart and very good at their job, they would be able to see the clothes,",
+      "but if they were lazy and unfit for their job, the clothes would be invisible!",
+      "The Emperor had never heard of such a thing before!",
+      "The two clothesmakers told the Emperor he should buy an outfit from them for a big bag of gold."
+    ],
+    "prompt": "What should the Emperor do?",
+    "choices": [
+      {
+        "text": "The Emperor should immediately say yes because these clothes sounded perfect for finding out who was unfit to work in his kingdom.",
+        "next": "scene4"
+      },
+      {
+        "text": "The Emperor should take a moment to think about whether the clothes were real or not.",
+        "next": "scene5"
+      },
+      {
+        "text": "The Emperor should say no because doing your job is not important.",
+        "next": "scene6"
+      }
+    ]
+  },
+  "scene4": {
+    "image": "res://graphics/emperors_new_clothes/enc4.png",
+    "text": [
+      "Saying yes immediately does not give the Emperor time to decide whether the clothesmakers' claim is real.",
+      "He should think carefully first."
+    ],
+    "prompt": "Let's have the Emperor try something else.",
+    "choices": [
+      {
+        "text": "The Emperor should take a moment to think about whether the clothes were real or not.",
+        "next": "scene5"
+      },
+      {
+        "text": "The Emperor should say no because doing your job is not important.",
+        "next": "scene6"
+      }
+    ]
+  },
+  "scene5": {
+    "image": "res://graphics/emperors_new_clothes/enc5.png",
+    "text": [
+      "Taking a moment to think helps the Emperor question whether the clothesmakers' claim is real."
+    ],
+    "next": "scene7"
+  },
+  "scene6": {
+    "image": "res://graphics/emperors_new_clothes/enc6.png",
+    "text": [
+      "The importance of doing a job well does not prove that the clothesmakers' claim is false.",
+      "The Emperor should think about the claim itself."
+    ],
+    "prompt": "Let's have the Emperor try something else.",
+    "choices": [
+      {
+        "text": "The Emperor should immediately say yes because these clothes sounded perfect for finding out who was unfit to work in his kingdom.",
+        "next": "scene4"
+      },
+      {
+        "text": "The Emperor should take a moment to think about whether the clothes were real or not.",
+        "next": "scene5"
+      }
+    ]
+  },
+  "scene7": {
+    "image": "res://graphics/emperors_new_clothes/enc7.png",
+    "text": [
+      "Unfortunately, the Emperor did not think about whether the clothes were real or not.",
+      "He paid the clothesmakers to make the clothes right away."
+    ],
+    "next": "scene8"
+  },
+  "scene8": {
+    "image": "res://graphics/emperors_new_clothes/enc8.png",
+    "text": [
+      "As soon as the Emperor left the room, the clothesmakers began to laugh.",
+      "\"What a fool! There is no such thing as invisible clothes! Now we are rich!\" one of them said."
+    ],
+    "next": "scene9"
+  },
+  "scene9": {
+    "image": "res://graphics/emperors_new_clothes/enc9.png",
+    "text": [
+      "The next day, the two clothesmakers pretended to weave on empty looms and asked for more money for special silk and thread."
+    ],
+    "next": "scene10"
+  },
+  "scene10": {
+    "image": "res://graphics/emperors_new_clothes/enc10.png",
+    "text": [
+      "They worked all day, but there was no fabric at all.",
+      "When the Emperor was not around, they would nap and eat snacks instead."
+    ],
+    "next": "scene11"
+  },
+  "scene11": {
+    "image": "res://graphics/emperors_new_clothes/enc11.png",
+    "text": [
+      "The Emperor sent his old, wise minister to check on the clothes that night.",
+      "\"Tell me what they look like,\" the Emperor ordered."
+    ],
+    "next": "scene12"
+  },
+  "scene12": {
+    "image": "res://graphics/emperors_new_clothes/enc12.png",
+    "text": [
+      "When the minister arrived at the clothesmakers' room, he did not see anything on the looms.",
+      "One of the clothesmakers said to the minister, \"Oh, if you are the Emperor's minister, you must be very good at your job!",
+      "You should be able to see the clothes.",
+      "Aren't the patterns beautiful?\"",
+      "The minister didn't reply."
+    ],
+    "next": "scene13"
+  },
+  "scene13": {
+    "image": "res://graphics/emperors_new_clothes/enc13.png",
+    "text": [
+      "He returned to the Emperor's room afterward, and the Emperor asked how they looked."
+    ],
+    "prompt": "What should the old, wise minister do?",
+    "choices": [
+      {
+        "text": "The old, wise minister should lie and say he saw the clothes so the Emperor does not think he is unfit for his job.",
+        "next": "scene14"
+      },
+      {
+        "text": "The old, wise minister should say he forgot to check since he does not want to tell the Emperor the truth.",
+        "next": "scene15"
+      },
+      {
+        "text": "The old, wise minister should be honest because being honest helps us avoid mistakes later.",
+        "next": "scene16"
+      }
+    ]
+  },
+  "scene14": {
+    "image": "res://graphics/emperors_new_clothes/enc14.png",
+    "text": [
+      "Lying would hide the problem and could allow the Emperor to make more mistakes."
+    ],
+    "prompt": "Let's have the old, wise minister try something else.",
+    "choices": [
+      {
+        "text": "The old, wise minister should say he forgot to check since he does not want to tell the Emperor the truth.",
+        "next": "scene15"
+      },
+      {
+        "text": "The old, wise minister should be honest because being honest helps us avoid mistakes later.",
+        "next": "scene16"
+      }
+    ]
+  },
+  "scene15": {
+    "image": "res://graphics/emperors_new_clothes/enc15.png",
+    "text": [
+      "Saying he forgot to check would still avoid telling the truth.",
+      "Honesty could help the Emperor avoid a mistake."
+    ],
+    "prompt": "Let's have the old, wise minister try something else.",
+    "choices": [
+      {
+        "text": "The old, wise minister should lie and say he saw the clothes so the Emperor does not think he is unfit for his job.",
+        "next": "scene14"
+      },
+      {
+        "text": "The old, wise minister should be honest because being honest helps us avoid mistakes later.",
+        "next": "scene16"
+      }
+    ]
+  },
+  "scene16": {
+    "image": "res://graphics/emperors_new_clothes/enc16.png",
+    "text": [
+      "Being honest helps people recognize problems and avoid mistakes later."
+    ],
+    "next": "scene17"
+  },
+  "scene17": {
+    "image": "res://graphics/emperors_new_clothes/enc17.png",
+    "text": [
+      "The old, wise minister unfortunately was not honest and lied.",
+      "He said, \"Oh, it's beautiful!\""
+    ],
+    "next": "scene18"
+  },
+  "scene18": {
+    "image": "res://graphics/emperors_new_clothes/enc18.png",
+    "text": [
+      "The Emperor sent more people to check, and they all said the same thing:",
+      "\"Oh, it's beautiful!\" even though there was nothing there."
+    ],
+    "next": "scene19"
+  },
+  "scene19": {
+    "image": "res://graphics/emperors_new_clothes/enc19.png",
+    "text": [
+      "Finally, the clothesmakers came to the Emperor and told him they had finished the outfit.",
+      "They pulled a hanger out of a bag, with nothing on it.",
+      "The Emperor also did not want to look foolish, so he pretended to see the clothes too.",
+      "He said, \"How magnificent!\" even though he knew he couldn't see anything."
+    ],
+    "next": "scene20"
+  },
+  "scene20": {
+    "image": "res://graphics/emperors_new_clothes/enc20.png",
+    "text": [
+      "The people pretended to dress the Emperor in the invisible clothes.",
+      "They said the clothes were so light that he could hardly feel them, and they told him they could make him even more outfits!",
+      "They said a great ruler should only be wearing the finest of clothing."
+    ],
+    "prompt": "What should the Emperor do?",
+    "choices": [
+      {
+        "text": "The Emperor should admit his mistake and wear other clothes.",
+        "next": "scene21"
+      },
+      {
+        "text": "The Emperor should agree and tell them to make him a whole new closet, so that he doesn't seem like a bad ruler to them.",
+        "next": "scene22"
+      },
+      {
+        "text": "The Emperor should scream loudly at the clothesmakers for tricking him, and have them jailed immediately.",
+        "next": "scene23"
+      }
+    ]
+  },
+  "scene21": {
+    "image": "res://graphics/emperors_new_clothes/enc21.png",
+    "text": [
+      "Admitting his mistake would let the Emperor tell the truth and make a better choice."
+    ],
+    "next": "scene24"
+  },
+  "scene22": {
+    "image": "res://graphics/emperors_new_clothes/enc22.png",
+    "text": [
+      "Buying more invisible clothes would continue the mistake instead of correcting it."
+    ],
+    "prompt": "Let's have the Emperor try something else.",
+    "choices": [
+      {
+        "text": "The Emperor should admit his mistake and wear other clothes.",
+        "next": "scene21"
+      },
+      {
+        "text": "The Emperor should scream loudly at the clothesmakers for tricking him, and have them jailed immediately.",
+        "next": "scene23"
+      }
+    ]
+  },
+  "scene23": {
+    "image": "res://graphics/emperors_new_clothes/enc23.png",
+    "text": [
+      "Screaming and reacting immediately would not help the Emperor calmly admit and correct his mistake."
+    ],
+    "prompt": "Let's have the Emperor try something else.",
+    "choices": [
+      {
+        "text": "The Emperor should admit his mistake and wear other clothes.",
+        "next": "scene21"
+      },
+      {
+        "text": "The Emperor should agree and tell them to make him a whole new closet, so that he doesn't seem like a bad ruler to them.",
+        "next": "scene22"
+      }
+    ]
+  },
+  "scene24": {
+    "image": "res://graphics/emperors_new_clothes/enc24.png",
+    "text": [
+      "As the Emperor paraded through the streets, everyone cheered and said, \"How beautiful!\"",
+      "But a little child looked up and said, \"He hasn't got anything on!\""
+    ],
+    "next": "scene25"
+  },
+  "scene25": {
+    "image": "res://graphics/emperors_new_clothes/enc25.png",
+    "text": [
+      "Everyone laughed and realized the truth.",
+      "The Emperor was embarrassed but kept walking, because he didn't want to admit his mistake."
+    ],
+    "next": "scene26"
+  },
+  "scene26": {
+    "image": "res://graphics/emperors_new_clothes/enc26.png",
+    "text": [
+      "The little child had the courage to speak the truth.",
+      "Sometimes, even when everyone else is quiet, it's important to say what's right."
+    ],
+    "next": "scene27"
+  },
+  "scene27": {
+    "text": [
+      "Telling the truth is important, but so is making sure our friends' feelings are not hurt.",
+      "Pretend someone you know accidentally does something wrong, like putting their shoes on the wrong feet: ",
+      "how could you tell them the truth without making them feel bad?"
+    ],
+    "end": true
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "story title": "Princess and the Frog",
+  "scene1": {
+    "image": "res://graphics/princess_and_the_frog/pf1.png",
+    "text": [
+      "One day, you, a princess, are walking in the forest behind the kingdom's castle."
+    ],
+    "next": "scene2"
+  },
+  "scene2": {
+    "image": "res://graphics/princess_and_the_frog/pf2.png",
+    "text": [
+      "In your hand, you have your favorite toy, a golden ball that shines like the sun."
+    ],
+    "next": "scene3"
+  },
+  "scene3": {
+    "image": "res://graphics/princess_and_the_frog/pf3.png",
+    "text": [
+      "You throw the ball up high into the sky."
+    ],
+    "next": "scene4"
+  },
+  "scene4": {
+    "image": "res://graphics/princess_and_the_frog/pf4.png",
+    "text": [
+      "But as it comes down, it lands in a deep pond."
+    ],
+    "next": "scene5"
+  },
+  "scene5": {
+    "image": "res://graphics/princess_and_the_frog/pf5.png",
+    "text": [
+      "You rush over to the edge of the pond to try and find it, but can't see it anywhere.",
+      "Upset, you sit down and let out a sad sigh over losing your favourite toy."
+    ],
+    "next": "scene6"
+  },
+  "scene6": {
+    "image": "res://graphics/princess_and_the_frog/pf6.png",
+    "prompt": "What should you do?",
+    "choices": [
+      {
+        "text": [
+          "Call every guard over and demand they go look for it."
+        ],
+        "next": "scene7"
+      },
+      {
+        "text": "Jump into the super deep water.",
+        "next": "scene8"
+      },
+      {
+        "text": "Take a deep breath to calm down and think about what to do next. ",
+        "next": "scene9"
+      }
+    ]
+  },
+  "scene7": {
+    "image": "res://graphics/princess_and_the_frog/pf7.png",
+    "text": [
+      "The guards jump into the water, and they can't find it."
+    ],
+    "prompt": "Let's try to do something else.",
+    "choices": [
+      {
+        "text": "Jump into the super deep water.",
+        "next": "scene8"
+      },
+      {
+        "text": "Take a deep breath to calm down and think about what to do next.",
+        "next": "scene9"
+      }
+    ]
+  },
+  "scene8": {
+    "image": "res://graphics/princess_and_the_frog/pf8.png",
+    "text": [
+      "You jump into the pool and cannot find it."
+    ],
+    "prompt": "Let's try to do something else.",
+    "choices": [
+      {
+        "text": "Call every guard over and demand they go look for it.",
+        "next": "scene7"
+      },
+      {
+        "text": "Take a deep breath to calm down and think about what to do next.",
+        "next": "scene9"
+      }
+    ]
+  },
+  "scene9": {
+    "image": "res://graphics/princess_and_the_frog/pf9.png",
+    "text": [
+      "You take a deep breath to calm down and think about what to do next."
+    ],
+    "next": "scene10"
+  },
+  "scene10": {
+    "image": "res://graphics/princess_and_the_frog/pf10.png",
+    "text": [
+      "You feel much better after doing so and are glad you didn't jump in without thinking.",
+      "That water looks cold!"
+    ],
+    "next": "scene11"
+  },
+  "scene11": {
+    "image": "res://graphics/princess_and_the_frog/pf11.png",
+    "text": [
+      "After sitting for a little longer, a tiny frog hops by.",
+      "You let out a small shout, surprised, before the frog asks, \"Why are you crying, Princess? Are you okay?\""
+    ],
+    "prompt": "How do you respond to the frog?",
+    "choices": [
+      {
+        "text": "Explain that your ball fell in the water, and ask if he can help.",
+        "next": "scene14"
+      },
+      {
+        "text": "Tell him it's none of his business.",
+        "next": "scene12"
+      },
+      {
+        "text": "Stay quiet and say nothing.",
+        "next": "scene13"
+      }
+    ]
+  },
+  "scene12": {
+    "image": "res://graphicsprincess_and_the_frog/pf12.png",
+    "text": [
+      "You tell him that it's none of his business and you do not get your ball back."
+    ],
+    "prompt": "Let's try to do something else.",
+    "choices": [
+      {
+        "text": "Stay quiet and say nothing.",
+        "next": "scene13"
+      },
+      {
+        "text": "Explain that your ball fell in the water, and ask if he can help.",
+        "next": "scene14"
+      }
+    ]
+  },
+  "scene13": {
+    "image": "res://graphics/princess_and_the_frog/pf13.png",
+    "text": [
+      "You stay quiet and don't say anything."
+    ],
+    "prompt": "Let's try to do something else to get your ball back.",
+    "choices": [
+      {
+        "text": "Tell him it's none of his business.",
+        "next": "scene12"
+      },
+      {
+        "text": "Explain that your ball fell in the water, and ask if he can help.",
+        "next": "scene14"
+      }
+    ]
+  },
+  "scene14": {
+    "image": "res://graphics/princess_and_the_frog/pf14.png",
+    "text": [
+      "Knowing that it's best to ask for help when you need it, you explain, \"My ball fell in the water. Can you help me?\""
+    ],
+    "next": "scene15"
+  },
+  "scene15": {
+    "image": "res://graphics/princess_and_the_frog/pf15.png",
+    "text": [
+      "The frog replies, \"I can help you!",
+      "But if I do, please promise to be my friend and hang out with me.",
+      "I've never been friends with a princess before!\""
+    ],
+    "prompt": "How do you respond to the frog?",
+    "choices": [
+      {
+        "text": "Promise to be his friend if he helps you.",
+        "next": "scene16"
+      },
+      {
+        "text": "Say no to the frog.",
+        "next": "scene17"
+      }
+    ]
+  },
+  "scene17": {
+    "image": "res://graphics/princess_and_the_frog/pf17.png",
+    "text": [
+      "You say no to the frog and you don't get your ball back."
+    ],
+    "prompt": "Let's try a different response.",
+    "choices": [
+      {
+        "text": "Promise to be his friend if he helps you.",
+        "next": "scene16"
+      },
+      {
+        "text": "Say no to the frog.",
+        "next": "scene17"
+      }
+    ]
+  },
+  "scene16": {
+    "image": "res://graphics/princess_and_the_frog/pf16.png",
+    "text": [
+      "You really want your ball back, so you decide to say, \"Okay, I promise!\"",
+      "Plus, making a new friend sounds fun."
+    ],
+    "next": "scene18"
+  },
+  "scene18": {
+    "image": "res://graphics/princess_and_the_frog/pf18.png",
+    "text": [
+      "The frog dives into the water and comes back with the ball on his head!"
+    ],
+    "next": "scene19"
+  },
+  "scene19": {
+    "image": "res://graphics/princess_and_the_frog/pf19.png",
+    "text": [
+      "You're so happy to have your favourite ball back.",
+      "You hug it tight, throwing it up and catching it this time, before running off to go play some more!"
+    ],
+    "next": "scene20"
+  },
+  "scene20": {
+    "image": "res://graphics/princess_and_the_frog/pf20.png",
+    "text": [
+      "It's not until the next day that you remember the promise you made to the frog.",
+      "You were so excited that it slipped your mind!"
+    ],
+    "next": "scene21"
+  },
+  "scene21": {
+    "image": "res://graphics/princess_and_the_frog/pf21.png",
+    "text": [
+      "The frog knocks on your door, and you remember all about yesterday.",
+      "You hear him ribbit, \"Open the door, please, princess! It's me, your friend, the frog.\""
+    ],
+    "prompt": "What do you do next?",
+    "choices": [
+      {
+        "text": "Keep your promise and open the door for him.",
+        "next": "scene24"
+      },
+      {
+        "text": "Keep your door locked and tell him to go away!",
+        "next": "scene22"
+      },
+      {
+        "text": "Keep quiet!",
+        "next": "scene23"
+      }
+    ]
+  },
+  "scene22": {
+    "image": "res://graphics/princess_and_the_frog/pf22.png",
+    "text": [
+      "The frog is sad you didn't keep your promise and goes home."
+    ],
+    "prompt": "Let's try to do something else.",
+    "choices": [
+      {
+        "text": "Keep your promise and open the door for him.",
+        "next": "scene24"
+      },
+      {
+        "text": "Keep quiet!",
+        "next": "scene22"
+      }
+    ]
+  },
+  "scene23": {
+    "image": "res://graphics/princess_and_the_frog/pf23.png",
+    "text": [
+      "The frog is sad you didn't keep your promise and goes home."
+    ],
+    "prompt": "Let's try to do something else.",
+    "choices": [
+      {
+        "text": "Keep your promise and open the door for him.",
+        "next": "scene24"
+      },
+      {
+        "text": "Keep your door locked and tell him to go away!",
+        "next": "scene22"
+      }
+    ]
+  },
+  "scene24": {
+    "image": "res://graphics/princess_and_the_frog/pf24.png",
+    "text": [
+      "You open the door and let the frog in.",
+      "The frog is so happy that you remembered your promise, and he ribbits a loud \"Thank you!\""
+    ],
+    "next": "scene25"
+  },
+  "scene25": {
+    "image": "res://graphics/princess_and_the_frog/pf25.png",
+    "text": [
+      "You two eat a big dinner together, laughing and talking."
+    ],
+    "next": "scene26"
+  },
+  "scene26": {
+    "image": "res://graphics/princess_and_the_frog/pf26.png",
+    "text": [
+      "At the end of the night, you have a sleepover, very happy to have made a new friend."
+    ],
+    "next": "scene27"
+  },
+  "scene27": {
+    "image": "res://graphics/princess_and_the_frog/pf27.png",
+    "text": [
+      "The next morning, when you wake up, the frog is gone!"
+    ],
+    "next": "scene27"
+  },
+  "scene28": {
+    "image": "res://graphics/princess_and_the_frog/pf28.png",
+    "text": [
+      "You look around, and instead there is a prince standing by your bed!",
+      "The prince smiles brightly and says, \"Thank you, Princess, for keeping your promise!\"",
+      "\"A spell was put on me that turned me into a frog, and only a true act of friendship could help me.\"",
+      "The prince then says, \"I come from a faraway kingdom, and if you want to come visit it with me, you can.\""
+    ],
+    "prompt": "Do you want to go?",
+    "choices": [
+      {
+        "text": "Yes",
+        "next": "scene29"
+      },
+      {
+        "text": "No",
+        "next": "scene30"
+      }
+    ]
+  },
+  "scene29": {
+    "image": "res://graphics/princess_and_the_frog/pf29.png",
+    "text": [
+      "You go and it is fun and awesome!"
+    ],
+    "next": "scene31"
+  },
+  "scene30": {
+    "image": "res://graphics/princess_and_the_frog/pf30.png",
+    "text": [
+      "It's okay.",
+      "You don't have to.",
+      "You have fun in your kingdom and have another feast."
+    ],
+    "next": "scene31"
+  },
+  "scene31": {
+    "text": [
+      "Making new and fun friendships needs everyone to be kind to one another.",
+      "What is one thing you can do to help make a new friendship when you talk to or see someone?"
+    ],
+    "end": true
+  }
+}

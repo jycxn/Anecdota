@@ -1,0 +1,249 @@
+{
+  "story_title": "The Magic Mirror",
+  "scene1": {
+    "image": "res://graphics/magic_mirror/magic1.png",
+    "text": [
+      "Once upon a time, a king decided he wanted to marry the most deserving woman in the kingdom."
+    ],
+    "next": "scene2"
+  },
+  "scene2": {
+    "image": "res://graphics/magic_mirror/magic2.png",
+    "text": [
+      "He told his best friend, and the news quickly spread across the land.",
+      "The king said, \"I will only marry a woman who is pure of heart.",
+      "I have a magical mirror.",
+      "It will reveal the true nature of anyone who looks into it.\"",
+      "The barber told all his clients about the king's plan.",
+      "Now, everyone was talking about it."
+    ],
+    "next": "scene3"
+  },
+  "scene3": {
+    "image": "res://graphics/magic_mirror/magic3.png",
+    "text": [
+      "The shepherd girl hears the rumor while tending sheep outside the kingdom."
+    ],
+    "prompt": "What is the best first move when you hear big news like this?",
+    "choices": [
+      {
+        "text": "Check facts by sending a message to the royal court to confirm if it's true.",
+        "next": "scene6"
+      },
+      {
+        "text": "Start spreading the rumor even more without checking.",
+        "next": "scene4"
+      },
+      {
+        "text": "Ignore it and assume it doesn't matter.",
+        "next": "scene5"
+      }
+    ]
+  },
+  "scene4": {
+    "image": "res://graphics/magic_mirror/magic4.png",
+    "text": [
+      "When others ask her where she learned it, she realizes she doesn't know!",
+      "Sometimes it's best to check before spreading information."
+    ],
+    "prompt": "Let's have the shepherd girl try something else.",
+    "choices": [
+      {
+        "text": "Ignore it and assume it doesn't matter.",
+        "next": "scene5"
+      },
+      {
+        "text": "Check facts by sending a message to the royal court to confirm if it's true.",
+        "next": "scene6"
+      }
+    ]
+  },
+  "scene5": {
+    "image": "res://graphics/magic_mirror/magic5.png",
+    "text": [
+      "She ignores it, and later finds out it was true!",
+      "She wishes she had checked before ignoring the news."
+    ],
+    "prompt": "Let's have the shepherd girl try something else.",
+    "choices": [
+      {
+        "text": "Start spreading the rumor even more without checking.",
+        "next": "scene4"
+      },
+      {
+        "text": "Check facts by sending a message to the royal court to confirm if it's true.",
+        "next": "scene6"
+      }
+    ]
+  },
+  "scene6": {
+    "image": "res://graphics/magic_mirror/magic6.png",
+    "text": [
+      "She sends along a letter to the palace asking if the story is true.",
+      "A day later, she gets a letter back that says yes!"
+    ],
+    "next": "scene7"
+  },
+  "scene7": {
+    "image": "res://graphics/magic_mirror/magic7.png",
+    "text": [
+      "The king grows frustrated that no one will approach the mirror.",
+      "The barber suggests a humble shepherd girl might be brave enough."
+    ],
+    "next": "scene8"
+  },
+  "scene8": {
+    "image": "res://graphics/magic_mirror/magic8.png",
+    "text": [
+      "The girl is invited to the palace.",
+      "She stands at the giant doorway, overwhelmed by the people staring at her.",
+      "Many people have come to the palace to see if she will pass the mirror's test."
+    ],
+    "prompt": "What is a smart trick she can use to calm herself?",
+    "choices": [
+      {
+        "text": "Turn around and try to hide by blending into the wall.",
+        "next": "scene9"
+      },
+      {
+        "text": "Stare at the ground and hope she disappears.",
+        "next": "scene10"
+      },
+      {
+        "text": "Clench her fists tightly for 5 seconds, then release (muscle relaxation).",
+        "next": "scene11"
+      }
+    ]
+  },
+  "scene9": {
+    "image": "res://graphics/magic_mirror/magic9.png",
+    "text": [
+      "This does not help as everyone can still see her, so she doesn't feel better."
+    ],
+    "prompt": "Let's have the shepherd girl try something else.",
+    "choices": [
+      {
+        "text": "Stare at the ground and hope she disappears.",
+        "next": "scene10"
+      },
+      {
+        "text": "Clench her fists tightly for 5 seconds, then release (muscle relaxation).",
+        "next": "scene11"
+      }
+    ]
+  },
+  "scene10": {
+    "image": "res://graphics/magic_mirror/magic10.png",
+    "text": [
+      "This does not help as everyone can still see her, so she doesn't feel better."
+    ],
+    "prompt": "Let's have the shepherd girl try something else.",
+    "choices": [
+      {
+        "text": "Turn around and try to hide by blending into the wall.",
+        "next": "scene9"
+      },
+      {
+        "text": "Clench her fists tightly for 5 seconds, then release (muscle relaxation).",
+        "next": "scene11"
+      }
+    ]
+  },
+  "scene11": {
+    "image": "res://graphics/magic_mirror/magic11.png",
+    "text": [
+      "She does this and calms down a lot."
+    ],
+    "next": "scene12"
+  },
+  "scene12": {
+    "image": "res://graphics/magic_mirror/magic12.png",
+    "text": [
+      "The girl steps forward toward the magical mirror.",
+      "Her heart is pounding.",
+      "Everyone is whispering.",
+      "The girl looks bravely into the mirror, and the glass stays clear and clean."
+    ],
+    "next": "scene13"
+  },
+  "scene13": {
+    "image": "res://graphics/magic_mirror/magic13.png",
+    "text": [
+      "Some of the court people sneer, saying, \"It's just a trick!\""
+    ],
+    "next": "scene13.5"
+  },
+  "scene13.5": {
+    "image": "res://graphics/magic_mirror/magic13.5.png",
+    "text": [
+      "They pass the mirror around, but the mirror shows each of them small flaws and stains.",
+      "The king smiles warmly and stands.",
+      "Some courtiers glare at the shepherd girl, clearly jealous."
+    ],
+    "prompt": "What should she do next?",
+    "choices": [
+      {
+        "text": "Boast loudly about how pure she is.",
+        "next": "scene14"
+      },
+      {
+        "text": "Yell at them for being mean.",
+        "next": "scene15"
+      },
+      {
+        "text": "Smile kindly, nod politely, and avoid arguing or bragging.",
+        "next": "scene16"
+      }
+    ]
+  },
+  "scene14": {
+    "image": "res://graphics/magic_mirror/magic14.png",
+    "text": [
+      "Once she does this, the mirror becomes cloudy and stained, and she can't see herself in the mirror anymore.",
+      "By bragging, she stops being kind and pure."
+    ],
+    "prompt": "Let's have the shepherd girl try something else.",
+    "choices": [
+      {
+        "text": "Yell at them for being mean.",
+        "next": "scene15"
+      },
+      {
+        "text": "Smile kindly, nod politely, and avoid arguing or bragging.",
+        "next": "scene16"
+      }
+    ]
+  },
+  "scene15": {
+    "image": "res://graphics/magic_mirror/magic15.png",
+    "text": [
+      "Once she does this, the mirror becomes cloudy and stained, and she can't see herself in the mirror anymore.",
+      "By being mean herself, she stops being kind and pure."
+    ],
+    "prompt": "Let's have the shepherd girl try something else.",
+    "choices": [
+      {
+        "text": "Boast loudly about how pure she is.",
+        "next": "scene14"
+      },
+      {
+        "text": "Smile kindly, nod politely, and avoid arguing or bragging.",
+        "next": "scene16"
+      }
+    ]
+  },
+  "scene16": {
+    "image": "res://graphics/magic_mirror/magic16.png",
+    "text": [
+      "The shepherd girl smiles kindly, nods politely, and avoids arguing or bragging."
+    ],
+    "next": "scene17"
+  },
+  "scene17": {
+    "text": [
+      "The king declares, \"She will be my queen, for she has courage, honesty, and a kind spirit!\"",
+      "The court erupts into applause."
+    ],
+    "end": true
+  }
+}

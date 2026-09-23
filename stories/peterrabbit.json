@@ -3,8 +3,8 @@
   "scene1": {
     "image": "res://graphics/peter_rabbit/peter1.png",
     "text": [
-      "Once upon a time, there are three little rabbits. One of them is named Peter.",
-      "One morning, their mother gives them an important reminder."
+      "Once upon a time, there were three little rabbits. One of them was named Peter.",
+      "One morning, their mother gave them an important reminder."
     ],
     "next": "scene2"
   },
@@ -68,16 +68,16 @@
   "scene5": {
     "image": "res://graphics/peter_rabbit/peter5.png",
     "text": [
-      "Peter decides to explore the meadow instead.",
-      "Peter comes across a patch of flowers and a butterfly nearby."
+      "Peter decided to explore the meadow instead.",
+      "Peter came across a patch of flowers and a butterfly nearby."
     ],
     "next": "scene6"
   },
   "scene6": {
     "image": "res://graphics/peter_rabbit/peter6.png",
     "text": [
-      "As he is admiring the flowers, he notices some bunnies playing in the distance.",
-      "They are having a great time playing tag, and Peter feels a little left out."
+      "As he was admiring the flowers, he noticed some bunnies playing in the distance.",
+      "They were having a great time playing tag, and Peter felt a little left out."
     ],
     "prompt": "What should Peter do to handle his feelings of loneliness or wanting to join the other bunnies?",
     "choices": [
@@ -98,8 +98,8 @@
   "scene7": {
     "image": "res://graphics/peter_rabbit/peter7.png",
     "text": [
-      "The other bunnies are confused about who Peter is, since they do not know him.",
-      "They do not want to play a game with a stranger who has not asked to join."
+      "The other bunnies were confused about who Peter was, since they did not know him.",
+      "They did not want to play a game with a stranger who had not asked to join."
     ],
     "prompt": "Let us have Peter try something else.",
     "choices": [
@@ -133,16 +133,16 @@
   "scene9": {
     "image": "res://graphics/peter_rabbit/peter9.png",
     "text": [
-      "Peter decides to take a deep breath.",
-      "He goes over to the bunnies and says, \"Hi! I would love to join your game if you will let me play.\"",
-      "The bunnies smile and invite him to join."
+      "Peter decided to take a deep breath.",
+      "He went over to the bunnies and said, \"Hi! I would love to join your game if you will let me play.\"",
+      "The bunnies smiled and invited him to join."
     ],
     "next": "scene10"
   },
   "scene10": {
     "image": "res://graphics/peter_rabbit/peter10.png",
     "text": [
-      "They play together for a while, and Peter feels much better."
+      "They played together for a while, and Peter felt much better."
     ],
     "prompt": "What did Peter learn from asking to join the game?",
     "choices": [
@@ -197,16 +197,16 @@
   "scene12": {
     "image": "res://graphics/peter_rabbit/peter12.png",
     "text": [
-      "After playing, Peter decides that it is time to head back home.",
-      "On his way, he passes by the garden. He sees some carrots growing right near the gate.",
-      "Instead of listening to his mother's instructions, he goes into the garden."
+      "After playing, Peter decided that it was time to head back home.",
+      "On his way, he passed by the garden. He saw some carrots growing right near the gate.",
+      "Instead of listening to his mother's instructions, he went into the garden."
     ],
     "next": "scene13"
   },
   "scene13": {
     "image": "res://graphics/peter_rabbit/peter13.png",
     "text": [
-      "He eats a bunch of carrots and feels full."
+      "He ate a bunch of carrots and felt full."
     ],
     "prompt": "What should Peter do after feeling full and uncomfortable?",
     "choices": [
@@ -227,7 +227,7 @@
   "scene14": {
     "image": "res://graphics/peter_rabbit/peter14.png",
     "text": [
-      "Peter finishes the rest of the carrots, but his stomach begins to hurt afterward from eating too much."
+      "Peter finished the rest of the carrots, but his stomach began to hurt afterward from eating too much."
     ],
     "prompt": "Let us have Peter try something else.",
     "choices": [
@@ -244,8 +244,8 @@
   "scene15": {
     "image": "res://graphics/peter_rabbit/peter15.png",
     "text": [
-      "Peter rushes in to find more food, but gets lost in the garden.",
-      "He remembers his mother's warning that the garden isn't a safe place for bunnies."
+      "Peter rushed in to find more food but got lost in the garden.",
+      "He remembered his mother's warning that the garden wasn't a safe place for bunnies."
     ],
     "prompt": "Let us have Peter try something else.",
     "choices": [
@@ -262,7 +262,7 @@
   "scene16": {
     "image": "res://graphics/peter_rabbit/peter16.png",
     "text": [
-      "Peter decides to walk home.",
+      "Peter decided to walk home.",
       "\"I am home, Mother!\" Peter called.",
       "\"How was your day?\" she asked."
     ],
@@ -285,7 +285,7 @@
   "scene17": {
     "image": "res://graphics/peter_rabbit/peter17.png",
     "text": [
-      "Peter hides what happened, but he feels bad about lying to his mother.",
+      "Peter hid what happened, but he felt bad about lying to his mother.",
       "It is the right thing to tell the truth when you did something against your parents' wishes."
     ],
     "prompt": "Let us have Peter try something else.",
@@ -303,8 +303,8 @@
   "scene18": {
     "image": "res://graphics/peter_rabbit/peter18.png",
     "text": [
-      "By shrugging and not saying much else, Peter hides what happened.",
-      "Afterward, he feels bad about lying to his mother.",
+      "By shrugging and not saying much else, Peter hid what happened.",
+      "Afterward, he felt bad about lying to his mother.",
       "It is the right thing to tell the truth when you did something against your parents' wishes."
     ],
     "prompt": "Let us have Peter try something else.",
@@ -331,7 +331,7 @@
     "image": "res://graphics/end.png",
     "text": [
       "In the story of Peter Rabbit, he tells his mother the truth even though he knows he broke the rules.",
-      "What are two reasons telling the truth?"
+      "What are two reasons to tell the truth?"
     ],
     "end": true
   }

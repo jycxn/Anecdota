@@ -1,0 +1,423 @@
+[gd_scene format=3 uid="uid://bg1lam8h24che"]
+
+[ext_resource type="Script" uid="uid://buj7qjfm7lvh4" path="res://scripts/storyselection2.gd" id="1_mf0gn"]
+[ext_resource type="Texture2D" uid="uid://4yp6khkb1shc" path="res://graphics/misc_materials/anecdota_bg.png" id="2_y1fl3"]
+[ext_resource type="FontFile" uid="uid://bkubkrgcl3y76" path="res://quicksand/Quicksand-Bold.ttf" id="3_g6r2f"]
+[ext_resource type="Texture2D" uid="uid://be044dqnt2d1x" path="res://graphics/boy_who_cried_wolf/bwcwcover.png" id="4_hrx5v"]
+[ext_resource type="Texture2D" uid="uid://i04o33j1qjsb" path="res://graphics/jack_and_the_beanstalk/jackcover.png" id="5_at65k"]
+[ext_resource type="Texture2D" uid="uid://dqkqevvdt7ohp" path="res://graphics/alice_in_wonderland/alicecover.png" id="6_k7a5g"]
+[ext_resource type="Texture2D" uid="uid://deh75palv114q" path="res://graphics/magic_mirror/magiccover.png" id="7_7g7bd"]
+[ext_resource type="Texture2D" uid="uid://df1up0sgco720" path="res://graphics/ugly_duckling/tudcover.png" id="8_dhx1h"]
+[ext_resource type="Texture2D" uid="uid://7xm1vq5j2iuf" path="res://graphics/emperors_new_clothes/enccover.png" id="9_qoyrf"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5gisw"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5rnq7"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+border_blend = true
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_de4n0"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+shadow_size = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_um1x3"]
+bg_color = Color(0.8784314, 0.70980394, 0.56078434, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1q4xg"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+border_blend = true
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ubqlm"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_size = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mf0gn"]
+bg_color = Color(0.8784314, 0.70980394, 0.56078434, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y1fl3"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+border_blend = true
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g6r2f"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_size = 5
+
+[node name="storyselection2" type="Control" unique_id=1615777447]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mf0gn")
+
+[node name="background" type="TextureRect" parent="." unique_id=805425226]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 640.0
+texture = ExtResource("2_y1fl3")
+expand_mode = 1
+
+[node name="heading" type="Label" parent="." unique_id=1248402999]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -338.0
+offset_top = 9.0
+offset_right = 332.0
+offset_bottom = 103.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_fonts/font = ExtResource("3_g6r2f")
+theme_override_font_sizes/font_size = 75
+text = "Choose Your Story"
+
+[node name="r1box" type="BoxContainer" parent="." unique_id=516881875]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 114.0
+offset_right = 1086.0
+offset_bottom = 330.0
+theme_override_constants/separation = 45
+
+[node name="bwcwbox" type="BoxContainer" parent="r1box" unique_id=332341155]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+vertical = true
+
+[node name="fixratio1" type="AspectRatioContainer" parent="r1box/bwcwbox" unique_id=587025799]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+ratio = 1.7778
+
+[node name="bwcwthumbnail" type="TextureButton" parent="r1box/bwcwbox/fixratio1" unique_id=985177183]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("4_hrx5v")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="bwcwcaption" type="Button" parent="r1box/bwcwbox" unique_id=62930516]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_5gisw")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5rnq7")
+theme_override_styles/hover = SubResource("StyleBoxFlat_de4n0")
+text = "The Boy Who Cried Wolf"
+
+[node name="jackbox" type="BoxContainer" parent="r1box" unique_id=422891633]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+vertical = true
+
+[node name="fixratio2" type="AspectRatioContainer" parent="r1box/jackbox" unique_id=120104920]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+ratio = 1.7778
+
+[node name="jackthumbnail" type="TextureButton" parent="r1box/jackbox/fixratio2" unique_id=917657146]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("5_at65k")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="jackcaption" type="Button" parent="r1box/jackbox" unique_id=2104281356]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_5gisw")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5rnq7")
+theme_override_styles/hover = SubResource("StyleBoxFlat_de4n0")
+text = "Jack and the Beanstalk"
+
+[node name="alicebox" type="BoxContainer" parent="r1box" unique_id=1497763167]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+vertical = true
+
+[node name="fixratio3" type="AspectRatioContainer" parent="r1box/alicebox" unique_id=622873692]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+ratio = 1.7778
+
+[node name="alicethumbnail" type="TextureButton" parent="r1box/alicebox/fixratio3" unique_id=1982654671]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("6_k7a5g")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="alicecaption" type="Button" parent="r1box/alicebox" unique_id=1526980500]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_5gisw")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5rnq7")
+theme_override_styles/hover = SubResource("StyleBoxFlat_de4n0")
+text = "Alice in Wonderland"
+
+[node name="r2box" type="BoxContainer" parent="." unique_id=1511631889]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 348.0
+offset_right = 1086.0
+offset_bottom = 572.0
+theme_override_constants/separation = 45
+
+[node name="magicbox" type="BoxContainer" parent="r2box" unique_id=1993144473]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+vertical = true
+
+[node name="fixratio4" type="AspectRatioContainer" parent="r2box/magicbox" unique_id=1174412267]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+ratio = 1.7778
+
+[node name="magicthumbnail" type="TextureButton" parent="r2box/magicbox/fixratio4" unique_id=162166649]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("7_7g7bd")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="magiccaption" type="Button" parent="r2box/magicbox" unique_id=554561507]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_5gisw")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5rnq7")
+theme_override_styles/hover = SubResource("StyleBoxFlat_de4n0")
+text = "Magic Mirror"
+
+[node name="tudbox" type="BoxContainer" parent="r2box" unique_id=1378250859]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+vertical = true
+
+[node name="fixratio5" type="AspectRatioContainer" parent="r2box/tudbox" unique_id=1327490830]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+ratio = 1.7778
+
+[node name="tudthumbnail" type="TextureButton" parent="r2box/tudbox/fixratio5" unique_id=1167773037]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("8_dhx1h")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="tudcaption" type="Button" parent="r2box/tudbox" unique_id=1614960318]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_5gisw")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5rnq7")
+theme_override_styles/hover = SubResource("StyleBoxFlat_de4n0")
+text = "The Ugly Duckling"
+
+[node name="encbox" type="BoxContainer" parent="r2box" unique_id=2055155472]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+vertical = true
+
+[node name="fixratio6" type="AspectRatioContainer" parent="r2box/encbox" unique_id=75067129]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+ratio = 1.7778
+
+[node name="encthumbnail" type="TextureButton" parent="r2box/encbox/fixratio6" unique_id=1112415541]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("9_qoyrf")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="enccaption" type="Button" parent="r2box/encbox" unique_id=156304417]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_5gisw")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5rnq7")
+theme_override_styles/hover = SubResource("StyleBoxFlat_de4n0")
+text = "Emperor's New Clothes"
+
+[node name="mainmenubutton" type="Button" parent="." unique_id=198706308]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.62600005
+anchor_right = 0.5
+anchor_bottom = 0.62600005
+offset_left = -566.0
+offset_top = -396.64804
+offset_right = -418.0
+offset_bottom = -356.64804
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_pressed_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("StyleBoxFlat_um1x3")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_1q4xg")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ubqlm")
+text = "Main Menu"
+autowrap_mode = 3
+
+[node name="pgindicator" type="RichTextLabel" parent="." unique_id=828243749]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -82.0
+offset_top = -55.0
+offset_right = 70.0
+offset_bottom = -23.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/default_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_font_sizes/normal_font_size = 26
+text = "Page 2 of 3
+"
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="topg3" type="Button" parent="." unique_id=317519121]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.62600005
+anchor_right = 0.5
+anchor_bottom = 0.62600005
+offset_left = 464.0
+offset_top = 183.35196
+offset_right = 564.0
+offset_bottom = 223.35196
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_pressed_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("StyleBoxFlat_mf0gn")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_y1fl3")
+theme_override_styles/hover = SubResource("StyleBoxFlat_g6r2f")
+text = "Next"
+autowrap_mode = 3
+
+[node name="topg1" type="Button" parent="." unique_id=1112565021]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.62600005
+anchor_right = 0.5
+anchor_bottom = 0.62600005
+offset_left = -566.0
+offset_top = 183.35196
+offset_right = -446.0
+offset_bottom = 223.35196
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_pressed_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("StyleBoxFlat_mf0gn")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_y1fl3")
+theme_override_styles/hover = SubResource("StyleBoxFlat_g6r2f")
+text = "Previous
+"
+autowrap_mode = 3
+
+[connection signal="pressed" from="r1box/bwcwbox/fixratio1/bwcwthumbnail" to="." method="_on_boycriedwolf_pressed"]
+[connection signal="pressed" from="r1box/bwcwbox/bwcwcaption" to="." method="_on_boycriedwolf_pressed"]
+[connection signal="pressed" from="r1box/jackbox/fixratio2/jackthumbnail" to="." method="_on_jackbeanstalk_pressed"]
+[connection signal="pressed" from="r1box/jackbox/jackcaption" to="." method="_on_jackbeanstalk_pressed"]
+[connection signal="pressed" from="r1box/alicebox/fixratio3/alicethumbnail" to="." method="_on_alicewonderland_pressed"]
+[connection signal="pressed" from="r1box/alicebox/alicecaption" to="." method="_on_alicewonderland_pressed"]
+[connection signal="pressed" from="r2box/magicbox/fixratio4/magicthumbnail" to="." method="_on_magicmirror_pressed"]
+[connection signal="pressed" from="r2box/magicbox/magiccaption" to="." method="_on_magicmirror_pressed"]
+[connection signal="pressed" from="r2box/tudbox/fixratio5/tudthumbnail" to="." method="_on_uglyduckling_pressed"]
+[connection signal="pressed" from="r2box/tudbox/tudcaption" to="." method="_on_uglyduckling_pressed"]
+[connection signal="pressed" from="r2box/encbox/fixratio6/encthumbnail" to="." method="_on_emperorclothes_pressed"]
+[connection signal="pressed" from="r2box/encbox/enccaption" to="." method="_on_emperorclothes_pressed"]
+[connection signal="pressed" from="mainmenubutton" to="." method="_on_mainmenubutton_pressed"]
+[connection signal="pressed" from="topg3" to="." method="_on_topg3_pressed"]
+[connection signal="pressed" from="topg1" to="." method="_on_topg1_pressed"]

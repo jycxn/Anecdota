@@ -1,0 +1,379 @@
+{
+  "story_title": "The Two Brothers",
+  "scene1": {
+    "image": "res://graphics/two_brothers/2b1.png",
+    "text": [
+      "Once upon a time, two brothers set off on a journey together.",
+      "They rested under a tree at noon, and when they woke up, they saw a mysterious stone beside them."
+    ],
+    "next": "scene2"
+  },
+  "scene2": {
+    "image": "res://graphics/two_brothers/2b2.png",
+    "text": [
+      "On the stone was an inscription: \"Whoever finds this stone, let him go straight into the forest at sunrise.",
+      "There, a river will appear.",
+      "Swim across it, and you will find a bear and her cubs.",
+      "Take the cubs and run up the mountain without looking back.",
+      "At the top of the mountain, a house awaits you, and inside, happiness.\""
+    ],
+    "next": "scene3"
+  },
+  "scene3": {
+    "image": "res://graphics/two_brothers/2b3.png",
+    "text": [
+      "The younger brother was excited and immediately said, \"Let's go together!",
+      "We can do this!",
+      "We'll cross the river, carry the cubs, and find the happiness we're meant to have.\""
+    ],
+    "next": "scene4"
+  },
+  "scene4": {
+    "image": "res://graphics/two_brothers/2b4.png",
+    "text": [
+      "But the elder brother was cautious.",
+      "\"You don't know if this is true.",
+      "What if we get lost?",
+      "What if the river is too dangerous?",
+      "Or what if the bear attacks us?",
+      "And what if the happiness we find isn't what we expect?\""
+    ],
+    "next": "scene5"
+  },
+  "scene5": {
+    "image": "res://graphics/two_brothers/2b5.png",
+    "text": [
+      "The younger brother disagreed.",
+      "\"I think we should go! Who else will find happiness if we don't try? Plus, we'll never know if we don't take a chance.\"",
+      "The elder brother said, \"I'll stay here. You can go, but be careful!\""
+    ],
+    "prompt": "What is the best way to approach situations like this?",
+    "choices": [
+      {
+        "text": "Ignore the risks and take the adventure without thinking.",
+        "next": "scene6"
+      },
+      {
+        "text": "Think about the risks carefully and consider what you might gain or lose.",
+        "next": "scene7"
+      },
+      {
+        "text": "Always play it safe and never take any chances.",
+        "next": "scene8"
+      }
+    ]
+  },
+  "scene6": {
+    "image": "res://graphics/two_brothers/2b6.png",
+    "text": [
+      "Ignoring risks can lead to unsafe choices.",
+      "It is important to think before taking a chance."
+    ],
+    "prompt": "Let's have the younger brother try something else.",
+    "choices": [
+      {
+        "text": "Think about the risks carefully and consider what you might gain or lose.",
+        "next": "scene7"
+      },
+      {
+        "text": "Always play it safe and never take any chances.",
+        "next": "scene8"
+      }
+    ]
+  },
+  "scene7": {
+    "image": "res://graphics/two_brothers/2b7.png",
+    "text": [
+      "Thinking about both the risks and possible rewards helps the younger brother make a careful choice."
+    ],
+    "next": "scene9"
+  },
+  "scene8": {
+    "image": "res://graphics/two_brothers/2b8.png",
+    "text": [
+      "Never taking chances can also mean missing valuable experiences.",
+      "It is important to consider both risks and possible rewards."
+    ],
+    "prompt": "Let's have the younger brother try something else.",
+    "choices": [
+      {
+        "text": "Ignore the risks and take the adventure without thinking.",
+        "next": "scene6"
+      },
+      {
+        "text": "Think about the risks carefully and consider what you might gain or lose.",
+        "next": "scene7"
+      }
+    ]
+  },
+  "scene9": {
+    "image": "res://graphics/two_brothers/2b9.png",
+    "text": [
+      "The younger brother set off alone.",
+      "At sunrise, he found the river.",
+      "It was swift, but he was a strong swimmer.",
+      "He crossed it without hesitation and reached the other side.",
+      "There, he found the bear and her cubs, fast asleep."
+    ],
+    "next": "scene10"
+  },
+  "scene10": {
+    "image": "res://graphics/two_brothers/2b10.png",
+    "text": [
+      "He remembered the instructions and carefully took the cubs, then started running up the mountain without looking back."
+    ],
+    "next": "scene11"
+  },
+  "scene11": {
+    "image": "res://graphics/two_brothers/2b11.png",
+    "text": [
+      "After climbing the mountain, the younger brother was greeted by the townspeople",
+      "who welcomed him with a carriage and made him their king."
+    ],
+    "next": "scene12"
+  },
+  "scene12": {
+    "image": "res://graphics/two_brothers/2b12.png",
+    "text": [
+      "For five years, he ruled with wisdom.",
+      "But in the sixth year, another king came with a stronger army and conquered the city.",
+      "The younger brother was forced to flee."
+    ],
+    "next": "scene13"
+  },
+  "scene13": {
+    "image": "res://graphics/two_brothers/2b13.png",
+    "text": [
+      "After losing his kingdom, the younger brother did not regret his journey."
+    ],
+    "prompt": "Why might he have felt this way, even after facing hardship?",
+    "choices": [
+      {
+        "text": "Because he believes that having power and wealth are the only important things in life.",
+        "next": "scene14"
+      },
+      {
+        "text": "Because failure can teach us important lessons we wouldn't have learned otherwise.",
+        "next": "scene15"
+      },
+      {
+        "text": "Because he thinks that having a kingdom is the only way to feel fulfilled.",
+        "next": "scene16"
+      }
+    ]
+  },
+  "scene14": {
+    "image": "res://graphics/two_brothers/2b14.png",
+    "text": [
+      "If power and wealth were the only important things, losing the kingdom would leave him with nothing valuable.",
+      "He also gained lessons and memories."
+    ],
+    "prompt": "Let's have the younger brother try something else.",
+    "choices": [
+      {
+        "text": "Because failure can teach us important lessons we wouldn't have learned otherwise.",
+        "next": "scene15"
+      },
+      {
+        "text": "Because he thinks that having a kingdom is the only way to feel fulfilled.",
+        "next": "scene16"
+      }
+    ]
+  },
+  "scene15": {
+    "image": "res://graphics/two_brothers/2b15.png",
+    "text": [
+      "The younger brother understands that failure can teach important lessons that success alone may not provide."
+    ],
+    "next": "scene17"
+  },
+  "scene16": {
+    "image": "res://graphics/two_brothers/2b16.png",
+    "text": [
+      "The younger brother can find meaning in his experiences even without a kingdom.",
+      "Fulfillment can come from more than one path."
+    ],
+    "prompt": "Let's have the younger brother try something else.",
+    "choices": [
+      {
+        "text": "Because he believes that having power and wealth are the only important things in life.",
+        "next": "scene14"
+      },
+      {
+        "text": "Because failure can teach us important lessons we wouldn't have learned otherwise.",
+        "next": "scene15"
+      }
+    ]
+  },
+  "scene17": {
+    "image": "res://graphics/two_brothers/2b17.png",
+    "text": [
+      "Wandering once more, the younger brother arrived at the elder brother's house.",
+      "The elder brother had remained in the village, living a steady, peaceful life.",
+      "The two brothers reunited and began to share their stories."
+    ],
+    "next": "scene18"
+  },
+  "scene18": {
+    "image": "res://graphics/two_brothers/2b18.png",
+    "text": [
+      "The elder brother said, \"You see, I was right.",
+      "I stayed here and lived calmly, while you, even though you were once a king, have had nothing but trouble.\""
+    ],
+    "next": "scene19"
+  },
+  "scene19": {
+    "image": "res://graphics/two_brothers/2b19.png",
+    "text": [
+      "The younger brother smiled and replied, \"I may not have a kingdom now,",
+      "but I have stories, adventures, and lessons I'll never forget.",
+      "You may have avoided the challenges, but you'll never have the memories I carry with me.\""
+    ],
+    "next": "scene20"
+  },
+  "scene20": {
+    "image": "res://graphics/two_brothers/2b20.png",
+    "text": [
+      "The elder brother values peace and stability, while the younger brother cherishes the memories and lessons of his adventures."
+    ],
+    "prompt": "What does this teach us about life?",
+    "choices": [
+      {
+        "text": "It's better to live safely and avoid challenges.",
+        "next": "scene21"
+      },
+      {
+        "text": "Living a risk-free life means we avoid all kinds of happiness.",
+        "next": "scene22"
+      },
+      {
+        "text": "The experiences we gain through challenges and adventures are just as valuable as stability.",
+        "next": "scene23"
+      }
+    ]
+  },
+  "scene21": {
+    "image": "res://graphics/two_brothers/2b21.png",
+    "text": [
+      "Avoiding every challenge is not always better.",
+      "Challenges can provide valuable experiences and lessons."
+    ],
+    "prompt": "Let's have the brothers try something else.",
+    "choices": [
+      {
+        "text": "Living a risk-free life means we avoid all kinds of happiness.",
+        "next": "scene22"
+      },
+      {
+        "text": "The experiences we gain through challenges and adventures are just as valuable as stability.",
+        "next": "scene23"
+      }
+    ]
+  },
+  "scene22": {
+    "image": "res://graphics/two_brothers/2b22.png",
+    "text": [
+      "A stable life can have its own kind of happiness.",
+      "Different people may value different experiences."
+    ],
+    "prompt": "Let's have the brothers try something else.",
+    "choices": [
+      {
+        "text": "It's better to live safely and avoid challenges.",
+        "next": "scene21"
+      },
+      {
+        "text": "The experiences we gain through challenges and adventures are just as valuable as stability.",
+        "next": "scene23"
+      }
+    ]
+  },
+  "scene23": {
+    "image": "res://graphics/two_brothers/2b23.png",
+    "text": [
+      "The experiences we gain through challenges and adventures can be just as valuable as stability."
+    ],
+    "next": "scene24"
+  },
+  "scene24": {
+    "image": "res://graphics/two_brothers/2b24.png",
+    "text": [
+      "The elder brother's life was quiet and stable, while the younger brother's life was filled with highs and lows."
+    ],
+    "prompt": "Which life approach might suit different people?",
+    "choices": [
+      {
+        "text": "Some people prefer stability and comfort, while others find value in adventure and new experiences.",
+        "next": "scene25"
+      },
+      {
+        "text": "Everyone should want adventure and avoid living a quiet life.",
+        "next": "scene26"
+      },
+      {
+        "text": "People who prefer stability are making a mistake because adventures are the only true way to live.",
+        "next": "scene27"
+      }
+    ]
+  },
+  "scene25": {
+    "image": "res://graphics/two_brothers/2b25.png",
+    "text": [
+      "Different approaches suit different people.",
+      "Some value stability, while others value adventure and new experiences."
+    ],
+    "next": "scene28"
+  },
+  "scene26": {
+    "image": "res://graphics/two_brothers/2b26.png",
+    "text": [
+      "Not everyone wants the same kind of life.",
+      "A quiet life can be meaningful for someone who values stability."
+    ],
+    "prompt": "Let's have the brothers try something else.",
+    "choices": [
+      {
+        "text": "Some people prefer stability and comfort, while others find value in adventure and new experiences.",
+        "next": "scene25"
+      },
+      {
+        "text": "People who prefer stability are making a mistake because adventures are the only true way to live.",
+        "next": "scene27"
+      }
+    ]
+  },
+  "scene27": {
+    "image": "res://graphics/two_brothers/2b27.png",
+    "text": [
+      "People who prefer stability are not making a mistake.",
+      "Each person may value a different path."
+    ],
+    "prompt": "Let's have the brothers try something else.",
+    "choices": [
+      {
+        "text": "Some people prefer stability and comfort, while others find value in adventure and new experiences.",
+        "next": "scene25"
+      },
+      {
+        "text": "Everyone should want adventure and avoid living a quiet life.",
+        "next": "scene26"
+      }
+    ]
+  },
+  "scene28": {
+    "image": "res://graphics/two_brothers/2b28.png",
+    "text": [
+      "Both brothers followed different paths—one choosing adventure, the other comfort.",
+      "What's most important is to reflect on what we value—experiences, memories, or stability—",
+      "and understand that each path has its own kind of happiness."
+    ],
+    "next": "scene29"
+  },
+  "scene29": {
+    "text": [
+      "What makes one person happy might not make another person happy.",
+      "What can two people do if they cannot agree on what to do?"
+    ],
+    "end": true
+  }
+}

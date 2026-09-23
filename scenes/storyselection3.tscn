@@ -1,0 +1,396 @@
+[gd_scene format=3 uid="uid://c7iq8oerkvno8"]
+
+[ext_resource type="Script" uid="uid://cefqr5fc1piew" path="res://scenes/storyselection3.gd" id="1_jxvy1"]
+[ext_resource type="Texture2D" uid="uid://4yp6khkb1shc" path="res://graphics/misc_materials/anecdota_bg.png" id="2_w7a7s"]
+[ext_resource type="FontFile" uid="uid://bkubkrgcl3y76" path="res://quicksand/Quicksand-Bold.ttf" id="3_g8s74"]
+[ext_resource type="Texture2D" uid="uid://bv4ulidytt0au" path="res://graphics/little_red_riding_hood/lrrhcover.png" id="4_jgxv0"]
+[ext_resource type="Texture2D" uid="uid://bd4ud8d1simp0" path="res://graphics/princess_and_the_frog/pfcover.png" id="5_elksc"]
+[ext_resource type="Texture2D" uid="uid://ddu4sxb7ao7si" path="res://graphics/two_brothers/2bcover.png" id="6_jsl1b"]
+[ext_resource type="Texture2D" uid="uid://pcevj4ipbhac" path="res://graphics/misc_materials/end.png" id="7_ebxm3"]
+[ext_resource type="Texture2D" uid="uid://bl7doxed5ouot" path="res://graphics/tom_thumb/ttcover.png" id="7_g8s74"]
+[ext_resource type="Texture2D" uid="uid://b05web1lyy41x" path="res://graphics/tortoise_and_hare/tahcover.png" id="8_jgxv0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ddimv"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0e05g"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+border_blend = true
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x5hvw"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+shadow_size = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_svngy"]
+bg_color = Color(0.8784314, 0.70980394, 0.56078434, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iy3yw"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+border_blend = true
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_aiu83"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_size = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v0hay"]
+bg_color = Color(0.8784314, 0.70980394, 0.56078434, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i81q8"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+border_blend = true
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ufr6a"]
+bg_color = Color(0.6666667, 0.45882353, 0.3372549, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_size = 5
+
+[node name="storyselection3" type="Control" unique_id=117370397]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jxvy1")
+
+[node name="background" type="TextureRect" parent="." unique_id=1710319269]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 640.0
+texture = ExtResource("2_w7a7s")
+expand_mode = 1
+
+[node name="heading" type="Label" parent="." unique_id=1022909678]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -338.0
+offset_top = 9.0
+offset_right = 332.0
+offset_bottom = 103.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_fonts/font = ExtResource("3_g8s74")
+theme_override_font_sizes/font_size = 75
+text = "Choose Your Story"
+
+[node name="r1box" type="BoxContainer" parent="." unique_id=1464514826]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 114.0
+offset_right = 1086.0
+offset_bottom = 330.0
+theme_override_constants/separation = 45
+
+[node name="lrrhbox" type="BoxContainer" parent="r1box" unique_id=341593834]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+vertical = true
+
+[node name="fixratio1" type="AspectRatioContainer" parent="r1box/lrrhbox" unique_id=1716770085]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+ratio = 1.7778
+
+[node name="lrrhthumbnail" type="TextureButton" parent="r1box/lrrhbox/fixratio1" unique_id=2119408617]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("4_jgxv0")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="lrrhcaption" type="Button" parent="r1box/lrrhbox" unique_id=2083377014]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ddimv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_0e05g")
+theme_override_styles/hover = SubResource("StyleBoxFlat_x5hvw")
+text = "Little Red Riding Hood"
+
+[node name="2bbox" type="BoxContainer" parent="r1box" unique_id=392559709]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+vertical = true
+
+[node name="fixratio2" type="AspectRatioContainer" parent="r1box/2bbox" unique_id=455696341]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+ratio = 1.7778
+
+[node name="2bthumbnail" type="TextureButton" parent="r1box/2bbox/fixratio2" unique_id=1084847189]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("5_elksc")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="2bcaption" type="Button" parent="r1box/2bbox" unique_id=472748848]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ddimv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_0e05g")
+theme_override_styles/hover = SubResource("StyleBoxFlat_x5hvw")
+text = "The Princess and the Frog"
+
+[node name="pfbox" type="BoxContainer" parent="r1box" unique_id=1017694140]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+vertical = true
+
+[node name="fixratio3" type="AspectRatioContainer" parent="r1box/pfbox" unique_id=767991881]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+ratio = 1.7778
+
+[node name="pfthumbnail" type="TextureButton" parent="r1box/pfbox/fixratio3" unique_id=1023153853]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("6_jsl1b")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="pfcaption" type="Button" parent="r1box/pfbox" unique_id=228017810]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ddimv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_0e05g")
+theme_override_styles/hover = SubResource("StyleBoxFlat_x5hvw")
+text = "Two Brothers"
+
+[node name="r2box" type="BoxContainer" parent="." unique_id=767574363]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 348.0
+offset_right = 1086.0
+offset_bottom = 572.0
+theme_override_constants/separation = 45
+
+[node name="ttbox" type="BoxContainer" parent="r2box" unique_id=158718266]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+vertical = true
+
+[node name="fixratio4" type="AspectRatioContainer" parent="r2box/ttbox" unique_id=484439454]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+ratio = 1.7778
+
+[node name="ttthumbnail" type="TextureButton" parent="r2box/ttbox/fixratio4" unique_id=651714902]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("7_g8s74")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="ttcaption" type="Button" parent="r2box/ttbox" unique_id=168808048]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ddimv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_0e05g")
+theme_override_styles/hover = SubResource("StyleBoxFlat_x5hvw")
+text = "Tom Thumb"
+
+[node name="tahbox" type="BoxContainer" parent="r2box" unique_id=2145871753]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+vertical = true
+
+[node name="fixratio5" type="AspectRatioContainer" parent="r2box/tahbox" unique_id=871515848]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+ratio = 1.7778
+
+[node name="tahthumbnail" type="TextureButton" parent="r2box/tahbox/fixratio5" unique_id=16793047]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("8_jgxv0")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="tahcaption" type="Button" parent="r2box/tahbox" unique_id=862853292]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ddimv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_0e05g")
+theme_override_styles/hover = SubResource("StyleBoxFlat_x5hvw")
+text = "The Tortoise and the Hare"
+
+[node name="placehold3box" type="BoxContainer" parent="r2box" unique_id=421422684]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+vertical = true
+
+[node name="fixratio6" type="AspectRatioContainer" parent="r2box/placehold3box" unique_id=2058272173]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+ratio = 1.7778
+
+[node name="placehold3thumbnail" type="TextureButton" parent="r2box/placehold3box/fixratio6" unique_id=1603786724]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("7_ebxm3")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="placehold3caption" type="Button" parent="r2box/placehold3box" unique_id=259873046]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ddimv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_0e05g")
+theme_override_styles/hover = SubResource("StyleBoxFlat_x5hvw")
+text = "Coming Soon!"
+
+[node name="mainmenubutton" type="Button" parent="." unique_id=562666755]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.62600005
+anchor_right = 0.5
+anchor_bottom = 0.62600005
+offset_left = -566.0
+offset_top = -396.64804
+offset_right = -418.0
+offset_bottom = -356.64804
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_pressed_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("StyleBoxFlat_svngy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_iy3yw")
+theme_override_styles/hover = SubResource("StyleBoxFlat_aiu83")
+text = "Main Menu"
+autowrap_mode = 3
+
+[node name="pgindicator" type="RichTextLabel" parent="." unique_id=1511382444]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -82.0
+offset_top = -55.0
+offset_right = 70.0
+offset_bottom = -23.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/default_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_font_sizes/normal_font_size = 26
+text = "Page 3 of 3
+"
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="topg2" type="Button" parent="." unique_id=1054001484]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.62600005
+anchor_right = 0.5
+anchor_bottom = 0.62600005
+offset_left = -566.0
+offset_top = 183.35196
+offset_right = -446.0
+offset_bottom = 223.35196
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.15686275, 0.15686275, 0.16862746, 1)
+theme_override_colors/font_pressed_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_colors/font_hover_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.99607843, 0.99607843, 0.99607843, 1)
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("StyleBoxFlat_v0hay")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_i81q8")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ufr6a")
+text = "Previous
+"
+autowrap_mode = 3
+
+[connection signal="pressed" from="r1box/lrrhbox/fixratio1/lrrhthumbnail" to="." method="_on_redridinghood_pressed"]
+[connection signal="pressed" from="r1box/lrrhbox/lrrhcaption" to="." method="_on_redridinghood_pressed"]
+[connection signal="pressed" from="r1box/2bbox/fixratio2/2bthumbnail" to="." method="_on_2brothers_pressed"]
+[connection signal="pressed" from="r1box/2bbox/2bcaption" to="." method="_on_2brothers_pressed"]
+[connection signal="pressed" from="r1box/pfbox/fixratio3/pfthumbnail" to="." method="_on_princessfrog_pressed"]
+[connection signal="pressed" from="r1box/pfbox/pfcaption" to="." method="_on_princessfrog_pressed"]
+[connection signal="pressed" from="r2box/ttbox/fixratio4/ttthumbnail" to="." method="_on_tomthumb_pressed"]
+[connection signal="pressed" from="r2box/ttbox/ttcaption" to="." method="_on_tomthumb_pressed"]
+[connection signal="pressed" from="r2box/tahbox/fixratio5/tahthumbnail" to="." method="_on_tortoisehare_pressed"]
+[connection signal="pressed" from="r2box/tahbox/tahcaption" to="." method="_on_tortoisehare_pressed"]
+[connection signal="pressed" from="mainmenubutton" to="." method="_on_mainmenubutton_pressed"]
+[connection signal="pressed" from="topg2" to="." method="_on_topg2_pressed"]

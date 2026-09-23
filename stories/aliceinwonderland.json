@@ -1,0 +1,312 @@
+{
+  "story_title": "Alice in Wonderland",
+  "scene1": {
+    "image": "res://graphics/alice_in_wonderland/alice1.png",
+    "text": [
+      "Once upon a time, there lived a curious girl named Alice.",
+      "One sunny afternoon, she was by a river, daydreaming."
+    ],
+    "next": "scene2"
+  },
+  "scene2": {
+    "image": "res://graphics/alice_in_wonderland/alice2.png",
+    "text": [
+      "Suddenly, she saw a white rabbit wearing a vest rush by, muttering, \"Oh dear! I shall be late!\""
+    ],
+    "next": "scene3"
+  },
+  "scene3": {
+    "image": "res://graphics/alice_in_wonderland/alice3.png",
+    "text": [
+      "She chose to follow the rabbit and tumbled down a rabbit hole into a mysterious world.",
+      "She landed softly in a hallway full of doors.",
+      "She looked around and saw that the only door that opened was much too small for her to fit through."
+    ],
+    "next": "scene4"
+  },
+  "scene4": {
+    "image": "res://graphics/alice_in_wonderland/alice4.png",
+    "text": [
+      "On a table, she found a bottle labeled \"Drink Me to Shrink\"."
+    ],
+    "prompt": "How can Alice decide whether or not to drink from the bottle?",
+    "choices": [
+      {
+        "text": "Smell it first and hope for the best.",
+        "next": "scene5"
+      },
+      {
+        "text": "Read the label and think about what might happen.",
+        "next": "scene6"
+      },
+      {
+        "text": "Just drink it quickly since there is no time to think!",
+        "next": "scene21"
+      }
+    ]
+  },
+  "scene5": {
+    "image": "res://graphics/alice_in_wonderland/alice5.png",
+    "text": [
+      "Just smelling the bottle isn't enough to see if the drink is safe!",
+      "You should always be sure to check if there is more information on the bottle to help you out."
+    ],
+    "prompt": "Let's have Alice try something else.",
+    "choices": [
+      {
+        "text": "Just drink it quickly since there is no time to think!",
+        "next": "scene21"
+      },
+      {
+        "text": "Read the label and think about what might happen.",
+        "next": "scene6"
+      }
+    ]
+  },
+  "scene21": {
+    "image": "res://graphics/alice_in_wonderland/alice21.png",
+    "text": [
+      "You should always be sure to check if there is more information on the bottle to help you out."
+    ],
+    "prompt": "Let's have Alice try something else.",
+    "choices": [
+      {
+        "text": "Smell it first and hope for the best.",
+        "next": "scene5"
+      },
+      {
+        "text": "Read the label and think about what might happen.",
+        "next": "scene6"
+      }
+    ]
+  },
+  "scene6": {
+    "image": "res://graphics/alice_in_wonderland/alice6.png",
+    "text": [
+      "Reading instructions and thinking ahead help you stay safe!",
+      "The bottle says that it's for \"Guests of Wonderland\", and gives instructions on how to use it.",
+      "Alice sipped the potion and shrank to fit through a small door, leading to a beautiful garden."
+    ],
+    "next": "scene7"
+  },
+  "scene7": {
+    "image": "res://graphics/alice_in_wonderland/alice7.png",
+    "text": [
+      "Along the way, she met a caterpillar who gave her confusing advice about how to change her size by eating a mushroom.",
+      "The caterpillar sang, \"Up and down and all around, the mushrooms will keep ya safe and sound! Big or small or not at all!\"",
+      "The caterpillar's advice doesn't make much sense."
+    ],
+    "prompt": "What should Alice do?",
+    "choices": [
+      {
+        "text": "Eat a mushroom without thinking.",
+        "next": "scene8"
+      },
+      {
+        "text": "Argue with the caterpillar about his confusing instructions.",
+        "next": "scene9"
+      },
+      {
+        "text": "Ask follow-up questions.",
+        "next": "scene10"
+      }
+    ]
+  },
+  "scene8": {
+    "image": "res://graphics/alice_in_wonderland/alice8.png",
+    "text": [
+      "Just like with the potion, putting something into your body without proper instructions can be a bad idea."
+    ],
+    "prompt": "Let's have Alice try something else.",
+    "choices": [
+      {
+        "text": "Argue with the caterpillar about his confusing instructions.",
+        "next": "scene9"
+      },
+      {
+        "text": "Ask follow-up questions.",
+        "next": "scene10"
+      }
+    ]
+  },
+  "scene9": {
+    "image": "res://graphics/alice_in_wonderland/alice9.png",
+    "text": [
+      "The caterpillar doesn't want to help Alice anymore because she was mean to him.",
+      "It's not a good idea to get mad at someone when you don't understand something.",
+      "It's better to ask questions to help figure things out!"
+    ],
+    "prompt": "Let's have Alice try something else.",
+    "choices": [
+      {
+        "text": "Eat a mushroom without thinking.",
+        "next": "scene8"
+      },
+      {
+        "text": "Ask follow-up questions.",
+        "next": "scene10"
+      }
+    ]
+  },
+  "scene10": {
+    "image": "res://graphics/alice_in_wonderland/alice10.png",
+    "text": [
+      "When advice is unclear, asking questions and starting small is smart!",
+      "Alice asks the caterpillar how many mushrooms she should eat if she wants to return to her old size,",
+      "and the caterpillar replies that a small bite should do it! She's thankful she asked a follow-up question."
+    ],
+    "next": "scene11"
+  },
+  "scene11": {
+    "image": "res://graphics/alice_in_wonderland/alice11.png",
+    "text": [
+      "She eats a small bite of the mushroom, then keeps walking until she meets a cat, who smiles and shows her two paths:",
+      "one to a tea party,",
+      "and one to the Queen's castle."
+    ],
+    "next": "scene12"
+  },
+  "scene12": {
+    "image": "res://graphics/alice_in_wonderland/alice12.png",
+    "text": [
+      "The cat tells her the caterpillar and rabbit will also be at the tea party,",
+      "but the Queen has a very beautiful castle."
+    ],
+    "prompt": "How can Alice choose which path to take?",
+    "choices": [
+      {
+        "text": "Flip a coin to decide.",
+        "next": "scene13"
+      },
+      {
+        "text": "Think about her goal and how each choice might help her get there.",
+        "next": "scene15"
+      },
+      {
+        "text": "Follow whichever path looks prettier.",
+        "next": "scene14"
+      }
+    ]
+  },
+  "scene13": {
+    "image": "res://graphics/alice_in_wonderland/alice13.png",
+    "text": [
+      "It's better to think about your options since one choice could be better than the other.",
+      "Not all outcomes are the same!"
+    ],
+    "prompt": "Let's have Alice try something else.",
+    "choices": [
+      {
+        "text": "Follow whichever path looks prettier.",
+        "next": "scene14"
+      },
+      {
+        "text": "Think about her goal and how each choice might help her get there.",
+        "next": "scene15"
+      }
+    ]
+  },
+  "scene14": {
+    "image": "res://graphics/alice_in_wonderland/alice14.png",
+    "text": [
+      "Good choices come from thinking ahead and not just picking what looks nicer."
+    ],
+    "prompt": "Let's have Alice try something else.",
+    "choices": [
+      {
+        "text": "Flip a coin to decide.",
+        "next": "scene13"
+      },
+      {
+        "text": "Think about her goal and how each choice might help her get there.",
+        "next": "scene15"
+      }
+    ]
+  },
+  "scene15": {
+    "image": "res://graphics/alice_in_wonderland/alice15.png",
+    "text": [
+      "Alice remembers that she wanted to find out where the rabbit was going, so she decides to go to the tea party.",
+      "The caterpillar has also been helpful, so she knows she would have someone she trusted at the tea party."
+    ],
+    "next": "scene16"
+  },
+  "scene16": {
+    "image": "res://graphics/alice_in_wonderland/alice16.png",
+    "text": [
+      "When she got there, she quickly found that everything was chaotic.",
+      "Everyone moved around a lot and talked all at once.",
+      "Alice is starting to feel overwhelmed."
+    ],
+    "prompt": "What should she do?",
+    "choices": [
+      {
+        "text": "Yell, \"This is nonsense!\" and storm off.",
+        "next": "scene17"
+      },
+      {
+        "text": "Notice how she's feeling and take a moment to decide if she wants to stay or leave.",
+        "next": "scene19"
+      },
+      {
+        "text": "Try to talk louder than everyone else to make them stop.",
+        "next": "scene18"
+      }
+    ]
+  },
+  "scene17": {
+    "image": "res://graphics/alice_in_wonderland/alice17.png",
+    "text": [
+      "Yelling and storming off does not give Alice a calm moment to understand how she is feeling."
+    ],
+    "prompt": "Let's have Alice try something else.",
+    "choices": [
+      {
+        "text": "Try to talk louder than everyone else to make them stop.",
+        "next": "scene18"
+      },
+      {
+        "text": "Notice how she's feeling and take a moment to decide if she wants to stay or leave.",
+        "next": "scene19"
+      }
+    ]
+  },
+  "scene18": {
+    "image": "res://graphics/alice_in_wonderland/alice18.png",
+    "text": [
+      "Trying to talk louder may make the tea party feel even more overwhelming."
+    ],
+    "prompt": "Let's have Alice try something else.",
+    "choices": [
+      {
+        "text": "Yell, \"This is nonsense!\" and storm off.",
+        "next": "scene17"
+      },
+      {
+        "text": "Notice how she's feeling and take a moment to decide if she wants to stay or leave.",
+        "next": "scene19"
+      }
+    ]
+  },
+  "scene19": {
+    "image": "res://graphics/alice_in_wonderland/alice19.png",
+    "text": [
+      "Alice finally decides to get up and leave when suddenly, everything flies into the air."
+    ],
+    "next": "scene20"
+  },
+  "scene20": {
+    "image": "res://graphics/alice_in_wonderland/alice20.png",
+    "text": [
+      "She wakes up back beside the river, realizing it was a dream, with her heart still racing but her mind full of ideas."
+    ],
+    "next": "scene22"
+  },
+  "scene22": {
+    "text": [
+      "It is important to stay safe when being in new places and meeting new people.",
+      "If a new situation scares you or makes you overwhelmed, what is one thing you can do?"
+    ],
+    "end": true
+  }
+}
