@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c7iq8oerkvno8"]
 
-[ext_resource type="Script" uid="uid://cefqr5fc1piew" path="res://scenes/storyselection3.gd" id="1_jxvy1"]
+[ext_resource type="Script" uid="uid://cefqr5fc1piew" path="res://scripts/storyselection3.gd" id="1_jxvy1"]
 [ext_resource type="Texture2D" uid="uid://4yp6khkb1shc" path="res://graphics/misc_materials/anecdota_bg.png" id="2_w7a7s"]
 [ext_resource type="FontFile" uid="uid://bkubkrgcl3y76" path="res://quicksand/Quicksand-Bold.ttf" id="3_g8s74"]
 [ext_resource type="Texture2D" uid="uid://bv4ulidytt0au" path="res://graphics/little_red_riding_hood/lrrhcover.png" id="4_jgxv0"]
