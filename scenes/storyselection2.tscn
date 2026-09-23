@@ -101,7 +101,7 @@ script = ExtResource("1_mf0gn")
 [node name="background" type="TextureRect" parent="." unique_id=805425226]
 layout_mode = 0
 offset_right = 1152.0
-offset_bottom = 640.0
+offset_bottom = 648.0
 texture = ExtResource("2_y1fl3")
 expand_mode = 1
 
