@@ -194,7 +194,7 @@ theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxEmpty_wxirf")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_b8d31")
 theme_override_styles/hover = SubResource("StyleBoxFlat_wxirf")
-text = "Goldilocks and The Three Bears"
+text = "Goldilocks and the Three Bears"
 
 [node name="r2box" type="BoxContainer" parent="." unique_id=836943536]
 layout_mode = 0
