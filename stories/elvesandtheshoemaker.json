@@ -86,7 +86,7 @@
 	"next": "scene7"
   },
   "scene7": {
-	"image": "res://graphics/elves_and_the_shoemaker/sm7.png",
+	"image": "res://graphics/elves_and_the_shoemaker/sm6.png",
 	"text": [
 	  "The shoemaker gets up quietly and makes a short to-do list.",
 	  "After he writes everything down, he sees that he can do the tasks.",
@@ -95,14 +95,14 @@
 	"next": "scene8"
   },
   "scene8": {
-	"image": "res://graphics/elves_and_the_shoemaker/sm8.png",
+	"image": "res://graphics/elves_and_the_shoemaker/sm7.png",
 	"text": [
       "Then he takes a deep breath and goes to bed."
 	],
 	"next": "scene9"
   },
   "scene9": {
-	"image": "res://graphics/elves_and_the_shoemaker/sm9.png",
+	"image": "res://graphics/elves_and_the_shoemaker/sm8.png",
 	"text": [
 	  "When he wakes up the next morning, something surprising happens.",
 	  "When the shoemaker enters his workshop, he sees a pair of shoes already made.",
@@ -111,7 +111,7 @@
 	"next": "scene10"
   },
   "scene10": {
-	"image": "res://graphics/elves_and_the_shoemaker/sm10.png",
+	"image": "res://graphics/elves_and_the_shoemaker/sm9.png",
 	"text": [
 	  "A customer comes in that day and pays lots of money for the shoes.",
       "The customer also says how beautiful they are."
@@ -133,7 +133,7 @@
 	]
   },
   "scene11": {
-	"image": "res://graphics/elves_and_the_shoemaker/sm11.png",
+	"image": "res://graphics/elves_and_the_shoemaker/sm10.png",
 	"text": [
 	  "Their store still has many problems.",
       "Buying expensive things will leave them no money to help fix the problems."
@@ -151,7 +151,7 @@
 	]
   },
   "scene12": {
-	"image": "res://graphics/elves_and_the_shoemaker/sm12.png",
+	"image": "res://graphics/elves_and_the_shoemaker/sm11.png",
 	"text": [
 	  "It is not a good idea to think more shoes will show up without knowing where they come from.",
       "They should try to think of ideas that will help them fix their problems."
@@ -169,14 +169,14 @@
 	]
   },
   "scene13": {
-	"image": "res://graphics/elves_and_the_shoemaker/sm13.png",
+	"image": "res://graphics/elves_and_the_shoemaker/sm12.png",
 	"text": [
       "Buying more leather lets the shoemaker use the money to keep working on the store's problems."
 	],
 	"next": "scene14"
   },
   "scene14": {
-	"image": "res://graphics/elves_and_the_shoemaker/sm14.png",
+	"image": "res://graphics/elves_and_the_shoemaker/sm13.png",
 	"text": [
 	  "The shoemaker and his wife buy more leather with the money.",
       "He makes shoes just as beautiful as the ones from the morning."
@@ -184,7 +184,7 @@
 	"next": "scene15"
   },
   "scene15": {
-	"image": "res://graphics/elves_and_the_shoemaker/sm15.png",
+	"image": "res://graphics/elves_and_the_shoemaker/sm14.png",
 	"text": [
 	  "They go to bed that night, and when they wake up, there are twice as many shoes as he made the night before!",
       "People pay a lot of money for the beautiful shoes, and they have no more to sell."
@@ -192,7 +192,7 @@
 	"next": "scene16"
   },
   "scene16": {
-	"image": "res://graphics/elves_and_the_shoemaker/sm16.png",
+	"image": "res://graphics/elves_and_the_shoemaker/sm15.png",
 	"text": [
       "The shoemaker and his wife are curious."
 	],
@@ -213,7 +213,7 @@
 	]
   },
   "scene17": {
-	"image": "res://graphics/elves_and_the_shoemaker/sm17.png",
+	"image": "res://graphics/elves_and_the_shoemaker/sm16.png",
 	"text": [
       "It is a good idea to find out what is going on, instead of accusing someone."
 	],
